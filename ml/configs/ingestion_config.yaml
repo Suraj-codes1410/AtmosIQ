@@ -1,0 +1,64 @@
+# Ingestion & Data Engineering Configuration for atmosIQ
+project:
+  name: "atmosIQ"
+  timezone: "Asia/Kolkata"
+
+data_range:
+  start_date: "2023-01-01"
+  end_date: "2024-12-31"
+
+location:
+  city: "Delhi"
+  country: "India"
+  latitude: 28.6139
+  longitude: 77.2090
+
+stations:
+  - id: "DEL_001"
+    name: "ITO, Delhi"
+  - id: "DEL_002"
+    name: "Anand Vihar, Delhi"
+  - id: "DEL_003"
+    name: "RK Puram, Delhi"
+  - id: "DEL_004"
+    name: "Punjabi Bagh, Delhi"
+  - id: "DEL_005"
+    name: "Mandir Marg, Delhi"
+
+sources:
+  open_meteo:
+    base_url: "https://archive-api.open-meteo.com/v1/archive"
+    retry_attempts: 3
+    retry_delay_seconds: 5
+    daily_variables:
+      - "temperature_2m_mean"
+      - "relative_humidity_2m_mean"
+      - "wind_speed_10m_max"
+      - "wind_direction_10m_dominant"
+      - "surface_pressure_mean"
+      - "precipitation_sum"
+
+  openaq:
+    base_url: "https://api.openaq.org/v3"
+    target_parameters:
+      - "pm25"
+      - "pm10"
+      - "no2"
+      - "so2"
+      - "co"
+      - "o3"
+
+  nasa_firms:
+    bounding_box:
+      min_lat: 28.0
+      max_lat: 32.5
+      min_lon: 74.0
+      max_lon: 78.5
+    source: "MODIS_NRT"
+
+paths:
+  raw_dir: "ml/data/raw"
+  processed_dir: "ml/data/processed"
+  log_dir: "ml/data/logs"
+  log_file: "ml/data/logs/data_engineering.log"
+  master_output: "ml/data/processed/master_dataset.csv"
