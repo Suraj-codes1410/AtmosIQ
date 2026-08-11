@@ -1,0 +1,1810 @@
+{
+    "dataset_name": "AtmosIQ PM2.5 Modeling Dataset",
+    "dataset_version": "v1",
+    "source_file": "ml/data/processed/feature_dataset.csv",
+    "frozen_file": "ml/data/modeling/v1/feature_dataset_frozen.csv",
+    "row_count": 731,
+    "column_count": 256,
+    "target_column": "pm25",
+    "date_column": "date",
+    "start_date": "2023-01-01",
+    "end_date": "2024-12-31",
+    "sha256": "c271bfc6df5dc442737b32e42d2e722c7f08266f77f1820649b7873e0d8b10df",
+    "creation_timestamp": "2026-08-11T10:51:11.081348+00:00",
+    "target_dtype": "float64",
+    "date_dtype": "object",
+    "feature_columns": [
+        "day_of_week",
+        "is_weekend",
+        "is_holiday",
+        "is_festival",
+        "is_stubble_season",
+        "pm10",
+        "no2",
+        "so2",
+        "co",
+        "o3",
+        "temperature_c",
+        "humidity_pct",
+        "wind_speed_kmh",
+        "wind_direction_deg",
+        "pressure_hpa",
+        "precipitation_mm",
+        "fire_hotspot_count",
+        "mean_fire_brightness",
+        "high_confidence_fire_count",
+        "month",
+        "quarter",
+        "day_of_year",
+        "week_of_year",
+        "is_winter",
+        "is_summer",
+        "is_monsoon",
+        "is_post_monsoon",
+        "days_until_diwali",
+        "days_since_diwali",
+        "festival_window",
+        "traffic_activity_proxy",
+        "wind_x",
+        "wind_y",
+        "temperature_humidity_index",
+        "is_raining",
+        "consecutive_rain_days",
+        "dry_day_count",
+        "temperature_change",
+        "humidity_change",
+        "pressure_change",
+        "wind_speed_change",
+        "wind_direction_change",
+        "fire_hotspot_sum_7d",
+        "fire_hotspot_sum_14d",
+        "fire_hotspot_ma_3d",
+        "fire_hotspot_ma_7d",
+        "brightness_trend",
+        "high_confidence_fire_ratio",
+        "fire_acceleration",
+        "fire_momentum",
+        "fire_density",
+        "fire_anomaly",
+        "wind_weighted_hotspot_transport_score",
+        "distance_weighted_hotspot_score",
+        "pm25_pm10_ratio",
+        "no2_so2_ratio",
+        "co_normalized",
+        "daily_pollutant_trend",
+        "pollutant_rolling_avg",
+        "pollutant_volatility",
+        "pollutant_zscore",
+        "pollutant_anomaly_score",
+        "fire_count_x_wind_speed",
+        "fire_count_x_wind_dir_nw",
+        "temp_x_humidity",
+        "temp_x_rainfall",
+        "pressure_x_wind",
+        "festival_x_fire_count",
+        "weekend_x_traffic_proxy",
+        "month_x_fire_count",
+        "pm25_lag_1d",
+        "pm25_lag_2d",
+        "pm25_lag_3d",
+        "pm25_lag_7d",
+        "pm25_lag_14d",
+        "pm10_lag_1d",
+        "pm10_lag_2d",
+        "pm10_lag_3d",
+        "pm10_lag_7d",
+        "pm10_lag_14d",
+        "no2_lag_1d",
+        "no2_lag_2d",
+        "no2_lag_3d",
+        "no2_lag_7d",
+        "no2_lag_14d",
+        "temperature_c_lag_1d",
+        "temperature_c_lag_2d",
+        "temperature_c_lag_3d",
+        "temperature_c_lag_7d",
+        "temperature_c_lag_14d",
+        "humidity_pct_lag_1d",
+        "humidity_pct_lag_2d",
+        "humidity_pct_lag_3d",
+        "humidity_pct_lag_7d",
+        "humidity_pct_lag_14d",
+        "wind_speed_kmh_lag_1d",
+        "wind_speed_kmh_lag_2d",
+        "wind_speed_kmh_lag_3d",
+        "wind_speed_kmh_lag_7d",
+        "wind_speed_kmh_lag_14d",
+        "fire_hotspot_count_lag_1d",
+        "fire_hotspot_count_lag_2d",
+        "fire_hotspot_count_lag_3d",
+        "fire_hotspot_count_lag_7d",
+        "fire_hotspot_count_lag_14d",
+        "precipitation_mm_lag_1d",
+        "precipitation_mm_lag_2d",
+        "precipitation_mm_lag_3d",
+        "precipitation_mm_lag_7d",
+        "precipitation_mm_lag_14d",
+        "pm25_roll_mean_3d",
+        "pm25_roll_median_3d",
+        "pm25_roll_max_3d",
+        "pm25_roll_min_3d",
+        "pm25_roll_std_3d",
+        "pm25_roll_var_3d",
+        "pm25_roll_mean_7d",
+        "pm25_roll_median_7d",
+        "pm25_roll_max_7d",
+        "pm25_roll_min_7d",
+        "pm25_roll_std_7d",
+        "pm25_roll_var_7d",
+        "pm25_roll_mean_14d",
+        "pm25_roll_median_14d",
+        "pm25_roll_max_14d",
+        "pm25_roll_min_14d",
+        "pm25_roll_std_14d",
+        "pm25_roll_var_14d",
+        "pm25_roll_mean_30d",
+        "pm25_roll_median_30d",
+        "pm25_roll_max_30d",
+        "pm25_roll_min_30d",
+        "pm25_roll_std_30d",
+        "pm25_roll_var_30d",
+        "pm10_roll_mean_3d",
+        "pm10_roll_median_3d",
+        "pm10_roll_max_3d",
+        "pm10_roll_min_3d",
+        "pm10_roll_std_3d",
+        "pm10_roll_var_3d",
+        "pm10_roll_mean_7d",
+        "pm10_roll_median_7d",
+        "pm10_roll_max_7d",
+        "pm10_roll_min_7d",
+        "pm10_roll_std_7d",
+        "pm10_roll_var_7d",
+        "pm10_roll_mean_14d",
+        "pm10_roll_median_14d",
+        "pm10_roll_max_14d",
+        "pm10_roll_min_14d",
+        "pm10_roll_std_14d",
+        "pm10_roll_var_14d",
+        "pm10_roll_mean_30d",
+        "pm10_roll_median_30d",
+        "pm10_roll_max_30d",
+        "pm10_roll_min_30d",
+        "pm10_roll_std_30d",
+        "pm10_roll_var_30d",
+        "temperature_c_roll_mean_3d",
+        "temperature_c_roll_median_3d",
+        "temperature_c_roll_max_3d",
+        "temperature_c_roll_min_3d",
+        "temperature_c_roll_std_3d",
+        "temperature_c_roll_var_3d",
+        "temperature_c_roll_mean_7d",
+        "temperature_c_roll_median_7d",
+        "temperature_c_roll_max_7d",
+        "temperature_c_roll_min_7d",
+        "temperature_c_roll_std_7d",
+        "temperature_c_roll_var_7d",
+        "temperature_c_roll_mean_14d",
+        "temperature_c_roll_median_14d",
+        "temperature_c_roll_max_14d",
+        "temperature_c_roll_min_14d",
+        "temperature_c_roll_std_14d",
+        "temperature_c_roll_var_14d",
+        "temperature_c_roll_mean_30d",
+        "temperature_c_roll_median_30d",
+        "temperature_c_roll_max_30d",
+        "temperature_c_roll_min_30d",
+        "temperature_c_roll_std_30d",
+        "temperature_c_roll_var_30d",
+        "humidity_pct_roll_mean_3d",
+        "humidity_pct_roll_median_3d",
+        "humidity_pct_roll_max_3d",
+        "humidity_pct_roll_min_3d",
+        "humidity_pct_roll_std_3d",
+        "humidity_pct_roll_var_3d",
+        "humidity_pct_roll_mean_7d",
+        "humidity_pct_roll_median_7d",
+        "humidity_pct_roll_max_7d",
+        "humidity_pct_roll_min_7d",
+        "humidity_pct_roll_std_7d",
+        "humidity_pct_roll_var_7d",
+        "humidity_pct_roll_mean_14d",
+        "humidity_pct_roll_median_14d",
+        "humidity_pct_roll_max_14d",
+        "humidity_pct_roll_min_14d",
+        "humidity_pct_roll_std_14d",
+        "humidity_pct_roll_var_14d",
+        "humidity_pct_roll_mean_30d",
+        "humidity_pct_roll_median_30d",
+        "humidity_pct_roll_max_30d",
+        "humidity_pct_roll_min_30d",
+        "humidity_pct_roll_std_30d",
+        "humidity_pct_roll_var_30d",
+        "fire_hotspot_count_roll_mean_3d",
+        "fire_hotspot_count_roll_median_3d",
+        "fire_hotspot_count_roll_max_3d",
+        "fire_hotspot_count_roll_min_3d",
+        "fire_hotspot_count_roll_std_3d",
+        "fire_hotspot_count_roll_var_3d",
+        "fire_hotspot_count_roll_mean_7d",
+        "fire_hotspot_count_roll_median_7d",
+        "fire_hotspot_count_roll_max_7d",
+        "fire_hotspot_count_roll_min_7d",
+        "fire_hotspot_count_roll_std_7d",
+        "fire_hotspot_count_roll_var_7d",
+        "fire_hotspot_count_roll_mean_14d",
+        "fire_hotspot_count_roll_median_14d",
+        "fire_hotspot_count_roll_max_14d",
+        "fire_hotspot_count_roll_min_14d",
+        "fire_hotspot_count_roll_std_14d",
+        "fire_hotspot_count_roll_var_14d",
+        "fire_hotspot_count_roll_mean_30d",
+        "fire_hotspot_count_roll_median_30d",
+        "fire_hotspot_count_roll_max_30d",
+        "fire_hotspot_count_roll_min_30d",
+        "fire_hotspot_count_roll_std_30d",
+        "fire_hotspot_count_roll_var_30d",
+        "wind_speed_kmh_roll_mean_3d",
+        "wind_speed_kmh_roll_median_3d",
+        "wind_speed_kmh_roll_max_3d",
+        "wind_speed_kmh_roll_min_3d",
+        "wind_speed_kmh_roll_std_3d",
+        "wind_speed_kmh_roll_var_3d",
+        "wind_speed_kmh_roll_mean_7d",
+        "wind_speed_kmh_roll_median_7d",
+        "wind_speed_kmh_roll_max_7d",
+        "wind_speed_kmh_roll_min_7d",
+        "wind_speed_kmh_roll_std_7d",
+        "wind_speed_kmh_roll_var_7d",
+        "wind_speed_kmh_roll_mean_14d",
+        "wind_speed_kmh_roll_median_14d",
+        "wind_speed_kmh_roll_max_14d",
+        "wind_speed_kmh_roll_min_14d",
+        "wind_speed_kmh_roll_std_14d",
+        "wind_speed_kmh_roll_var_14d",
+        "wind_speed_kmh_roll_mean_30d",
+        "wind_speed_kmh_roll_median_30d",
+        "wind_speed_kmh_roll_max_30d",
+        "wind_speed_kmh_roll_min_30d",
+        "wind_speed_kmh_roll_std_30d",
+        "wind_speed_kmh_roll_var_30d"
+    ],
+    "feature_schema": [
+        {
+            "column_name": "date",
+            "data_type": "object",
+            "is_target": false,
+            "is_identifier": true
+        },
+        {
+            "column_name": "day_of_week",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_weekend",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_holiday",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_festival",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_stubble_season",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25",
+            "data_type": "float64",
+            "is_target": true,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "no2",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "so2",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "co",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "o3",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_direction_deg",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pressure_hpa",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "precipitation_mm",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "mean_fire_brightness",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "high_confidence_fire_count",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "month",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "quarter",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "day_of_year",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "week_of_year",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_winter",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_summer",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_monsoon",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_post_monsoon",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "days_until_diwali",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "days_since_diwali",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "festival_window",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "traffic_activity_proxy",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_x",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_y",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_humidity_index",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "is_raining",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "consecutive_rain_days",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "dry_day_count",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_change",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_change",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pressure_change",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_change",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_direction_change",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_sum_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_sum_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_ma_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_ma_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "brightness_trend",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "high_confidence_fire_ratio",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_acceleration",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_momentum",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_density",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_anomaly",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_weighted_hotspot_transport_score",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "distance_weighted_hotspot_score",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_pm10_ratio",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "no2_so2_ratio",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "co_normalized",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "daily_pollutant_trend",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pollutant_rolling_avg",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pollutant_volatility",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pollutant_zscore",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pollutant_anomaly_score",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_count_x_wind_speed",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_count_x_wind_dir_nw",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temp_x_humidity",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temp_x_rainfall",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pressure_x_wind",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "festival_x_fire_count",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "weekend_x_traffic_proxy",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "month_x_fire_count",
+            "data_type": "int64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "no2_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "no2_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "no2_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "no2_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "no2_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "precipitation_mm_lag_1d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "precipitation_mm_lag_2d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "precipitation_mm_lag_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "precipitation_mm_lag_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "precipitation_mm_lag_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_mean_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_median_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_max_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_min_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_std_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_var_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_mean_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_median_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_max_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_min_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_std_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_var_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_mean_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_median_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_max_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_min_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_std_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_var_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_mean_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_median_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_max_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_min_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_std_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm25_roll_var_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_mean_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_median_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_max_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_min_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_std_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_var_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_mean_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_median_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_max_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_min_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_std_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_var_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_mean_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_median_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_max_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_min_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_std_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_var_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_mean_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_median_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_max_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_min_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_std_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "pm10_roll_var_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_mean_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_median_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_max_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_min_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_std_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_var_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_mean_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_median_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_max_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_min_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_std_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_var_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_mean_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_median_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_max_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_min_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_std_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_var_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_mean_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_median_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_max_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_min_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_std_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "temperature_c_roll_var_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_mean_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_median_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_max_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_min_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_std_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_var_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_mean_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_median_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_max_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_min_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_std_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_var_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_mean_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_median_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_max_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_min_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_std_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_var_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_mean_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_median_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_max_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_min_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_std_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "humidity_pct_roll_var_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_mean_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_median_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_max_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_min_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_std_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_var_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_mean_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_median_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_max_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_min_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_std_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_var_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_mean_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_median_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_max_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_min_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_std_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_var_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_mean_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_median_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_max_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_min_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_std_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "fire_hotspot_count_roll_var_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_mean_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_median_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_max_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_min_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_std_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_var_3d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_mean_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_median_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_max_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_min_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_std_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_var_7d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_mean_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_median_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_max_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_min_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_std_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_var_14d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_mean_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_median_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_max_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_min_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_std_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        },
+        {
+            "column_name": "wind_speed_kmh_roll_var_30d",
+            "data_type": "float64",
+            "is_target": false,
+            "is_identifier": false
+        }
+    ]
+}

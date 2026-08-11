@@ -1,0 +1,21 @@
+{
+    "dataset_version": "v1",
+    "split_strategy": "chronological_temporal_split",
+    "random_shuffle": false,
+    "train_start": "2023-01-01",
+    "train_end": "2023-12-31",
+    "validation_start": "2024-01-01",
+    "validation_end": "2024-06-30",
+    "test_start": "2024-07-01",
+    "test_end": "2024-12-31",
+    "train_rows": 365,
+    "validation_rows": 182,
+    "test_rows": 184,
+    "feature_count": 254,
+    "target": "pm25",
+    "sha256_hashes": {
+        "train_csv": "0e258ee554ef1bfaea9c476798f271aec90c47c53c72994b982ac24dfd0b5e8d",
+        "validation_csv": "a8df2551b201b4ec78bd07bbc8996367b8de7c9dbe165bac262c3a8490e0be84",
+        "test_csv": "0e44475961e16b86d23d45760798c5936f74b5adf6cfb018ea80c8c87d3fa0a0"
+    }
+}
