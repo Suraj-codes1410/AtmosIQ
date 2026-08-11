@@ -1,0 +1,10 @@
+Model,Split,MAE,RMSE,R2,Median_AE
+Persistence,Train,36.5911,52.7769,0.6867,23.18
+Persistence,Validation,31.9925,42.2714,0.6759,26.42
+Persistence,Test,33.5436,49.8988,0.7894,18.9
+Linear Regression,Train,17.6777,22.9139,0.9409,13.7442
+Linear Regression,Validation,96.7369,117.5116,-1.5047,83.1788
+Linear Regression,Test,62.4238,84.2014,0.4005,49.9492
+Ridge Regression,Train,20.0346,26.6943,0.9199,16.0118
+Ridge Regression,Validation,59.524,72.9659,0.0343,55.9771
+Ridge Regression,Test,48.166,61.9125,0.6759,40.9942
