@@ -1,0 +1,39 @@
+{
+    "experiment_id": "phase3b2_tree_models",
+    "timestamp": "2026-08-11T15:24:36.149900+00:00",
+    "python_version": "3.14.4",
+    "sklearn_version": "1.9.0",
+    "lightgbm_version": "4.7.0",
+    "xgboost_version": "3.4.0",
+    "dataset_version": "v1",
+    "target": "pm25",
+    "prediction_cutoff": "end_of_day_t-1",
+    "prediction_safe_feature_count": 201,
+    "validation_prediction_correlations": {
+        "RF_vs_LightGBM": 0.9829,
+        "RF_vs_XGBoost": 0.9907,
+        "LightGBM_vs_XGBoost": 0.9812
+    },
+    "models": {
+        "Random Forest": {
+            "n_estimators": 300,
+            "random_state": 42
+        },
+        "LightGBM": {
+            "objective": "regression",
+            "n_estimators": 300,
+            "learning_rate": 0.05,
+            "num_leaves": 31,
+            "random_state": 42
+        },
+        "XGBoost": {
+            "objective": "reg:squarederror",
+            "n_estimators": 300,
+            "learning_rate": 0.05,
+            "max_depth": 6,
+            "subsample": 0.8,
+            "colsample_bytree": 0.8,
+            "random_state": 42
+        }
+    }
+}
