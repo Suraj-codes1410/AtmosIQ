@@ -1,0 +1,73 @@
+Feature_Set,Feature_Count,Model,Split,MAE,RMSE,R2,Median_AE
+set_a_persistence,1,Random Forest,Train,14.0304,20.575,0.9524,8.7302
+set_a_persistence,1,Random Forest,Validation,34.5464,48.2424,0.5779,23.252
+set_a_persistence,1,Random Forest,Test,35.762,53.5707,0.7573,18.7098
+set_a_persistence,1,XGBoost,Train,18.0847,27.1146,0.9173,11.8205
+set_a_persistence,1,XGBoost,Validation,34.9574,53.0105,0.4903,24.2639
+set_a_persistence,1,XGBoost,Test,33.8856,52.109,0.7704,17.2918
+set_b_pm25_history,29,Random Forest,Train,11.1675,15.6557,0.9724,7.0744
+set_b_pm25_history,29,Random Forest,Validation,26.7756,36.1029,0.7636,20.6646
+set_b_pm25_history,29,Random Forest,Test,28.4501,40.5571,0.8609,18.3282
+set_b_pm25_history,29,XGBoost,Train,1.12,1.7826,0.9996,0.868
+set_b_pm25_history,29,XGBoost,Validation,28.1347,38.5257,0.7308,21.8507
+set_b_pm25_history,29,XGBoost,Test,29.1191,42.1475,0.8498,15.2972
+set_c_pm25_meteorology,121,Random Forest,Train,10.8217,14.8247,0.9753,7.0308
+set_c_pm25_meteorology,121,Random Forest,Validation,33.0605,45.9688,0.6167,22.5041
+set_c_pm25_meteorology,121,Random Forest,Test,57.2516,71.4099,0.5688,48.908
+set_c_pm25_meteorology,121,XGBoost,Train,0.4665,1.2666,0.9998,0.3221
+set_c_pm25_meteorology,121,XGBoost,Validation,30.9352,42.5241,0.672,22.2695
+set_c_pm25_meteorology,121,XGBoost,Test,61.0501,77.9844,0.4857,47.6043
+set_d_pm25_met_fire,151,Random Forest,Train,10.8711,14.8451,0.9752,6.8744
+set_d_pm25_met_fire,151,Random Forest,Validation,33.0215,45.6818,0.6215,22.6525
+set_d_pm25_met_fire,151,Random Forest,Test,57.8492,72.5018,0.5555,49.9611
+set_d_pm25_met_fire,151,XGBoost,Train,0.4697,1.2696,0.9998,0.3141
+set_d_pm25_met_fire,151,XGBoost,Validation,31.7331,43.5607,0.6558,22.2944
+set_d_pm25_met_fire,151,XGBoost,Test,69.691,88.354,0.3399,56.8762
+set_e_pm25_met_fire_pollutants,185,Random Forest,Train,10.8316,14.8065,0.9753,7.1437
+set_e_pm25_met_fire_pollutants,185,Random Forest,Validation,32.6809,45.2096,0.6293,23.6348
+set_e_pm25_met_fire_pollutants,185,Random Forest,Test,53.8275,67.7559,0.6118,45.9122
+set_e_pm25_met_fire_pollutants,185,XGBoost,Train,0.3932,1.2369,0.9998,0.2431
+set_e_pm25_met_fire_pollutants,185,XGBoost,Validation,30.572,41.8581,0.6822,23.793
+set_e_pm25_met_fire_pollutants,185,XGBoost,Test,62.4979,78.769,0.4753,49.669
+set_f_full_safe,201,Random Forest,Train,10.6454,14.5764,0.9761,6.6961
+set_f_full_safe,201,Random Forest,Validation,31.9527,44.6584,0.6383,22.6613
+set_f_full_safe,201,Random Forest,Test,49.4772,63.3213,0.6609,44.8416
+set_f_full_safe,201,XGBoost,Train,0.266,0.3462,1.0,0.2201
+set_f_full_safe,201,XGBoost,Validation,31.5489,44.8439,0.6352,23.4339
+set_f_full_safe,201,XGBoost,Test,59.2988,79.1615,0.4701,41.9952
+redundancy_reduced,127,Random Forest,Train,10.7331,14.762,0.9755,6.8453
+redundancy_reduced,127,Random Forest,Validation,31.0253,42.142,0.6779,22.5101
+redundancy_reduced,127,Random Forest,Test,42.5361,55.0464,0.7438,31.329
+redundancy_reduced,127,XGBoost,Train,0.2777,0.3589,1.0,0.2214
+redundancy_reduced,127,XGBoost,Validation,28.6675,39.6405,0.715,22.2042
+redundancy_reduced,127,XGBoost,Test,50.2132,65.1686,0.6409,38.6089
+top20,20,Random Forest,Train,10.3472,14.1671,0.9774,6.8187
+top20,20,Random Forest,Validation,31.9311,46.3658,0.6101,21.4905
+top20,20,Random Forest,Test,50.9674,65.2469,0.64,46.0004
+top20,20,XGBoost,Train,1.0995,1.763,0.9997,0.7947
+top20,20,XGBoost,Validation,34.0574,50.1026,0.5447,22.0219
+top20,20,XGBoost,Test,65.1205,87.3418,0.3549,45.4649
+top40,40,Random Forest,Train,10.4081,14.0911,0.9777,6.8345
+top40,40,Random Forest,Validation,32.6946,46.2206,0.6125,22.1282
+top40,40,Random Forest,Test,49.508,63.0176,0.6642,49.0842
+top40,40,XGBoost,Train,0.5628,0.7237,0.9999,0.4483
+top40,40,XGBoost,Validation,34.0094,48.5776,0.572,23.8408
+top40,40,XGBoost,Test,62.5879,83.6355,0.4085,45.7419
+top60,60,Random Forest,Train,10.5222,14.2467,0.9772,7.029
+top60,60,Random Forest,Validation,32.3109,45.1993,0.6294,23.1664
+top60,60,Random Forest,Test,49.757,63.5077,0.6589,45.6871
+top60,60,XGBoost,Train,0.3336,0.4351,1.0,0.2586
+top60,60,XGBoost,Validation,30.9101,43.017,0.6644,22.6823
+top60,60,XGBoost,Test,54.9292,70.834,0.5757,44.4294
+top100,100,Random Forest,Train,10.5817,14.4084,0.9767,6.7494
+top100,100,Random Forest,Validation,32.3776,45.328,0.6273,22.5346
+top100,100,Random Forest,Test,49.101,62.7515,0.667,44.33
+top100,100,XGBoost,Train,0.2753,0.353,1.0,0.2271
+top100,100,XGBoost,Validation,31.4778,43.4659,0.6573,24.6868
+top100,100,XGBoost,Test,58.9676,77.0151,0.4984,44.3373
+domain_reduced,15,Random Forest,Train,10.6875,14.9723,0.9748,6.7633
+domain_reduced,15,Random Forest,Validation,32.4538,45.1754,0.6298,24.41
+domain_reduced,15,Random Forest,Test,45.7937,59.9116,0.6965,30.881
+domain_reduced,15,XGBoost,Train,1.9187,2.4945,0.9993,1.4342
+domain_reduced,15,XGBoost,Validation,32.0299,43.5927,0.6553,26.2668
+domain_reduced,15,XGBoost,Test,50.9941,64.731,0.6457,38.9787

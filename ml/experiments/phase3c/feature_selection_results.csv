@@ -1,0 +1,13 @@
+feature_set,feature_count
+set_a_persistence,1
+set_b_pm25_history,29
+set_c_pm25_meteorology,121
+set_d_pm25_met_fire,151
+set_e_pm25_met_fire_pollutants,185
+set_f_full_safe,201
+redundancy_reduced,127
+top20,20
+top40,40
+top60,60
+top100,100
+domain_reduced,15

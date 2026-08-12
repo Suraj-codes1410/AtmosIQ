@@ -1,0 +1,7 @@
+feature_group,feature_count,mean_variance,zero_variance_count
+calendar_seasonal,16,2239.332293875,0
+fire_biomass_burning,30,0.0037497999999999997,29
+meteorological,63,611.2349451269841,0
+other_pollutant_historical,34,3486510.208940941,0
+pm25_historical,29,610481.0461409654,0
+wind_ventilation,29,35.79311796551724,0

@@ -1,0 +1,15 @@
+days_until_diwali
+fire_hotspot_count_lag_1d
+humidity_pct_roll_mean_3d
+is_monsoon
+is_stubble_season
+is_weekend
+is_winter
+pm25_lag_1d
+pm25_lag_2d
+pm25_roll_max_14d
+pm25_roll_mean_3d
+pm25_roll_mean_7d
+temperature_c_roll_mean_3d
+traffic_activity_proxy
+wind_speed_kmh_roll_mean_30d
