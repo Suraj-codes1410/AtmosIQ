@@ -1,0 +1,61 @@
+Model,Feature_Group,Feature_Count,Dev_Mean_MAE,Dev_MAE_Std,Dev_Mean_R2,Dev_R2_Std,Folds_Beaten_vs_History
+ElasticNet,group_g_full_safe,191,28.2081,0.7215,0.8492,0.0255,1/2
+ElasticNet,ablation_pm25_history_only,29,28.2516,0.4302,0.8408,0.0204,0/2
+ElasticNet,group_b_pm25_history,29,28.2516,0.4302,0.8408,0.0204,0/2
+ElasticNet,ablation_pm25_plus_pollutants,87,28.4365,1.0984,0.8407,0.0277,1/2
+ElasticNet,ablation_pm25_plus_fire,59,28.4779,0.9785,0.8417,0.0251,1/2
+ElasticNet,ablation_pm25_plus_fire_transport,59,28.4779,0.9785,0.8417,0.0251,1/2
+ElasticNet,group_d_pm25_met_pollutants,175,28.7981,0.5992,0.8415,0.0208,0/2
+ElasticNet,group_e_pm25_met_fire,147,28.9734,0.8053,0.8402,0.0215,0/2
+ElasticNet,group_f_pm25_met_fire_transport,147,28.9734,0.8053,0.8402,0.0215,0/2
+ElasticNet,ablation_pm25_plus_weather,117,28.9873,0.6172,0.8397,0.0197,0/2
+ElasticNet,group_c_pm25_meteorology,117,28.9873,0.6172,0.8397,0.0197,0/2
+ElasticNet,group_a_persistence,1,34.7385,0.1617,0.7581,0.0262,0/2
+Persistence,ablation_pm25_history_only,29,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,ablation_pm25_plus_fire,59,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,ablation_pm25_plus_fire_transport,59,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,ablation_pm25_plus_pollutants,87,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,ablation_pm25_plus_weather,117,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,group_a_persistence,1,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,group_b_pm25_history,29,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,group_c_pm25_meteorology,117,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,group_d_pm25_met_pollutants,175,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,group_e_pm25_met_fire,147,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,group_f_pm25_met_fire_transport,147,35.1282,0.0929,0.7426,0.0326,0/2
+Persistence,group_g_full_safe,191,35.1282,0.0929,0.7426,0.0326,0/2
+Random Forest,group_e_pm25_met_fire,147,27.7335,0.7614,0.8507,0.0222,1/2
+Random Forest,group_f_pm25_met_fire_transport,147,27.7335,0.7614,0.8507,0.0222,1/2
+Random Forest,group_g_full_safe,191,27.8373,0.6743,0.8523,0.0198,1/2
+Random Forest,ablation_pm25_plus_fire,59,27.889,0.3813,0.8493,0.0193,1/2
+Random Forest,ablation_pm25_plus_fire_transport,59,27.889,0.3813,0.8493,0.0193,1/2
+Random Forest,ablation_pm25_plus_weather,117,28.0065,0.8144,0.8479,0.0219,1/2
+Random Forest,group_c_pm25_meteorology,117,28.0065,0.8144,0.8479,0.0219,1/2
+Random Forest,ablation_pm25_history_only,29,28.0891,0.1497,0.8458,0.0169,0/2
+Random Forest,group_b_pm25_history,29,28.0891,0.1497,0.8458,0.0169,0/2
+Random Forest,group_d_pm25_met_pollutants,175,28.1964,0.7668,0.8458,0.0211,1/2
+Random Forest,ablation_pm25_plus_pollutants,87,28.2346,0.388,0.8439,0.0185,1/2
+Random Forest,group_a_persistence,1,31.3729,0.5636,0.7964,0.0245,0/2
+Ridge,ablation_pm25_history_only,29,28.1046,0.6672,0.8435,0.0229,0/2
+Ridge,group_b_pm25_history,29,28.1046,0.6672,0.8435,0.0229,0/2
+Ridge,ablation_pm25_plus_fire,59,28.474,1.5515,0.8397,0.0327,1/2
+Ridge,ablation_pm25_plus_fire_transport,59,28.474,1.5515,0.8397,0.0327,1/2
+Ridge,ablation_pm25_plus_pollutants,87,28.7627,1.4123,0.835,0.0335,1/2
+Ridge,group_d_pm25_met_pollutants,175,29.3695,0.8486,0.8341,0.0234,0/2
+Ridge,group_e_pm25_met_fire,147,29.4274,1.0145,0.8387,0.0233,0/2
+Ridge,group_f_pm25_met_fire_transport,147,29.4274,1.0145,0.8387,0.0233,0/2
+Ridge,ablation_pm25_plus_weather,117,29.4367,0.6368,0.8376,0.0187,0/2
+Ridge,group_c_pm25_meteorology,117,29.4367,0.6368,0.8376,0.0187,0/2
+Ridge,group_g_full_safe,191,30.2055,0.9588,0.8305,0.0322,0/2
+Ridge,group_a_persistence,1,34.3922,0.0087,0.7593,0.0278,0/2
+XGBoost,group_g_full_safe,191,28.5696,1.0991,0.8437,0.0255,1/2
+XGBoost,group_e_pm25_met_fire,147,28.881,0.6684,0.8365,0.0206,1/2
+XGBoost,group_f_pm25_met_fire_transport,147,28.881,0.6684,0.8365,0.0206,1/2
+XGBoost,ablation_pm25_plus_weather,117,28.9609,0.4991,0.8367,0.0202,1/2
+XGBoost,group_c_pm25_meteorology,117,28.9609,0.4991,0.8367,0.0202,1/2
+XGBoost,ablation_pm25_plus_fire,59,29.0147,0.327,0.8356,0.0193,1/2
+XGBoost,ablation_pm25_plus_fire_transport,59,29.0147,0.327,0.8356,0.0193,1/2
+XGBoost,ablation_pm25_history_only,29,29.0789,0.1278,0.8317,0.0191,0/2
+XGBoost,group_b_pm25_history,29,29.0789,0.1278,0.8317,0.0191,0/2
+XGBoost,group_d_pm25_met_pollutants,175,29.1596,1.1786,0.8342,0.0268,1/2
+XGBoost,ablation_pm25_plus_pollutants,87,29.9911,0.4681,0.8248,0.018,0/2
+XGBoost,group_a_persistence,1,30.9774,0.0983,0.8021,0.0192,0/2

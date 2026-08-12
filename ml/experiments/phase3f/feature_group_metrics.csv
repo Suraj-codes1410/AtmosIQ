@@ -1,0 +1,181 @@
+Fold,Eval_Year,Is_Holdout,Model,Feature_Group,Feature_Count,Train_Rows,Eval_Rows,MAE,RMSE,R2,Median_AE
+1,2022,False,Persistence,group_a_persistence,1,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,group_a_persistence,1,731,365,34.3835,49.4842,0.7315,22.4693
+1,2022,False,ElasticNet,group_a_persistence,1,731,365,34.5767,49.4537,0.7319,23.7934
+1,2022,False,Random Forest,group_a_persistence,1,731,365,31.9366,45.6107,0.7719,20.3709
+1,2022,False,XGBoost,group_a_persistence,1,731,365,31.0756,44.4998,0.7829,20.6532
+1,2022,False,Persistence,group_b_pm25_history,29,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,group_b_pm25_history,29,731,365,28.7719,40.4639,0.8205,19.154
+1,2022,False,ElasticNet,group_b_pm25_history,29,731,365,28.6818,40.4686,0.8204,19.1298
+1,2022,False,Random Forest,group_b_pm25_history,29,731,365,28.2388,39.4986,0.8289,19.6092
+1,2022,False,XGBoost,group_b_pm25_history,29,731,365,29.2066,41.3311,0.8127,20.5926
+1,2022,False,Persistence,group_c_pm25_meteorology,117,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,group_c_pm25_meteorology,117,731,365,30.0736,40.6391,0.8189,20.7311
+1,2022,False,ElasticNet,group_c_pm25_meteorology,117,731,365,29.6045,40.5228,0.82,20.8247
+1,2022,False,Random Forest,group_c_pm25_meteorology,117,731,365,28.8209,39.828,0.8261,20.8929
+1,2022,False,XGBoost,group_c_pm25_meteorology,117,731,365,29.46,40.9185,0.8164,20.3588
+1,2022,False,Persistence,group_d_pm25_met_pollutants,175,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,group_d_pm25_met_pollutants,175,731,365,30.2181,41.5533,0.8107,22.4789
+1,2022,False,ElasticNet,group_d_pm25_met_pollutants,175,731,365,29.3973,40.4553,0.8206,20.4963
+1,2022,False,Random Forest,group_d_pm25_met_pollutants,175,731,365,28.9631,39.9901,0.8247,20.4568
+1,2022,False,XGBoost,group_d_pm25_met_pollutants,175,731,365,30.3383,41.9139,0.8074,20.8544
+1,2022,False,Persistence,group_e_pm25_met_fire,147,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,group_e_pm25_met_fire,147,731,365,30.4419,41.0374,0.8154,21.2172
+1,2022,False,ElasticNet,group_e_pm25_met_fire,147,731,365,29.7787,40.65,0.8188,21.1421
+1,2022,False,Random Forest,group_e_pm25_met_fire,147,731,365,28.4948,39.5554,0.8284,20.4305
+1,2022,False,XGBoost,group_e_pm25_met_fire,147,731,365,29.5494,40.9729,0.8159,20.4704
+1,2022,False,Persistence,group_f_pm25_met_fire_transport,147,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,group_f_pm25_met_fire_transport,147,731,365,30.4419,41.0374,0.8154,21.2172
+1,2022,False,ElasticNet,group_f_pm25_met_fire_transport,147,731,365,29.7787,40.65,0.8188,21.1421
+1,2022,False,Random Forest,group_f_pm25_met_fire_transport,147,731,365,28.4948,39.5554,0.8284,20.4305
+1,2022,False,XGBoost,group_f_pm25_met_fire_transport,147,731,365,29.5494,40.9729,0.8159,20.4704
+1,2022,False,Persistence,group_g_full_safe,191,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,group_g_full_safe,191,731,365,31.1643,42.8886,0.7983,21.6974
+1,2022,False,ElasticNet,group_g_full_safe,191,731,365,28.9295,40.1012,0.8237,19.8176
+1,2022,False,Random Forest,group_g_full_safe,191,731,365,28.5115,39.0802,0.8325,20.297
+1,2022,False,XGBoost,group_g_full_safe,191,731,365,29.6687,40.7303,0.8181,20.6844
+1,2022,False,Persistence,ablation_pm25_history_only,29,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,ablation_pm25_history_only,29,731,365,28.7719,40.4639,0.8205,19.154
+1,2022,False,ElasticNet,ablation_pm25_history_only,29,731,365,28.6818,40.4686,0.8204,19.1298
+1,2022,False,Random Forest,ablation_pm25_history_only,29,731,365,28.2388,39.4986,0.8289,19.6092
+1,2022,False,XGBoost,ablation_pm25_history_only,29,731,365,29.2066,41.3311,0.8127,20.5926
+1,2022,False,Persistence,ablation_pm25_plus_weather,117,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,ablation_pm25_plus_weather,117,731,365,30.0736,40.6391,0.8189,20.7311
+1,2022,False,ElasticNet,ablation_pm25_plus_weather,117,731,365,29.6045,40.5228,0.82,20.8247
+1,2022,False,Random Forest,ablation_pm25_plus_weather,117,731,365,28.8209,39.828,0.8261,20.8929
+1,2022,False,XGBoost,ablation_pm25_plus_weather,117,731,365,29.46,40.9185,0.8164,20.3588
+1,2022,False,Persistence,ablation_pm25_plus_fire,59,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,ablation_pm25_plus_fire,59,731,365,30.0255,41.9514,0.807,19.2846
+1,2022,False,ElasticNet,ablation_pm25_plus_fire,59,731,365,29.4564,40.8947,0.8166,19.8077
+1,2022,False,Random Forest,ablation_pm25_plus_fire,59,731,365,28.2703,39.3746,0.83,20.0788
+1,2022,False,XGBoost,ablation_pm25_plus_fire,59,731,365,29.3418,40.9329,0.8163,20.5128
+1,2022,False,Persistence,ablation_pm25_plus_fire_transport,59,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,ablation_pm25_plus_fire_transport,59,731,365,30.0255,41.9514,0.807,19.2846
+1,2022,False,ElasticNet,ablation_pm25_plus_fire_transport,59,731,365,29.4564,40.8947,0.8166,19.8077
+1,2022,False,Random Forest,ablation_pm25_plus_fire_transport,59,731,365,28.2703,39.3746,0.83,20.0788
+1,2022,False,XGBoost,ablation_pm25_plus_fire_transport,59,731,365,29.3418,40.9329,0.8163,20.5128
+1,2022,False,Persistence,ablation_pm25_plus_pollutants,87,731,365,35.2211,51.429,0.71,23.09
+1,2022,False,Ridge,ablation_pm25_plus_pollutants,87,731,365,30.175,42.544,0.8015,19.6437
+1,2022,False,ElasticNet,ablation_pm25_plus_pollutants,87,731,365,29.5349,41.303,0.813,20.0296
+1,2022,False,Random Forest,ablation_pm25_plus_pollutants,87,731,365,28.6226,39.9104,0.8254,20.1915
+1,2022,False,XGBoost,ablation_pm25_plus_pollutants,87,731,365,30.4592,41.9735,0.8068,21.0597
+2,2023,False,Persistence,group_a_persistence,1,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,group_a_persistence,1,1096,365,34.4009,47.2174,0.7871,25.3877
+2,2023,False,ElasticNet,group_a_persistence,1,1096,365,34.9002,47.5098,0.7844,26.3674
+2,2023,False,Random Forest,group_a_persistence,1,1096,365,30.8093,43.2927,0.821,19.8775
+2,2023,False,XGBoost,group_a_persistence,1,1096,365,30.8791,43.2681,0.8212,20.5892
+2,2023,False,Persistence,group_b_pm25_history,29,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,group_b_pm25_history,29,1096,365,27.4374,37.3977,0.8664,19.1472
+2,2023,False,ElasticNet,group_b_pm25_history,29,1096,365,27.8214,38.1187,0.8612,20.055
+2,2023,False,Random Forest,group_b_pm25_history,29,1096,365,27.9394,37.9169,0.8627,21.5197
+2,2023,False,XGBoost,group_b_pm25_history,29,1096,365,28.9511,39.525,0.8508,20.5746
+2,2023,False,Persistence,group_c_pm25_meteorology,117,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,group_c_pm25_meteorology,117,1096,365,28.7999,38.7918,0.8563,18.6602
+2,2023,False,ElasticNet,group_c_pm25_meteorology,117,1096,365,28.3702,38.3629,0.8594,19.489
+2,2023,False,Random Forest,group_c_pm25_meteorology,117,1096,365,27.1921,36.925,0.8698,19.2369
+2,2023,False,XGBoost,group_c_pm25_meteorology,117,1096,365,28.4618,38.7069,0.8569,20.0572
+2,2023,False,Persistence,group_d_pm25_met_pollutants,175,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,group_d_pm25_met_pollutants,175,1096,365,28.5208,38.6204,0.8575,19.0522
+2,2023,False,ElasticNet,group_d_pm25_met_pollutants,175,1096,365,28.1989,37.9724,0.8623,19.7269
+2,2023,False,Random Forest,group_d_pm25_met_pollutants,175,1096,365,27.4296,37.3281,0.8669,19.7102
+2,2023,False,XGBoost,group_d_pm25_met_pollutants,175,1096,365,27.981,38.1316,0.8611,19.9177
+2,2023,False,Persistence,group_e_pm25_met_fire,147,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,group_e_pm25_met_fire,147,1096,365,28.4128,38.002,0.8621,19.4336
+2,2023,False,ElasticNet,group_e_pm25_met_fire,147,1096,365,28.1682,38.0493,0.8617,19.759
+2,2023,False,Random Forest,group_e_pm25_met_fire,147,1096,365,26.9721,36.4833,0.8729,19.6771
+2,2023,False,XGBoost,group_e_pm25_met_fire,147,1096,365,28.2126,38.6748,0.8571,19.7048
+2,2023,False,Persistence,group_f_pm25_met_fire_transport,147,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,group_f_pm25_met_fire_transport,147,1096,365,28.4128,38.002,0.8621,19.4336
+2,2023,False,ElasticNet,group_f_pm25_met_fire_transport,147,1096,365,28.1682,38.0493,0.8617,19.759
+2,2023,False,Random Forest,group_f_pm25_met_fire_transport,147,1096,365,26.9721,36.4833,0.8729,19.6771
+2,2023,False,XGBoost,group_f_pm25_met_fire_transport,147,1096,365,28.2126,38.6748,0.8571,19.7048
+2,2023,False,Persistence,group_g_full_safe,191,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,group_g_full_safe,191,1096,365,29.2467,37.9149,0.8627,23.3702
+2,2023,False,ElasticNet,group_g_full_safe,191,1096,365,27.4866,36.2382,0.8746,21.3484
+2,2023,False,Random Forest,group_g_full_safe,191,1096,365,27.163,36.5954,0.8721,19.4693
+2,2023,False,XGBoost,group_g_full_safe,191,1096,365,27.4705,37.0092,0.8692,19.6035
+2,2023,False,Persistence,ablation_pm25_history_only,29,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,ablation_pm25_history_only,29,1096,365,27.4374,37.3977,0.8664,19.1472
+2,2023,False,ElasticNet,ablation_pm25_history_only,29,1096,365,27.8214,38.1187,0.8612,20.055
+2,2023,False,Random Forest,ablation_pm25_history_only,29,1096,365,27.9394,37.9169,0.8627,21.5197
+2,2023,False,XGBoost,ablation_pm25_history_only,29,1096,365,28.9511,39.525,0.8508,20.5746
+2,2023,False,Persistence,ablation_pm25_plus_weather,117,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,ablation_pm25_plus_weather,117,1096,365,28.7999,38.7918,0.8563,18.6602
+2,2023,False,ElasticNet,ablation_pm25_plus_weather,117,1096,365,28.3702,38.3629,0.8594,19.489
+2,2023,False,Random Forest,ablation_pm25_plus_weather,117,1096,365,27.1921,36.925,0.8698,19.2369
+2,2023,False,XGBoost,ablation_pm25_plus_weather,117,1096,365,28.4618,38.7069,0.8569,20.0572
+2,2023,False,Persistence,ablation_pm25_plus_fire,59,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,ablation_pm25_plus_fire,59,1096,365,26.9226,36.5491,0.8724,19.0378
+2,2023,False,ElasticNet,ablation_pm25_plus_fire,59,1096,365,27.4993,37.3578,0.8667,20.0188
+2,2023,False,Random Forest,ablation_pm25_plus_fire,59,1096,365,27.5077,37.1008,0.8685,20.5541
+2,2023,False,XGBoost,ablation_pm25_plus_fire,59,1096,365,28.6877,38.983,0.8549,20.6662
+2,2023,False,Persistence,ablation_pm25_plus_fire_transport,59,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,ablation_pm25_plus_fire_transport,59,1096,365,26.9226,36.5491,0.8724,19.0378
+2,2023,False,ElasticNet,ablation_pm25_plus_fire_transport,59,1096,365,27.4993,37.3578,0.8667,20.0188
+2,2023,False,Random Forest,ablation_pm25_plus_fire_transport,59,1096,365,27.5077,37.1008,0.8685,20.5541
+2,2023,False,XGBoost,ablation_pm25_plus_fire_transport,59,1096,365,28.6877,38.983,0.8549,20.6662
+2,2023,False,Persistence,ablation_pm25_plus_pollutants,87,1096,365,35.0352,48.5297,0.7751,25.18
+2,2023,False,Ridge,ablation_pm25_plus_pollutants,87,1096,365,27.3503,37.105,0.8685,19.4601
+2,2023,False,ElasticNet,ablation_pm25_plus_pollutants,87,1096,365,27.3381,37.1144,0.8684,18.8328
+2,2023,False,Random Forest,ablation_pm25_plus_pollutants,87,1096,365,27.8467,37.9557,0.8624,21.2936
+2,2023,False,XGBoost,ablation_pm25_plus_pollutants,87,1096,365,29.5229,40.5675,0.8428,20.6975
+3,2024,True,Persistence,group_a_persistence,1,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,group_a_persistence,1,1461,366,33.6843,46.4326,0.7627,24.3704
+3,2024,True,ElasticNet,group_a_persistence,1,1461,366,34.1232,46.5981,0.761,25.7014
+3,2024,True,Random Forest,group_a_persistence,1,1461,366,30.4245,42.8813,0.7976,19.6804
+3,2024,True,XGBoost,group_a_persistence,1,1461,366,29.9829,42.0729,0.8052,20.0783
+3,2024,True,Persistence,group_b_pm25_history,29,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,group_b_pm25_history,29,1461,366,27.1022,37.263,0.8472,18.597
+3,2024,True,ElasticNet,group_b_pm25_history,29,1461,366,27.2159,37.4434,0.8457,19.3375
+3,2024,True,Random Forest,group_b_pm25_history,29,1461,366,26.6799,36.5189,0.8532,18.542
+3,2024,True,XGBoost,group_b_pm25_history,29,1461,366,26.6607,38.1294,0.84,17.6465
+3,2024,True,Persistence,group_c_pm25_meteorology,117,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,group_c_pm25_meteorology,117,1461,366,28.4634,38.867,0.8337,20.224
+3,2024,True,ElasticNet,group_c_pm25_meteorology,117,1461,366,27.8673,37.9591,0.8414,20.3562
+3,2024,True,Random Forest,group_c_pm25_meteorology,117,1461,366,27.1719,37.1122,0.8484,18.7916
+3,2024,True,XGBoost,group_c_pm25_meteorology,117,1461,366,27.8989,39.5256,0.8281,19.6652
+3,2024,True,Persistence,group_d_pm25_met_pollutants,175,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,group_d_pm25_met_pollutants,175,1461,366,27.4667,37.2436,0.8473,20.3423
+3,2024,True,ElasticNet,group_d_pm25_met_pollutants,175,1461,366,27.4037,37.1859,0.8478,20.1324
+3,2024,True,Random Forest,group_d_pm25_met_pollutants,175,1461,366,26.728,36.3116,0.8549,19.2037
+3,2024,True,XGBoost,group_d_pm25_met_pollutants,175,1461,366,27.9351,39.0163,0.8325,20.2591
+3,2024,True,Persistence,group_e_pm25_met_fire,147,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,group_e_pm25_met_fire,147,1461,366,27.4727,37.3822,0.8462,19.4631
+3,2024,True,ElasticNet,group_e_pm25_met_fire,147,1461,366,27.5167,37.3151,0.8468,20.5737
+3,2024,True,Random Forest,group_e_pm25_met_fire,147,1461,366,26.8094,36.4616,0.8537,18.8039
+3,2024,True,XGBoost,group_e_pm25_met_fire,147,1461,366,27.6713,38.4439,0.8373,20.1319
+3,2024,True,Persistence,group_f_pm25_met_fire_transport,147,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,group_f_pm25_met_fire_transport,147,1461,366,27.4727,37.3822,0.8462,19.4631
+3,2024,True,ElasticNet,group_f_pm25_met_fire_transport,147,1461,366,27.5167,37.3151,0.8468,20.5737
+3,2024,True,Random Forest,group_f_pm25_met_fire_transport,147,1461,366,26.8094,36.4616,0.8537,18.8039
+3,2024,True,XGBoost,group_f_pm25_met_fire_transport,147,1461,366,27.6713,38.4439,0.8373,20.1319
+3,2024,True,Persistence,group_g_full_safe,191,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,group_g_full_safe,191,1461,366,28.4862,38.7961,0.8344,20.2055
+3,2024,True,ElasticNet,group_g_full_safe,191,1461,366,26.5903,35.9637,0.8577,19.8542
+3,2024,True,Random Forest,group_g_full_safe,191,1461,366,25.9113,35.218,0.8635,18.1184
+3,2024,True,XGBoost,group_g_full_safe,191,1461,366,27.03,38.0805,0.8404,19.0146
+3,2024,True,Persistence,ablation_pm25_history_only,29,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,ablation_pm25_history_only,29,1461,366,27.1022,37.263,0.8472,18.597
+3,2024,True,ElasticNet,ablation_pm25_history_only,29,1461,366,27.2159,37.4434,0.8457,19.3375
+3,2024,True,Random Forest,ablation_pm25_history_only,29,1461,366,26.6799,36.5189,0.8532,18.542
+3,2024,True,XGBoost,ablation_pm25_history_only,29,1461,366,26.6607,38.1294,0.84,17.6465
+3,2024,True,Persistence,ablation_pm25_plus_weather,117,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,ablation_pm25_plus_weather,117,1461,366,28.4634,38.867,0.8337,20.224
+3,2024,True,ElasticNet,ablation_pm25_plus_weather,117,1461,366,27.8673,37.9591,0.8414,20.3562
+3,2024,True,Random Forest,ablation_pm25_plus_weather,117,1461,366,27.1719,37.1122,0.8484,18.7916
+3,2024,True,XGBoost,ablation_pm25_plus_weather,117,1461,366,27.8989,39.5256,0.8281,19.6652
+3,2024,True,Persistence,ablation_pm25_plus_fire,59,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,ablation_pm25_plus_fire,59,1461,366,26.3676,36.118,0.8564,18.9512
+3,2024,True,ElasticNet,ablation_pm25_plus_fire,59,1461,366,26.6688,36.715,0.8516,19.3598
+3,2024,True,Random Forest,ablation_pm25_plus_fire,59,1461,366,26.4322,35.8205,0.8588,18.5404
+3,2024,True,XGBoost,ablation_pm25_plus_fire,59,1461,366,26.1888,36.3925,0.8542,19.0138
+3,2024,True,Persistence,ablation_pm25_plus_fire_transport,59,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,ablation_pm25_plus_fire_transport,59,1461,366,26.3676,36.118,0.8564,18.9512
+3,2024,True,ElasticNet,ablation_pm25_plus_fire_transport,59,1461,366,26.6688,36.715,0.8516,19.3598
+3,2024,True,Random Forest,ablation_pm25_plus_fire_transport,59,1461,366,26.4322,35.8205,0.8588,18.5404
+3,2024,True,XGBoost,ablation_pm25_plus_fire_transport,59,1461,366,26.1888,36.3925,0.8542,19.0138
+3,2024,True,Persistence,ablation_pm25_plus_pollutants,87,1461,366,34.388,47.8482,0.748,25.375
+3,2024,True,Ridge,ablation_pm25_plus_pollutants,87,1461,366,26.663,36.3695,0.8544,19.1863
+3,2024,True,ElasticNet,ablation_pm25_plus_pollutants,87,1461,366,26.5323,36.5185,0.8532,19.5377
+3,2024,True,Random Forest,ablation_pm25_plus_pollutants,87,1461,366,26.6059,35.7813,0.8591,18.9022
+3,2024,True,XGBoost,ablation_pm25_plus_pollutants,87,1461,366,26.5376,36.8519,0.8505,19.2154

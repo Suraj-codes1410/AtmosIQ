@@ -1,0 +1,7 @@
+Process,Features_Added,Delta_MAE,Delta_R2,Stable_Across_Folds,Interpretation
+PM2.5 History,29,Baseline,Baseline,Yes (2/2),Primary reference predictive signal
+Meteorology,92,+0.27 µg/m³,+0.005,Yes (2/2),Modest incremental improvement
+Other Pollutants,34,-0.15 µg/m³,-0.003,No (0/2),Redundant with PM2.5 history
+Biomass Burning (Fire),30,+0.45 µg/m³,+0.008,Yes (2/2),Captures seasonal stubble spikes
+Transport Physics,30,+0.62 µg/m³,+0.012,Yes (2/2),Enhances fire signal alignment
+Full Safe Features,191,-1.85 µg/m³,-0.045,No (0/2),High variance & severe overfitting

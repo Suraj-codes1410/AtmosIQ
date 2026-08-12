@@ -1,0 +1,31 @@
+Model,Baseline_Group,New_Group,Added_Features,Delta_MAE,Pct_Improvement,Delta_R2,Interpretation
+Persistence,group_a_persistence,group_b_pm25_history,28,0.0,0.0,0.0,Negligible Improvement
+Persistence,group_b_pm25_history,group_c_pm25_meteorology,88,0.0,0.0,0.0,Negligible Improvement
+Persistence,group_c_pm25_meteorology,group_d_pm25_met_pollutants,58,0.0,0.0,0.0,Negligible Improvement
+Persistence,group_d_pm25_met_pollutants,group_e_pm25_met_fire,-28,0.0,0.0,0.0,Negligible Improvement
+Persistence,group_e_pm25_met_fire,group_f_pm25_met_fire_transport,0,0.0,0.0,0.0,Negligible Improvement
+Persistence,group_f_pm25_met_fire_transport,group_g_full_safe,44,0.0,0.0,0.0,Negligible Improvement
+Ridge,group_a_persistence,group_b_pm25_history,28,6.2876,18.28,0.0842,Meaningful Improvement
+Ridge,group_b_pm25_history,group_c_pm25_meteorology,88,-1.3321,-4.74,-0.0059,Negative Impact (Overfitting/Noise)
+Ridge,group_c_pm25_meteorology,group_d_pm25_met_pollutants,58,0.0672,0.23,-0.0035,Negligible Improvement
+Ridge,group_d_pm25_met_pollutants,group_e_pm25_met_fire,-28,-0.0579,-0.2,0.0046,Negative Impact (Overfitting/Noise)
+Ridge,group_e_pm25_met_fire,group_f_pm25_met_fire_transport,0,0.0,0.0,0.0,Negligible Improvement
+Ridge,group_f_pm25_met_fire_transport,group_g_full_safe,44,-0.7781,-2.64,-0.0082,Negative Impact (Overfitting/Noise)
+ElasticNet,group_a_persistence,group_b_pm25_history,28,6.4869,18.67,0.0827,Meaningful Improvement
+ElasticNet,group_b_pm25_history,group_c_pm25_meteorology,88,-0.7357,-2.6,-0.0011,Negative Impact (Overfitting/Noise)
+ElasticNet,group_c_pm25_meteorology,group_d_pm25_met_pollutants,58,0.1892,0.65,0.0018,Small Improvement
+ElasticNet,group_d_pm25_met_pollutants,group_e_pm25_met_fire,-28,-0.1753,-0.61,-0.0013,Negative Impact (Overfitting/Noise)
+ElasticNet,group_e_pm25_met_fire,group_f_pm25_met_fire_transport,0,0.0,0.0,0.0,Negligible Improvement
+ElasticNet,group_f_pm25_met_fire_transport,group_g_full_safe,44,0.7653,2.64,0.009,Meaningful Improvement
+Random Forest,group_a_persistence,group_b_pm25_history,28,3.2838,10.47,0.0494,Meaningful Improvement
+Random Forest,group_b_pm25_history,group_c_pm25_meteorology,88,0.0826,0.29,0.0021,Negligible Improvement
+Random Forest,group_c_pm25_meteorology,group_d_pm25_met_pollutants,58,-0.1899,-0.68,-0.0021,Negative Impact (Overfitting/Noise)
+Random Forest,group_d_pm25_met_pollutants,group_e_pm25_met_fire,-28,0.4629,1.64,0.0049,Small Improvement
+Random Forest,group_e_pm25_met_fire,group_f_pm25_met_fire_transport,0,0.0,0.0,0.0,Negligible Improvement
+Random Forest,group_f_pm25_met_fire_transport,group_g_full_safe,44,-0.1038,-0.37,0.0016,Negative Impact (Overfitting/Noise)
+XGBoost,group_a_persistence,group_b_pm25_history,28,1.8985,6.13,0.0296,Meaningful Improvement
+XGBoost,group_b_pm25_history,group_c_pm25_meteorology,88,0.118,0.41,0.005,Negligible Improvement
+XGBoost,group_c_pm25_meteorology,group_d_pm25_met_pollutants,58,-0.1987,-0.69,-0.0025,Negative Impact (Overfitting/Noise)
+XGBoost,group_d_pm25_met_pollutants,group_e_pm25_met_fire,-28,0.2786,0.96,0.0023,Small Improvement
+XGBoost,group_e_pm25_met_fire,group_f_pm25_met_fire_transport,0,0.0,0.0,0.0,Negligible Improvement
+XGBoost,group_f_pm25_met_fire_transport,group_g_full_safe,44,0.3114,1.08,0.0072,Small Improvement

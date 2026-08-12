@@ -1,0 +1,11 @@
+{
+    "experiment_id": "phase3f_incremental_information",
+    "timestamp": "2026-08-12T20:43:24.394761+00:00",
+    "python_version": "3.14.4",
+    "sklearn_version": "1.9.0",
+    "xgboost_version": "3.4.0",
+    "dataset_v2_sha256": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+    "dataset_v2_rows": 1827,
+    "prediction_cutoff": "end_of_day_t-1",
+    "random_seed": 42
+}
