@@ -1,0 +1,13 @@
+Model,Feature_Set,Feature_Count,Train_R2,Val_R2,Test_R2,Train_Val_R2_Gap,Train_Test_R2_Gap
+ElasticNet,set_b_pm25_history,29,0.8065,0.7884,0.8451,0.0181,-0.0386
+Ridge,set_b_pm25_history,29,0.8101,0.7919,0.8504,0.0182,-0.0403
+ElasticNet,set_b_plus_core_environment,34,0.808,0.7842,0.8509,0.0238,-0.0429
+Ridge,domain_reduced,15,0.783,0.7533,0.8367,0.0297,-0.0537
+ElasticNet,domain_reduced,15,0.8113,0.7772,0.8634,0.0341,-0.0521
+Ridge,set_b_plus_core_environment,34,0.8189,0.7839,0.8618,0.035,-0.0429
+XGBoost,set_b_pm25_history,29,0.8593,0.7987,0.8519,0.0606,0.0074
+Random Forest,set_b_pm25_history,29,0.8733,0.8004,0.8599,0.0729,0.0134
+Random Forest,domain_reduced,15,0.8728,0.7881,0.862,0.0847,0.0108
+XGBoost,set_b_plus_core_environment,34,0.8582,0.7727,0.8454,0.0855,0.0128
+Random Forest,set_b_plus_core_environment,34,0.8783,0.788,0.8619,0.0903,0.0164
+XGBoost,domain_reduced,15,0.8688,0.7713,0.8317,0.0975,0.0371

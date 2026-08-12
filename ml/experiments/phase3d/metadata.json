@@ -1,0 +1,23 @@
+{
+    "experiment_id": "phase3d_hyperparameter_tuning",
+    "timestamp": "2026-08-12T17:21:04.669661+00:00",
+    "python_version": "3.14.4",
+    "sklearn_version": "1.9.0",
+    "xgboost_version": "3.4.0",
+    "optuna_version": "4.9.0",
+    "dataset_version": "v1",
+    "dataset_sha256": "c271bfc6df5dc442737b32e42d2e722c7f08266f77f1820649b7873e0d8b10df",
+    "random_seed": 42,
+    "optuna_trials_per_study": 50,
+    "target": "pm25",
+    "prediction_cutoff": "end_of_day_t-1",
+    "selected_final_model": {
+        "model_name": "XGBoost",
+        "feature_set": "set_b_pm25_history",
+        "feature_count": 29,
+        "val_mae": 25.1229,
+        "val_r2": 0.7987,
+        "test_mae": 29.9121,
+        "test_r2": 0.8519
+    }
+}

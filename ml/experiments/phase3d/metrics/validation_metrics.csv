@@ -1,0 +1,13 @@
+Model,Feature_Set,Feature_Count,MAE,RMSE,R2,Median_AE
+XGBoost,set_b_pm25_history,29,25.1229,33.3131,0.7987,18.8739
+ElasticNet,set_b_pm25_history,29,25.2268,34.1529,0.7884,19.6721
+Random Forest,set_b_pm25_history,29,25.329,33.1692,0.8004,19.2059
+Ridge,set_b_pm25_history,29,25.3603,33.8688,0.7919,18.9715
+Random Forest,domain_reduced,15,25.4301,34.178,0.7881,19.7791
+Random Forest,set_b_plus_core_environment,34,25.8138,34.1897,0.788,19.3154
+ElasticNet,set_b_plus_core_environment,34,25.8266,34.4941,0.7842,19.0513
+Ridge,set_b_plus_core_environment,34,25.8887,34.5168,0.7839,20.6021
+ElasticNet,domain_reduced,15,26.4508,35.0493,0.7772,20.8033
+XGBoost,domain_reduced,15,26.5158,35.5066,0.7713,19.8861
+XGBoost,set_b_plus_core_environment,34,26.6323,35.403,0.7727,19.3377
+Ridge,domain_reduced,15,27.7405,36.8803,0.7533,22.2772

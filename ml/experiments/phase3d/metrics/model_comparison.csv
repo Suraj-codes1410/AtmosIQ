@@ -1,0 +1,13 @@
+Model,Feature_Set,Feature_Count,Val_MAE,Val_RMSE,Val_R2,Val_MAE_Improvement_vs_Pers,Val_R2_Diff_vs_Pers,Test_MAE,Test_RMSE,Test_R2
+XGBoost,set_b_pm25_history,29,25.1229,33.3131,0.7987,6.8696,0.1228,29.9121,41.8522,0.8519
+ElasticNet,set_b_pm25_history,29,25.2268,34.1529,0.7884,6.7657,0.1125,30.6302,42.7934,0.8451
+Random Forest,set_b_pm25_history,29,25.329,33.1692,0.8004,6.6635,0.1245,28.6562,40.7077,0.8599
+Ridge,set_b_pm25_history,29,25.3603,33.8688,0.7919,6.6322,0.116,29.6871,42.0607,0.8504
+Random Forest,domain_reduced,15,25.4301,34.178,0.7881,6.5624,0.1122,30.4385,40.4029,0.862
+Random Forest,set_b_plus_core_environment,34,25.8138,34.1897,0.788,6.1787,0.1121,29.866,40.408,0.8619
+ElasticNet,set_b_plus_core_environment,34,25.8266,34.4941,0.7842,6.1659,0.1083,30.4497,41.9835,0.8509
+Ridge,set_b_plus_core_environment,34,25.8887,34.5168,0.7839,6.1038,0.108,28.5496,40.424,0.8618
+ElasticNet,domain_reduced,15,26.4508,35.0493,0.7772,5.5417,0.1013,29.5881,40.1864,0.8634
+XGBoost,domain_reduced,15,26.5158,35.5066,0.7713,5.4767,0.0954,35.5026,44.6074,0.8317
+XGBoost,set_b_plus_core_environment,34,26.6323,35.403,0.7727,5.3602,0.0968,32.4858,42.758,0.8454
+Ridge,domain_reduced,15,27.7405,36.8803,0.7533,4.252,0.0774,35.2533,43.9463,0.8367
