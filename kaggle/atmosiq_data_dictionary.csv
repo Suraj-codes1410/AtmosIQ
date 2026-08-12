@@ -1,0 +1,10 @@
+feature_name,source,unit,type,description
+date,Timeline,YYYY-MM-DD,Categorical/Date,Daily observation timestamp (2020-01-01 to 2024-12-31)
+pm25,CPCB / OpenAQ,µg/m³,Continuous,Daily mean PM2.5 concentration in Delhi NCR (Target variable)
+pm10,CPCB / OpenAQ,µg/m³,Continuous,Daily mean PM10 concentration
+no2,CPCB / OpenAQ,µg/m³,Continuous,Daily mean Nitrogen Dioxide concentration
+temperature_c,Open-Meteo ERA5,°C,Continuous,24-hour mean surface air temperature
+humidity_pct,Open-Meteo ERA5,%,Continuous,24-hour mean relative humidity
+wind_speed_kmh,Open-Meteo ERA5,km/h,Continuous,24-hour maximum wind speed
+fire_count,NASA FIRMS,count,Integer,"Regional upwind satellite fire hotspot count (Punjab, Haryana, Rajasthan)"
+is_stubble_season,Calendar Generator,binary,Integer,Post-monsoon stubble burning period indicator (Oct 15 - Nov 25)
