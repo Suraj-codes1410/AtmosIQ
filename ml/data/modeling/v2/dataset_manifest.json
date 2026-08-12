@@ -1,0 +1,12 @@
+{
+    "dataset_version": "v2",
+    "sha256": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+    "start_date": "2020-01-01",
+    "end_date": "2024-12-31",
+    "total_rows": 1827,
+    "total_columns": 261,
+    "target": "pm25",
+    "prediction_safe_feature_count": 191,
+    "same_day_feature_count": 68,
+    "created_at": "2026-08-12T20:21:59.843313+00:00"
+}

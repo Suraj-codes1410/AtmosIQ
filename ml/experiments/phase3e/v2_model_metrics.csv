@@ -1,0 +1,35 @@
+Model,Feature_Set,Feature_Count,Split,MAE,RMSE,R2,Median_AE
+Persistence,pm25_lag_1d,1,Validation,35.0352,48.5297,0.7751,25.18
+Persistence,pm25_lag_1d,1,Test,34.388,47.8482,0.748,25.375
+Ridge,set_a_persistence,1,Validation,34.4009,47.2174,0.7871,25.3877
+Ridge,set_a_persistence,1,Test,33.7125,46.4432,0.7626,24.2603
+ElasticNet,set_a_persistence,1,Validation,34.9002,47.5098,0.7844,26.3674
+ElasticNet,set_a_persistence,1,Test,34.1243,46.6279,0.7607,25.6267
+Random Forest,set_a_persistence,1,Validation,30.8093,43.2927,0.821,19.8775
+Random Forest,set_a_persistence,1,Test,30.704,42.9828,0.7967,20.0967
+XGBoost,set_a_persistence,1,Validation,30.8791,43.2681,0.8212,20.5892
+XGBoost,set_a_persistence,1,Test,30.0409,42.0227,0.8057,20.4125
+Ridge,set_b_pm25_history,29,Validation,27.4374,37.3977,0.8664,19.1472
+Ridge,set_b_pm25_history,29,Test,27.1608,37.3365,0.8466,18.9801
+ElasticNet,set_b_pm25_history,29,Validation,27.8214,38.1187,0.8612,20.055
+ElasticNet,set_b_pm25_history,29,Test,27.249,37.5336,0.845,18.8857
+Random Forest,set_b_pm25_history,29,Validation,27.9394,37.9169,0.8627,21.5197
+Random Forest,set_b_pm25_history,29,Test,26.6621,36.8083,0.8509,18.7958
+XGBoost,set_b_pm25_history,29,Validation,28.9511,39.525,0.8508,20.5746
+XGBoost,set_b_pm25_history,29,Test,26.7286,37.5882,0.8445,18.0162
+Ridge,domain_reduced,15,Validation,27.4284,37.6286,0.8648,18.491
+Ridge,domain_reduced,15,Test,27.9373,37.8504,0.8423,21.0394
+ElasticNet,domain_reduced,15,Validation,27.6159,37.7673,0.8638,19.1401
+ElasticNet,domain_reduced,15,Test,28.018,37.9147,0.8418,20.6464
+Random Forest,domain_reduced,15,Validation,28.6292,38.3446,0.8596,21.8595
+Random Forest,domain_reduced,15,Test,27.4707,36.9208,0.85,21.8461
+XGBoost,domain_reduced,15,Validation,31.1925,40.4186,0.844,24.5484
+XGBoost,domain_reduced,15,Test,28.9264,37.4666,0.8455,23.5975
+Ridge,set_f_full_safe,201,Validation,29.0477,37.8373,0.8633,22.2367
+Ridge,set_f_full_safe,201,Test,26.8676,36.1886,0.8559,19.3024
+ElasticNet,set_f_full_safe,201,Validation,27.1398,35.8931,0.877,20.5844
+ElasticNet,set_f_full_safe,201,Test,26.5652,36.0198,0.8572,19.2582
+Random Forest,set_f_full_safe,201,Validation,27.0454,36.4569,0.8731,19.6849
+Random Forest,set_f_full_safe,201,Test,26.0682,35.4862,0.8614,18.5114
+XGBoost,set_f_full_safe,201,Validation,27.4854,36.6203,0.8719,20.1003
+XGBoost,set_f_full_safe,201,Test,26.6483,36.5724,0.8528,18.4367
