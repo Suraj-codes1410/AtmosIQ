@@ -1,0 +1,247 @@
+{
+    "ridge__set_b_pm25_history": {
+        "model_type": "ridge",
+        "feature_set": "set_b_pm25_history",
+        "feature_count": 29,
+        "best_dev_mean_mae": 28.1041,
+        "params": {
+            "alpha": 8.289818982561153
+        }
+    },
+    "ridge__group_c_pm25_meteorology": {
+        "model_type": "ridge",
+        "feature_set": "group_c_pm25_meteorology",
+        "feature_count": 117,
+        "best_dev_mean_mae": 29.0898,
+        "params": {
+            "alpha": 46.816487919967244
+        }
+    },
+    "ridge__group_e_pm25_met_fire": {
+        "model_type": "ridge",
+        "feature_set": "group_e_pm25_met_fire",
+        "feature_count": 147,
+        "best_dev_mean_mae": 29.0373,
+        "params": {
+            "alpha": 85.87878668604696
+        }
+    },
+    "ridge__group_f_pm25_met_fire_transport": {
+        "model_type": "ridge",
+        "feature_set": "group_f_pm25_met_fire_transport",
+        "feature_count": 147,
+        "best_dev_mean_mae": 29.0373,
+        "params": {
+            "alpha": 85.87878668604696
+        }
+    },
+    "ridge__domain_reduced": {
+        "model_type": "ridge",
+        "feature_set": "domain_reduced",
+        "feature_count": 15,
+        "best_dev_mean_mae": 28.2418,
+        "params": {
+            "alpha": 0.0010131239639593317
+        }
+    },
+    "elasticnet__set_b_pm25_history": {
+        "model_type": "elasticnet",
+        "feature_set": "set_b_pm25_history",
+        "feature_count": 29,
+        "best_dev_mean_mae": 28.0745,
+        "params": {
+            "alpha": 0.10227066884737217,
+            "l1_ratio": 0.9448270440514479
+        }
+    },
+    "elasticnet__group_c_pm25_meteorology": {
+        "model_type": "elasticnet",
+        "feature_set": "group_c_pm25_meteorology",
+        "feature_count": 117,
+        "best_dev_mean_mae": 28.8653,
+        "params": {
+            "alpha": 0.1766763549520047,
+            "l1_ratio": 0.7537346101409794
+        }
+    },
+    "elasticnet__group_e_pm25_met_fire": {
+        "model_type": "elasticnet",
+        "feature_set": "group_e_pm25_met_fire",
+        "feature_count": 147,
+        "best_dev_mean_mae": 28.6373,
+        "params": {
+            "alpha": 1.8714106525644114,
+            "l1_ratio": 0.9413792078237768
+        }
+    },
+    "elasticnet__group_f_pm25_met_fire_transport": {
+        "model_type": "elasticnet",
+        "feature_set": "group_f_pm25_met_fire_transport",
+        "feature_count": 147,
+        "best_dev_mean_mae": 28.6373,
+        "params": {
+            "alpha": 1.8714106525644114,
+            "l1_ratio": 0.9413792078237768
+        }
+    },
+    "elasticnet__domain_reduced": {
+        "model_type": "elasticnet",
+        "feature_set": "domain_reduced",
+        "feature_count": 15,
+        "best_dev_mean_mae": 28.2423,
+        "params": {
+            "alpha": 0.0010907785690006102,
+            "l1_ratio": 0.9167407523454647
+        }
+    },
+    "random_forest__set_b_pm25_history": {
+        "model_type": "random_forest",
+        "feature_set": "set_b_pm25_history",
+        "feature_count": 29,
+        "best_dev_mean_mae": 27.4653,
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 5,
+            "min_samples_split": 4,
+            "min_samples_leaf": 2,
+            "max_features": "sqrt"
+        }
+    },
+    "random_forest__group_c_pm25_meteorology": {
+        "model_type": "random_forest",
+        "feature_set": "group_c_pm25_meteorology",
+        "feature_count": 117,
+        "best_dev_mean_mae": 27.4819,
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 4,
+            "min_samples_split": 7,
+            "min_samples_leaf": 5,
+            "max_features": 0.5
+        }
+    },
+    "random_forest__group_e_pm25_met_fire": {
+        "model_type": "random_forest",
+        "feature_set": "group_e_pm25_met_fire",
+        "feature_count": 147,
+        "best_dev_mean_mae": 27.4181,
+        "params": {
+            "n_estimators": 400,
+            "max_depth": 4,
+            "min_samples_split": 4,
+            "min_samples_leaf": 4,
+            "max_features": 0.5
+        }
+    },
+    "random_forest__group_f_pm25_met_fire_transport": {
+        "model_type": "random_forest",
+        "feature_set": "group_f_pm25_met_fire_transport",
+        "feature_count": 147,
+        "best_dev_mean_mae": 27.4181,
+        "params": {
+            "n_estimators": 400,
+            "max_depth": 4,
+            "min_samples_split": 4,
+            "min_samples_leaf": 4,
+            "max_features": 0.5
+        }
+    },
+    "random_forest__domain_reduced": {
+        "model_type": "random_forest",
+        "feature_set": "domain_reduced",
+        "feature_count": 15,
+        "best_dev_mean_mae": 27.8021,
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 4,
+            "min_samples_split": 5,
+            "min_samples_leaf": 7,
+            "max_features": 0.5
+        }
+    },
+    "xgboost__set_b_pm25_history": {
+        "model_type": "xgboost",
+        "feature_set": "set_b_pm25_history",
+        "feature_count": 29,
+        "best_dev_mean_mae": 28.147,
+        "params": {
+            "n_estimators": 150,
+            "max_depth": 2,
+            "learning_rate": 0.02557218499695707,
+            "subsample": 0.7522795790560122,
+            "colsample_bytree": 0.6982527513400301,
+            "min_child_weight": 5,
+            "gamma": 0.3052826601970582,
+            "reg_alpha": 3.969478166411757,
+            "reg_lambda": 13.11089398891441
+        }
+    },
+    "xgboost__group_c_pm25_meteorology": {
+        "model_type": "xgboost",
+        "feature_set": "group_c_pm25_meteorology",
+        "feature_count": 117,
+        "best_dev_mean_mae": 27.9453,
+        "params": {
+            "n_estimators": 250,
+            "max_depth": 2,
+            "learning_rate": 0.01896153866309036,
+            "subsample": 0.7604853000382996,
+            "colsample_bytree": 0.6501576032926051,
+            "min_child_weight": 4,
+            "gamma": 0.047794593448330036,
+            "reg_alpha": 1.3095427435790605,
+            "reg_lambda": 18.84168578518697
+        }
+    },
+    "xgboost__group_e_pm25_met_fire": {
+        "model_type": "xgboost",
+        "feature_set": "group_e_pm25_met_fire",
+        "feature_count": 147,
+        "best_dev_mean_mae": 27.7814,
+        "params": {
+            "n_estimators": 550,
+            "max_depth": 2,
+            "learning_rate": 0.011817606630456926,
+            "subsample": 0.7622405744738129,
+            "colsample_bytree": 0.5379872032311903,
+            "min_child_weight": 10,
+            "gamma": 0.15350587303262975,
+            "reg_alpha": 7.431676346151915,
+            "reg_lambda": 19.27167194266313
+        }
+    },
+    "xgboost__group_f_pm25_met_fire_transport": {
+        "model_type": "xgboost",
+        "feature_set": "group_f_pm25_met_fire_transport",
+        "feature_count": 147,
+        "best_dev_mean_mae": 27.7814,
+        "params": {
+            "n_estimators": 550,
+            "max_depth": 2,
+            "learning_rate": 0.011817606630456926,
+            "subsample": 0.7622405744738129,
+            "colsample_bytree": 0.5379872032311903,
+            "min_child_weight": 10,
+            "gamma": 0.15350587303262975,
+            "reg_alpha": 7.431676346151915,
+            "reg_lambda": 19.27167194266313
+        }
+    },
+    "xgboost__domain_reduced": {
+        "model_type": "xgboost",
+        "feature_set": "domain_reduced",
+        "feature_count": 15,
+        "best_dev_mean_mae": 28.488,
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 2,
+            "learning_rate": 0.015337210895695933,
+            "subsample": 0.8228585253805741,
+            "colsample_bytree": 0.7859312116802972,
+            "min_child_weight": 8,
+            "gamma": 0.9867593939955881,
+            "reg_alpha": 9.120170440710325,
+            "reg_lambda": 17.126288528333625
+        }
+    }
+}

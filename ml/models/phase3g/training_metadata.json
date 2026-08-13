@@ -1,0 +1,20 @@
+{
+    "model_id": "phase3g_final_production_model",
+    "timestamp": "2026-08-13T13:03:49.429609+00:00",
+    "model_type": "random_forest",
+    "model_name": "Random Forest",
+    "feature_set": "group_e_pm25_met_fire",
+    "feature_count": 147,
+    "training_date_range": "2020-01-01 to 2023-12-31",
+    "training_rows": 1461,
+    "test_date_range": "2024-01-01 to 2024-12-31",
+    "test_rows": 366,
+    "dataset_version": "v2",
+    "dataset_sha256": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+    "python_version": "3.14.4",
+    "sklearn_version": "1.9.0",
+    "xgboost_version": "3.4.0",
+    "optuna_version": "4.9.0",
+    "random_seed": 42,
+    "ready_for_shap": true
+}

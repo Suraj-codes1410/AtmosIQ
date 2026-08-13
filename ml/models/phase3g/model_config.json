@@ -1,0 +1,12 @@
+{
+    "model_type": "random_forest",
+    "model_name": "Random Forest",
+    "feature_set": "group_e_pm25_met_fire",
+    "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 4,
+        "min_samples_split": 4,
+        "min_samples_leaf": 4,
+        "max_features": 0.5
+    }
+}

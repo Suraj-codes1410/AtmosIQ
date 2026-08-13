@@ -1,0 +1,21 @@
+Study_Name,Model,Feature_Set,Feature_Count,Dev_Mean_MAE,Dev_MAE_Std,Dev_Mean_RMSE,Dev_Mean_R2
+random_forest__group_e_pm25_met_fire,Random Forest,group_e_pm25_met_fire,147,27.4181,0.5868,37.6527,0.8537
+random_forest__group_f_pm25_met_fire_transport,Random Forest,group_f_pm25_met_fire_transport,147,27.4181,0.5868,37.6527,0.8537
+random_forest__set_b_pm25_history,Random Forest,set_b_pm25_history,29,27.4653,0.1864,37.9154,0.8521
+random_forest__group_c_pm25_meteorology,Random Forest,group_c_pm25_meteorology,117,27.4819,0.5763,37.8124,0.8526
+xgboost__group_f_pm25_met_fire_transport,Xgboost,group_f_pm25_met_fire_transport,147,27.7813,0.2978,38.0947,0.8505
+xgboost__group_e_pm25_met_fire,Xgboost,group_e_pm25_met_fire,147,27.7813,0.2978,38.0947,0.8505
+random_forest__domain_reduced,Random Forest,domain_reduced,15,27.8022,0.3346,38.2445,0.8493
+xgboost__group_c_pm25_meteorology,Xgboost,group_c_pm25_meteorology,117,27.9454,0.0601,38.3235,0.8489
+elasticnet__set_b_pm25_history,Elasticnet,set_b_pm25_history,29,28.0744,0.6669,38.8857,0.8438
+ridge__set_b_pm25_history,Ridge,set_b_pm25_history,29,28.1041,0.6907,38.9233,0.8435
+xgboost__set_b_pm25_history,Xgboost,set_b_pm25_history,29,28.147,0.2637,38.6804,0.8463
+ridge__domain_reduced,Ridge,domain_reduced,15,28.2418,0.8597,39.1885,0.8414
+elasticnet__domain_reduced,Elasticnet,domain_reduced,15,28.2423,0.8592,39.1876,0.8414
+xgboost__domain_reduced,Xgboost,domain_reduced,15,28.488,0.3286,38.6146,0.8465
+elasticnet__group_e_pm25_met_fire,Elasticnet,group_e_pm25_met_fire,147,28.6373,0.2364,39.3366,0.8407
+elasticnet__group_f_pm25_met_fire_transport,Elasticnet,group_f_pm25_met_fire_transport,147,28.6373,0.2364,39.3366,0.8407
+elasticnet__group_c_pm25_meteorology,Elasticnet,group_c_pm25_meteorology,117,28.8653,0.6748,39.355,0.8403
+ridge__group_e_pm25_met_fire,Ridge,group_e_pm25_met_fire,147,29.0373,0.7335,39.4968,0.8391
+ridge__group_f_pm25_met_fire_transport,Ridge,group_f_pm25_met_fire_transport,147,29.0373,0.7335,39.4968,0.8391
+ridge__group_c_pm25_meteorology,Ridge,group_c_pm25_meteorology,117,29.0898,0.6015,39.5126,0.8392

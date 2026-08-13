@@ -1,0 +1,43 @@
+Study_Name,Model,Feature_Set,Feature_Count,Fold,Val_Year,MAE,RMSE,R2,Median_AE
+persistence__pm25_lag_1d,Persistence,pm25_lag_1d,1,1,2022,35.2211,51.429,0.71,23.09
+persistence__pm25_lag_1d,Persistence,pm25_lag_1d,1,2,2023,35.0352,48.5297,0.7751,25.18
+ridge__set_b_pm25_history,Ridge,set_b_pm25_history,29,1,2022,28.7949,40.4902,0.8202,19.4952
+ridge__set_b_pm25_history,Ridge,set_b_pm25_history,29,2,2023,27.4134,37.3564,0.8667,19.0885
+ridge__group_c_pm25_meteorology,Ridge,group_c_pm25_meteorology,117,1,2022,29.6913,40.5838,0.8194,20.5195
+ridge__group_c_pm25_meteorology,Ridge,group_c_pm25_meteorology,117,2,2023,28.4883,38.4414,0.8589,19.7471
+ridge__group_e_pm25_met_fire,Ridge,group_e_pm25_met_fire,147,1,2022,29.7708,40.76,0.8178,21.6248
+ridge__group_e_pm25_met_fire,Ridge,group_e_pm25_met_fire,147,2,2023,28.3038,38.2336,0.8604,19.8128
+ridge__group_f_pm25_met_fire_transport,Ridge,group_f_pm25_met_fire_transport,147,1,2022,29.7708,40.76,0.8178,21.6248
+ridge__group_f_pm25_met_fire_transport,Ridge,group_f_pm25_met_fire_transport,147,2,2023,28.3038,38.2336,0.8604,19.8128
+ridge__domain_reduced,Ridge,domain_reduced,15,1,2022,29.1015,40.7564,0.8179,20.0648
+ridge__domain_reduced,Ridge,domain_reduced,15,2,2023,27.3822,37.6207,0.8648,18.708
+elasticnet__set_b_pm25_history,Elasticnet,set_b_pm25_history,29,1,2022,28.7414,40.3809,0.8212,19.0771
+elasticnet__set_b_pm25_history,Elasticnet,set_b_pm25_history,29,2,2023,27.4075,37.3905,0.8665,19.0513
+elasticnet__group_c_pm25_meteorology,Elasticnet,group_c_pm25_meteorology,117,1,2022,29.5401,40.5247,0.8199,20.9084
+elasticnet__group_c_pm25_meteorology,Elasticnet,group_c_pm25_meteorology,117,2,2023,28.1905,38.1853,0.8607,19.4584
+elasticnet__group_e_pm25_met_fire,Elasticnet,group_e_pm25_met_fire,147,1,2022,28.8737,40.3013,0.8219,19.8885
+elasticnet__group_e_pm25_met_fire,Elasticnet,group_e_pm25_met_fire,147,2,2023,28.4008,38.3719,0.8594,20.3998
+elasticnet__group_f_pm25_met_fire_transport,Elasticnet,group_f_pm25_met_fire_transport,147,1,2022,28.8737,40.3013,0.8219,19.8885
+elasticnet__group_f_pm25_met_fire_transport,Elasticnet,group_f_pm25_met_fire_transport,147,2,2023,28.4008,38.3719,0.8594,20.3998
+elasticnet__domain_reduced,Elasticnet,domain_reduced,15,1,2022,29.1015,40.7552,0.8179,20.0646
+elasticnet__domain_reduced,Elasticnet,domain_reduced,15,2,2023,27.3831,37.62,0.8648,18.6973
+random_forest__set_b_pm25_history,Random Forest,set_b_pm25_history,29,1,2022,27.6517,38.6242,0.8364,19.8541
+random_forest__set_b_pm25_history,Random Forest,set_b_pm25_history,29,2,2023,27.2789,37.2066,0.8678,19.8487
+random_forest__group_c_pm25_meteorology,Random Forest,group_c_pm25_meteorology,117,1,2022,28.0582,39.0087,0.8332,19.8135
+random_forest__group_c_pm25_meteorology,Random Forest,group_c_pm25_meteorology,117,2,2023,26.9056,36.6162,0.8719,18.8316
+random_forest__group_e_pm25_met_fire,Random Forest,group_e_pm25_met_fire,147,1,2022,28.0048,38.9449,0.8337,19.776
+random_forest__group_e_pm25_met_fire,Random Forest,group_e_pm25_met_fire,147,2,2023,26.8313,36.3605,0.8737,18.8438
+random_forest__group_f_pm25_met_fire_transport,Random Forest,group_f_pm25_met_fire_transport,147,1,2022,28.0048,38.9449,0.8337,19.776
+random_forest__group_f_pm25_met_fire_transport,Random Forest,group_f_pm25_met_fire_transport,147,2,2023,26.8313,36.3605,0.8737,18.8438
+random_forest__domain_reduced,Random Forest,domain_reduced,15,1,2022,28.1368,39.288,0.8308,18.8586
+random_forest__domain_reduced,Random Forest,domain_reduced,15,2,2023,27.4675,37.2009,0.8678,19.8622
+xgboost__set_b_pm25_history,Xgboost,set_b_pm25_history,29,1,2022,27.8833,39.0327,0.833,20.2944
+xgboost__set_b_pm25_history,Xgboost,set_b_pm25_history,29,2,2023,28.4107,38.328,0.8597,21.4996
+xgboost__group_c_pm25_meteorology,Xgboost,group_c_pm25_meteorology,117,1,2022,28.0054,39.1197,0.8322,19.7439
+xgboost__group_c_pm25_meteorology,Xgboost,group_c_pm25_meteorology,117,2,2023,27.8853,37.5274,0.8655,21.7064
+xgboost__group_e_pm25_met_fire,Xgboost,group_e_pm25_met_fire,147,1,2022,28.0791,39.0523,0.8328,18.9731
+xgboost__group_e_pm25_met_fire,Xgboost,group_e_pm25_met_fire,147,2,2023,27.4836,37.137,0.8683,21.1091
+xgboost__group_f_pm25_met_fire_transport,Xgboost,group_f_pm25_met_fire_transport,147,1,2022,28.0791,39.0523,0.8328,18.9731
+xgboost__group_f_pm25_met_fire_transport,Xgboost,group_f_pm25_met_fire_transport,147,2,2023,27.4836,37.137,0.8683,21.1091
+xgboost__domain_reduced,Xgboost,domain_reduced,15,1,2022,28.8166,39.4303,0.8295,20.645
+xgboost__domain_reduced,Xgboost,domain_reduced,15,2,2023,28.1594,37.7989,0.8635,22.291

@@ -1,0 +1,16 @@
+{
+    "experiment_id": "phase3g_hyperparameter_tuning",
+    "timestamp": "2026-08-13T13:03:51.175249+00:00",
+    "n_trials_per_study": 50,
+    "target_model": "all",
+    "selected_final_model": {
+        "Study_Name": "random_forest__group_e_pm25_met_fire",
+        "Model": "Random Forest",
+        "Feature_Set": "group_e_pm25_met_fire",
+        "Feature_Count": 147,
+        "Dev_Mean_MAE": 27.4181,
+        "Dev_MAE_Std": 0.5868,
+        "Dev_Mean_RMSE": 37.6527,
+        "Dev_Mean_R2": 0.8537
+    }
+}

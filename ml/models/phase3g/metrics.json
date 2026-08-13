@@ -1,0 +1,10 @@
+{
+    "dev_walk_forward_mean_mae": 27.4181,
+    "dev_walk_forward_mae_std": 0.5868,
+    "final_test_2024_mae": 26.7655,
+    "final_test_2024_rmse": 36.449,
+    "final_test_2024_r2": 0.8538,
+    "final_test_2024_median_ae": 19.073,
+    "persistence_test_2024_mae": 34.388,
+    "improvement_vs_persistence_pct": 22.17
+}

@@ -1,0 +1,3 @@
+Model,Feature_Set,Feature_Count,Test_MAE,Test_RMSE,Test_R2,Test_Median_AE,Improvement_vs_Persistence_Pct
+Persistence Baseline,pm25_lag_1d,1,34.388,47.8482,0.748,25.375,0.0
+Random Forest,group_e_pm25_met_fire,147,26.7655,36.449,0.8538,19.073,22.17
