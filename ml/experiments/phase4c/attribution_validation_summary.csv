@@ -1,0 +1,6 @@
+attribution_group,shap_magnitude_mean_abs,signed_shap_mean,observed_environmental_evidence,agreement_score,confidence_level,physical_plausibility
+pm25_persistence,81.14299175577305,-0.3350822433086421,Historical PM2.5 persistence & short-term rolling momentum,3,High,Strong baseline inertia co-occurs with high persistence SHAP
+biomass_burning,1.6859076996263849,0.5582374469971897,Satellite MODIS/VIIRS upwind fire counts (Spearman r = 0.529),3,High,Elevated upwind fire activity co-occurs with positive biomass SHAP
+wind_ventilation,1.449377706072566,-0.546033600562485,Surface wind speed & stagnation (Spearman r = -0.559),3,High,Low wind speed stagnation co-occurs with positive ventilation SHAP
+meteorology,1.3454505401872008,0.9302960131294263,Cold winter temperatures & high humidity (Spearman r = -0.476),2,Moderate,Winter thermal inversions & aerosol hydro-swelling co-occur with met SHAP
+calendar_seasonal,0.0,0.0,Diwali festival & cultural emissions windows,2,Moderate,Acute festival windows co-occur with positive seasonal SHAP

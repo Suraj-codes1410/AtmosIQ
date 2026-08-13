@@ -1,0 +1,5 @@
+metric,value,p_value,notes
+spearman_corr_temperature,-0.4761635202130537,4.943115004131676e-104,Cold winter inversion correlation
+spearman_corr_humidity,0.4467244322137029,2.5493536055845046e-90,Secondary inorganic aerosol hydro-swelling
+mean_met_shap_cold_winter,1.6511526846645832,,Cold temperature regime
+mean_met_shap_warm_summer,0.19535232717654819,,Warm temperature regime

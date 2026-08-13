@@ -1,0 +1,11 @@
+test_name,year_pair,correlation_coefficient,p_value,sample_size,stability_status
+spearman_inter_year_group_rank_correlation,2020 vs 2021,0.9999999999999999,1.4042654220543602e-24,5,HIGHLY_STABLE
+spearman_inter_year_group_rank_correlation,2020 vs 2022,0.8999999999999998,0.03738607346849874,5,HIGHLY_STABLE
+spearman_inter_year_group_rank_correlation,2020 vs 2023,0.8999999999999998,0.03738607346849874,5,HIGHLY_STABLE
+spearman_inter_year_group_rank_correlation,2020 vs 2024,0.7,0.1881204043741873,5,STABLE
+spearman_inter_year_group_rank_correlation,2021 vs 2022,0.8999999999999998,0.03738607346849874,5,HIGHLY_STABLE
+spearman_inter_year_group_rank_correlation,2021 vs 2023,0.8999999999999998,0.03738607346849874,5,HIGHLY_STABLE
+spearman_inter_year_group_rank_correlation,2021 vs 2024,0.7,0.1881204043741873,5,STABLE
+spearman_inter_year_group_rank_correlation,2022 vs 2023,0.9999999999999999,1.4042654220543602e-24,5,HIGHLY_STABLE
+spearman_inter_year_group_rank_correlation,2022 vs 2024,0.8999999999999998,0.03738607346849874,5,HIGHLY_STABLE
+spearman_inter_year_group_rank_correlation,2023 vs 2024,0.8999999999999998,0.03738607346849874,5,HIGHLY_STABLE

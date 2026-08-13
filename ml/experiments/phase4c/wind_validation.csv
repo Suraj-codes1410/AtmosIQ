@@ -1,0 +1,7 @@
+metric,value,p_value,notes
+spearman_correlation,-0.558737836977895,1.6393868372927206e-150,Expected negative: lower wind -> positive SHAP
+pearson_correlation,-0.4825019889036832,3.646217063455361e-107,Linear correlation
+mean_shap_low_wind_stagnation,2.5725193566148032,,Low wind <= 5km/h regime
+mean_shap_high_wind_dispersion,-0.9796198506507664,,High wind >= 12km/h regime
+pos_shap_freq_low_wind,1.0,,Positive SHAP fraction low wind
+pos_shap_freq_high_wind,0.17444529456771232,,Positive SHAP fraction high wind

@@ -1,0 +1,12 @@
+metric,value,p_value,notes
+spearman_correlation,0.5290580507898107,2.610621720445517e-132,Primary robust correlation
+pearson_correlation,0.5670213335330142,6.290481899894262e-156,Linear correlation
+mean_shap_low_fire_q25,-0.4317496587832351,,Low fire threshold <= 18.0
+mean_shap_normal_fire,-0.18321959171220653,,Normal fire range 18.0 to 96.0
+mean_shap_high_fire_q75,3.035577698998833,,High fire threshold >= 96.0
+median_shap_low_fire,-0.7446394721257205,,Median SHAP low fire
+median_shap_high_fire,2.3478513548896713,,Median SHAP high fire
+pos_shap_freq_low_fire,0.15581854043392504,,Positive SHAP fraction low fire
+pos_shap_freq_high_fire,0.8869565217391304,,Positive SHAP fraction high fire
+p_high_shap_given_high_fire,0.6565217391304348,,Conditional probability
+p_high_fire_given_high_shap,0.6608315098468271,,Conditional probability
