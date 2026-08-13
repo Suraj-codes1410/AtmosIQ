@@ -1,0 +1,13 @@
+{
+    "os_name": "Linux",
+    "os_version": "#29-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 17 20:52:35 UTC 2026",
+    "python_version": "3.14.4",
+    "pandas_version": "2.3.3",
+    "numpy_version": "2.4.6",
+    "scikit_learn_version": "1.9.0",
+    "scipy_version": "1.18.0",
+    "joblib_version": "1.5.3",
+    "xgboost_version": "3.4.0",
+    "lightgbm_version": "4.7.0",
+    "shap_version": "0.52.0"
+}
