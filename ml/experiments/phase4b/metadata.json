@@ -1,0 +1,25 @@
+{
+    "phase": "Phase 4B",
+    "timestamp": "2026-08-13T17:22:23.256593+00:00",
+    "model_type": "random_forest",
+    "model_hash": "6fe0fb5eeec5b81a8b14e3ef423bc30fbd9e20ebaf8f9d0c64700d603a1fc6c5",
+    "dataset_version": "v2",
+    "dataset_hash": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+    "feature_count": 147,
+    "observations_explained": 1827,
+    "shap_library_version": "0.52.0",
+    "python_version": "3.14.4",
+    "explainer_type": "TreeExplainer",
+    "expected_base_value": 143.16253234086244,
+    "reconstruction_tolerance": 0.0001,
+    "max_reconstruction_error": 3.979039320256561e-13,
+    "mean_reconstruction_error": 5.787792552589935e-14,
+    "attribution_groups": [
+        "pm25_persistence",
+        "meteorology",
+        "wind_ventilation",
+        "biomass_burning",
+        "calendar_seasonal"
+    ],
+    "ready_for_phase4c": true
+}

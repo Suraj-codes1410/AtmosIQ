@@ -1,0 +1,8 @@
+metric,value,status
+max_absolute_error,3.979039320256561e-13,PASS
+mean_absolute_error,5.787792552589935e-14,PASS
+median_absolute_error,3.552713678800501e-14,PASS
+p95_absolute_error,1.9895196601282805e-13,PASS
+rmse_reconstruction,8.606705381055728e-14,PASS
+group_max_absolute_error,3.979039320256561e-13,PASS
+tolerance_threshold,0.0001,INFO
