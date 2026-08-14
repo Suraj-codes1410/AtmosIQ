@@ -2,6 +2,9 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Any
 from fastapi import FastAPI, HTTPException, Path as APIPath
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent.parent.parent
 if str(ROOT_DIR) not in sys.path:
@@ -30,6 +33,15 @@ app = FastAPI(
     title="AtmosIQ Source Attribution & Decision Support API",
     description="RESTful API serving PM2.5 predictions, TreeSHAP attributions, environmental validation, counter-evidence, and counterfactual scenario sensitivities.",
     version="1.0.0"
+)
+
+# Enable CORS for security & local frontend dev
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # Shared Service Singletons
@@ -143,7 +155,7 @@ def get_events():
 
 
 @app.get("/api/v1/events/{event_id}", response_model=EventResponse, tags=["Events"])
-def get_event(event_id: str = APIPath(..., description="Event ID, e.g., EVENT_2024_001")):
+def get_event(event_id: str = APIPath(..., description="Event ID, e.g., EVT_001")):
     services = get_services()
     try:
         return services["event"].explain_event_by_id(event_id)
@@ -161,3 +173,16 @@ def analyze_period(
         return services["engine"].analyze_period(start_date, end_date)
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
+
+
+# Mount built frontend dist files if present
+frontend_dist = ROOT_DIR / "frontend" / "dist"
+if frontend_dist.exists():
+    app.mount("/assets", StaticFiles(directory=frontend_dist / "assets"), name="assets")
+
+    @app.get("/{full_path:path}", include_in_schema=False)
+    def serve_frontend(full_path: str):
+        file_path = frontend_dist / full_path
+        if file_path.exists() and file_path.is_file():
+            return FileResponse(file_path)
+        return FileResponse(frontend_dist / "index.html")
