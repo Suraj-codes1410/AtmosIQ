@@ -1,0 +1,2 @@
+group_spearman_rho,feature_spearman_rho,num_stable_groups,num_shifted_groups,num_new_groups,num_new_features,num_stable_features,overall_attribution_stability
+0.7,0.8211462450592886,4,1,1,12,6,MODERATE

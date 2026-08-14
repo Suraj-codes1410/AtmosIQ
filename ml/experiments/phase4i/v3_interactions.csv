@@ -1,0 +1,2 @@
+interaction_pair,mean_delta_A_ugm3,mean_delta_B_ugm3,mean_delta_AB_combined_ugm3,mean_non_additive_interaction_ugm3,std_non_additive_interaction_ugm3,interaction_type,explanation
+Biomass_Low x Wind_Dispersion,-0.32559323692250564,-4.829219259336514,-5.098976699605457,0.05583579665356354,0.6483347075051502,ADDITIVE,Model predicts enhanced PM2.5 reduction when favorable dispersion coincides with reduced stubble emissions.

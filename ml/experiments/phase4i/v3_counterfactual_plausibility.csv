@@ -1,0 +1,10 @@
+scenario,num_intervened_features,feature_isolation_pass,prediction_validity_pass,mean_ood_distance,max_ood_distance,overall_plausibility_pass,status
+biomass_low,4,True,True,0.92296757433277,2.2602267766480075,True,PASS
+biomass_median,3,True,True,0.9333816090269549,2.3006220284858614,True,PASS
+biomass_high,4,True,True,1.0797767976482748,2.32540724424632,True,PASS
+wind_stagnant,6,True,True,0.995493123364407,2.430480761428565,True,PASS
+wind_normal,6,True,True,0.8707888023269021,2.3853638547979994,True,PASS
+wind_dispersion,6,True,True,1.0609663872679636,2.4567896127586764,True,PASS
+meteorology_normal,4,True,True,0.9055216725552392,2.4227999006097196,True,PASS
+combined_biomass_wind,10,True,True,1.0255437750811514,2.285798468767758,True,PASS
+combined_all_favorable,14,True,True,1.1103876813545759,2.339887058324773,True,PASS

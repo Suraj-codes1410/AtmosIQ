@@ -1,0 +1,36 @@
+feature,group,rationale,source,mapping_confidence
+pm25_lag_1d,pm25_persistence,Prior day PM2.5 baseline persistence,Dataset_v3,1.0
+pm25_lag_2d,pm25_persistence,2-day lag PM2.5 memory,Dataset_v3,1.0
+pm25_lag_3d,pm25_persistence,3-day lag PM2.5 memory,Dataset_v3,1.0
+pm25_lag_7d,pm25_persistence,Weekly lag PM2.5 memory,Dataset_v3,1.0
+pm25_roll_mean_3d,pm25_persistence,Short-term 3-day mean accumulation,Dataset_v3,1.0
+pm25_roll_mean_7d,pm25_persistence,Medium-term 7-day mean accumulation,Dataset_v3,1.0
+pm25_roll_mean_14d,pm25_persistence,Long-term 14-day mean accumulation,Dataset_v3,1.0
+pm25_roll_std_7d,pm25_persistence,7-day PM2.5 volatility/variance,Dataset_v3,1.0
+pm25_roll_max_7d,pm25_persistence,7-day peak PM2.5 exposure,Dataset_v3,1.0
+pm25_roll_min_7d,pm25_persistence,7-day minimum baseline pollution,Dataset_v3,1.0
+temperature_c_lag_1d,meteorology,Ambient surface temperature lag,Dataset_v3,1.0
+temperature_c_roll_mean_3d,meteorology,3-day thermal trend,Dataset_v3,1.0
+temperature_c_roll_min_3d,meteorology,3-day minimum temperature / winter inversion indicator,Dataset_v3,1.0
+humidity_pct_lag_1d,meteorology,Relative humidity lag,Dataset_v3,1.0
+humidity_pct_roll_mean_3d,meteorology,3-day average humidity / hygroscopic growth,Dataset_v3,1.0
+humidity_pct_roll_max_7d,meteorology,7-day maximum humidity indicator,Dataset_v3,1.0
+wind_speed_kmh_lag_1d,wind_ventilation,Surface wind speed lag,Dataset_v3,1.0
+wind_speed_kmh_roll_mean_3d,wind_ventilation,3-day wind speed dispersion capability,Dataset_v3,1.0
+wind_u_component_1d,wind_ventilation,Zonal wind vector component (East-West),Dataset_v3_ERA5,1.0
+wind_v_component_1d,wind_ventilation,Meridional wind vector component (North-South),Dataset_v3_ERA5,1.0
+is_stubble_season,biomass_burning,Northwest agricultural stubble burning window indicator,Dataset_v3,1.0
+fire_hotspot_count_lag_1d,biomass_burning,VIIRS/MODIS active fire hotspot count,Dataset_v3,1.0
+fire_hotspot_count_roll_mean_3d,biomass_burning,3-day mean upstream fire activity,Dataset_v3,1.0
+fire_hotspot_count_roll_mean_7d,biomass_burning,7-day cumulative regional fire activity,Dataset_v3,1.0
+upwind_stubble_quadrant_1d,biomass_burning,Stubble fires in NW upwind transport corridor,Dataset_v3_NASA_FIRMS,1.0
+rainfall_1d,external_environmental,Daily cumulative precipitation (IMD/ERA5),Dataset_v3_ERA5,1.0
+rainfall_3d,external_environmental,3-day accumulated rainfall,Dataset_v3_ERA5,1.0
+rain_event_1d,external_environmental,Precipitation binary indicator (Rain >= 1mm),Dataset_v3_ERA5,1.0
+washout_index_3d,external_environmental,Wet deposition aerosol washout index,Dataset_v3_ERA5,1.0
+pblh_1d,wind_ventilation,Planetary Boundary Layer Height (mixing layer depth),Dataset_v3_ERA5,1.0
+pblh_min_1d,wind_ventilation,Minimum overnight PBL height (nocturnal inversion depth),Dataset_v3_ERA5,1.0
+pblh_roll_mean_3d,wind_ventilation,3-day mean mixing depth,Dataset_v3_ERA5,1.0
+ventilation_index_1d,wind_ventilation,Ventilation Index (Wind Speed * PBLH),Dataset_v3_ERA5,1.0
+aod_550_1d,external_environmental,MODIS Satellite Aerosol Optical Depth at 550nm,Dataset_v3_MODIS,1.0
+festival_window,calendar_seasonal,Diwali & festival anthropogenic surge window,Dataset_v3,1.0

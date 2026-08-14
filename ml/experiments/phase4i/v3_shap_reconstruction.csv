@@ -1,0 +1,2 @@
+max_reconstruction_error,mean_reconstruction_error,median_reconstruction_error,p95_reconstruction_error,tolerance,validation_status
+1.9326762412674725e-12,2.427784908583703e-13,1.9895196601282805e-13,6.49436060484729e-13,0.0001,PASS

@@ -1,0 +1,11 @@
+feature,mean_abs_shap,mean_signed_shap,spearman_corr_obs_vs_shap,physically_plausible,validation_notes
+rainfall_1d,0.014443683726149171,0.0009724763989113289,-0.3092887807278731,True,Expected negative impact on PM2.5
+rainfall_3d,0.2372568432673492,0.08702964440266678,-0.811952265859019,True,Expected negative impact on PM2.5
+rain_event_1d,0.004883209737252995,0.0006245380516833551,0.19118376692027853,True,Expected negative impact on PM2.5
+washout_index_3d,0.2226225188085404,0.08521989284127618,-0.7693119414963954,True,Expected positive impact on PM2.5
+pblh_1d,1.0082028239816372,0.365949582305059,-0.8433165509886313,True,Expected negative impact on PM2.5
+pblh_min_1d,0.8315009442719941,0.09161295654780996,-0.8561107799843058,True,Expected negative impact on PM2.5
+pblh_roll_mean_3d,2.928240629980507,1.5603813486301623,-0.8827005819556708,True,Expected negative impact on PM2.5
+ventilation_index_1d,0.17838912382071814,-0.0628844061989946,-0.28765479869019966,True,Expected positive impact on PM2.5
+aod_550_1d,52.584862405202,-5.510219883802656,0.9813767329317543,True,Expected positive impact on PM2.5
+upwind_stubble_quadrant_1d,0.18432968172639902,0.01657040654008166,0.26998906063491857,True,Expected positive impact on PM2.5

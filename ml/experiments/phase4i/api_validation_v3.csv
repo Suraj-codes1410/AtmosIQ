@@ -1,0 +1,11 @@
+endpoint,target_model_version,target_feature_set,model_sha256_verified,dataset_sha256_verified,returns_stale_v2_data,schema_validation,disclaimer_present,status
+/api/v1/health,v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/model/info,v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/prediction/{date},v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/attribution/{date},v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/validation/{date},v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/counterfactual/{date}/{scenario},v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/decision-support/{date},v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/events,v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/events/{event_id},v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
+/api/v1/event-analysis/{start_date}/{end_date},v3,Candidate_C_V3_Compact,True,True,False,PASS,True,PASS
