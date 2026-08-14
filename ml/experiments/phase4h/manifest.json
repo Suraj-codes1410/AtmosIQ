@@ -1,0 +1,25 @@
+{
+    "experiment": "Phase 4H - Dataset v3 Production Candidate Evaluation",
+    "files": [
+        "model_metrics.csv",
+        "fold_results.csv",
+        "checksums.txt",
+        "walk_forward_results.csv",
+        "stability_results.csv",
+        "environment.json",
+        "statistical_comparisons.csv",
+        "seasonal_results.csv",
+        "feature_importance.csv",
+        "bootstrap_results.csv",
+        "extreme_event_results.csv",
+        "model_comparison.csv",
+        "ablation_results.csv",
+        "optuna_trials.csv",
+        "promotion_decision.json",
+        "manifest.json",
+        "phase4h_leakage_audit.csv",
+        "metadata.json"
+    ],
+    "status": "COMPLETE",
+    "promotion_decision": "V3 PROMOTION RECOMMENDED"
+}

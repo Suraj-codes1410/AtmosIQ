@@ -1,0 +1,2 @@
+model_name,feature_set,sample_size_n,mean_error_difference,median_error_difference,wilcoxon_statistic,p_value,p_value_formatted,delta_mae_mean,delta_mae_ci_lower,delta_mae_ci_upper,delta_rmse_mean,delta_rmse_ci_lower,delta_rmse_ci_upper,delta_r2_mean,delta_r2_ci_lower,delta_r2_ci_upper,statistically_significant
+RandomForest,Candidate_C_V3_Compact,1096,-8.6428,-3.9657,175404.0,3.556746895574062e-33,3.5567e-33,-8.6056,-9.775,-7.2943,-12.815,-14.497,-10.8046,0.076,0.0632,0.0878,True

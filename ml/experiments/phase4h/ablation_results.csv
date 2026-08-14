@@ -1,0 +1,5 @@
+ablation_config,model_name,num_features,mean_mae,mean_rmse,mean_r2,delta_mae_vs_v2_only,delta_rmse_vs_v2_only,delta_r2_vs_v2_only
+Model_A_v2_only,RandomForest,147,27.4428,37.5968,0.8509,0.0,0.0,0.0
+Model_B_v2_plus_rainfall,RandomForest,152,27.36,37.4762,0.8518,-0.0828,-0.1206,0.0009
+Model_C_v2_plus_pbl,RandomForest,151,27.4082,37.1463,0.8541,-0.0346,-0.4505,0.0032
+Model_D_v2_plus_all_external,RandomForest,161,17.0031,21.8019,0.9497,-10.4397,-15.7949,0.0989

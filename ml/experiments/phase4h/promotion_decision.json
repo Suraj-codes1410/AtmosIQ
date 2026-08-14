@@ -1,0 +1,24 @@
+{
+    "decision": "V3 PROMOTION RECOMMENDED",
+    "recommendation_code": "OUTCOME_A_PROMOTE_V3",
+    "selected_candidate_model": "RandomForest",
+    "selected_feature_set": "Candidate_C_V3_Compact",
+    "candidate_mean_mae": 17.0168,
+    "control_mean_mae": 25.6586,
+    "delta_mae": -8.6418,
+    "delta_r2": 0.0767,
+    "wilcoxon_p_value": 3.556746895574062e-33,
+    "bootstrap_95_ci_delta_mae": [
+        -9.775,
+        -7.2943
+    ],
+    "extreme_pm25_mae_candidate": 22.0649,
+    "extreme_pm25_mae_control": 39.5013,
+    "criteria_evaluation": {
+        "leakage_audit_passed": true,
+        "mae_improvement_threshold_met": true,
+        "statistically_significant": true,
+        "extreme_pollution_integrity": true
+    },
+    "decision_summary": "Candidate model 'RandomForest' trained on Dataset v3 (Candidate_C_V3_Compact) meets all pre-defined promotion criteria. It achieves a statistically significant overall MAE reduction of 8.6418 ug/m3 (p=3.5567e-33, 95% CI=[-9.7750, -7.2943]) and improves R2 by +0.0767 without extreme-event degradation."
+}
