@@ -1,0 +1,23 @@
+{
+    "phase": "Phase 4D",
+    "timestamp": "2026-08-13T21:16:09.658790+00:00",
+    "model_type": "random_forest",
+    "model_hash": "55d7f6ab0afc5395dc8647e64302c5fbc7b30b5f9e80d8a7a3ed733c8fc27162",
+    "dataset_version": "v2",
+    "dataset_hash": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+    "feature_count": 147,
+    "observations_simulated": 1827,
+    "scenarios_evaluated": [
+        "biomass_low",
+        "biomass_median",
+        "biomass_high",
+        "wind_stagnant",
+        "wind_normal",
+        "wind_dispersion",
+        "meteorology_normal",
+        "combined_biomass_wind",
+        "combined_all_favorable"
+    ],
+    "high_confidence_counterfactual_pct": 0.40138660828316,
+    "ready_for_phase4e": true
+}
