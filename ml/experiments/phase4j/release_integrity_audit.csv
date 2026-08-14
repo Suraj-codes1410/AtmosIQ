@@ -1,0 +1,17 @@
+audit_check,expected,observed,status,notes
+Dataset v1 Hash,c271bfc6df5dc442737b32e42d2e722c7f08266f77f1820649b7873e0d8b10df,c271bfc6df5dc442737b32e42d2e722c7f08266f77f1820649b7873e0d8b10df,PASS,Immutable artifact integrity verified
+Dataset v2 Hash,e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301,e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301,PASS,Immutable artifact integrity verified
+Dataset v3 Hash,78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736,78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736,PASS,Immutable artifact integrity verified
+Phase 3G/v2 Control Model Hash,55d7f6ab0afc5395dc8647e64302c5fbc7b30b5f9e80d8a7a3ed733c8fc27162,55d7f6ab0afc5395dc8647e64302c5fbc7b30b5f9e80d8a7a3ed733c8fc27162,PASS,Immutable artifact integrity verified
+Phase 4H/v3 Promoted Model Hash,9ed048448197dd36574d3b73e8e5c70534e1db7eba3d2f89bb775f4855d88210,9ed048448197dd36574d3b73e8e5c70534e1db7eba3d2f89bb775f4855d88210,PASS,Immutable artifact integrity verified
+Dataset v3 Row Count,1827,1827,PASS,"Exact 1,827 daily rows"
+Dataset v3 Start Date,2020-01-01,2020-01-01,PASS,Exact start date
+Dataset v3 End Date,2024-12-31,2024-12-31,PASS,Exact end date
+Dataset v3 Missing Dates,0,0,PASS,Zero missing dates in timeline
+Dataset v3 Duplicate Dates,0,0,PASS,Zero duplicate dates
+Dataset v3 Target Validity (0-1000 µg/m³),Valid non-null range,All in range,PASS,Physical bounds respected
+Production Feature Count,35,35,PASS,Exactly 35 registered prediction-safe features
+Production Features in Dataset v3,True,True,PASS,All 35 features exist in Dataset v3
+Production Feature Leakage Audit,0 unsafe features,0 unsafe features,PASS,Zero same-day targets in model input
+Production Feature Missing Values,0,0,PASS,Clean zero-missingness in model inputs
+Dataset v3 Total Columns vs Model Features,275 total cols != 35 model features,276 total cols vs 35 model feats,PASS,Model strictly isolates 35 features

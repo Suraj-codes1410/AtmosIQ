@@ -1,0 +1,36 @@
+model_order,feature_name,group,unit
+1,pm25_lag_1d,auxiliary,various
+2,pm25_lag_2d,auxiliary,various
+3,pm25_lag_3d,auxiliary,various
+4,pm25_lag_7d,auxiliary,various
+5,pm25_roll_mean_3d,auxiliary,various
+6,pm25_roll_mean_7d,auxiliary,various
+7,pm25_roll_mean_14d,auxiliary,various
+8,pm25_roll_std_7d,auxiliary,various
+9,pm25_roll_max_7d,auxiliary,various
+10,pm25_roll_min_7d,auxiliary,various
+11,temperature_c_lag_1d,meteorology,°C / %
+12,temperature_c_roll_mean_3d,meteorology,°C / %
+13,temperature_c_roll_min_3d,meteorology,°C / %
+14,humidity_pct_lag_1d,meteorology,°C / %
+15,humidity_pct_roll_mean_3d,meteorology,°C / %
+16,humidity_pct_roll_max_7d,meteorology,°C / %
+17,wind_speed_kmh_lag_1d,wind_ventilation,km/h or m/s
+18,wind_speed_kmh_roll_mean_3d,wind_ventilation,km/h or m/s
+19,wind_u_component_1d,wind_ventilation,km/h or m/s
+20,wind_v_component_1d,wind_ventilation,km/h or m/s
+21,is_stubble_season,biomass_burning,count / flag
+22,fire_hotspot_count_lag_1d,biomass_burning,count / flag
+23,fire_hotspot_count_roll_mean_3d,biomass_burning,count / flag
+24,fire_hotspot_count_roll_mean_7d,biomass_burning,count / flag
+25,upwind_stubble_quadrant_1d,biomass_burning,count / flag
+26,rainfall_1d,external_environmental,mm
+27,rainfall_3d,external_environmental,mm
+28,rain_event_1d,external_environmental,mm
+29,washout_index_3d,auxiliary,various
+30,pblh_1d,wind_ventilation,m or m²/s
+31,pblh_min_1d,wind_ventilation,m or m²/s
+32,pblh_roll_mean_3d,wind_ventilation,m or m²/s
+33,ventilation_index_1d,wind_ventilation,m or m²/s
+34,aod_550_1d,external_environmental,unitless
+35,festival_window,wind_ventilation,km/h or m/s

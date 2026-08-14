@@ -1,0 +1,14 @@
+{
+    "dataset_name": "Dataset_v3",
+    "dataset_version": "v3.0.0",
+    "sha256": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+    "row_count": 1827,
+    "total_columns": 275,
+    "production_model_input_features": 35,
+    "date_range": {
+        "start_date": "2020-01-01",
+        "end_date": "2024-12-31"
+    },
+    "publication_status": "PRIVATE_UNPUBLISHED_RELEASE_CANDIDATE",
+    "intended_use": "Research forecasting, environmental attribution, and counterfactual sensitivity evaluation."
+}

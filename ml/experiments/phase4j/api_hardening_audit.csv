@@ -1,0 +1,11 @@
+endpoint,description,model_version,feature_count,model_hash_verified,dataset_hash_verified,silently_falls_back_to_v2,schema_contract_status,status
+GET /api/v1/health,System health and runtime status,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/model/info,"Model provenance, version, feature registry, and hashes",MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/prediction/{date},Daily PM2.5 forecast with confidence scoring,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/attribution/{date},TreeSHAP feature and group environmental attribution,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/validation/{date},Independent observational evidence consistency,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/counterfactual/{date}/{scenario},Scenario intervention simulation,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/decision-support/{date},Integrated attribution and policy sensitivity,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/events,Registry of historical extreme pollution events,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/events/{event_id},Event-level multi-day attribution and dynamics,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS
+GET /api/v1/event-analysis/{start_date}/{end_date},Custom range attribution analysis,MODEL_V3_PRODUCTION,35,True,True,False,PASS,PASS

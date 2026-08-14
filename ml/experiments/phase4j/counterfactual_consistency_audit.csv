@@ -1,0 +1,4 @@
+category,active_days_count,correct_directional_responses,directional_consistency_pct,historical_benchmark_pct,status
+Biomass Burning (biomass_low on active days SHAP > 1.0),206,198,96.11650485436894,94.4,PASS
+Wind & Ventilation (wind_stagnant on active days SHAP < -1.0),610,575,94.26229508196722,94.4,PASS
+Combined Active Environmental Driver Population,816,773,94.73039215686273,94.4,PASS

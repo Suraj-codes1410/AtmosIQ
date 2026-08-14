@@ -1,0 +1,16 @@
+{
+    "phase": "Phase 4J",
+    "release_version": "v3.0.0",
+    "production_model_name": "MODEL_V3_PRODUCTION",
+    "production_model_hash": "9ed048448197dd36574d3b73e8e5c70534e1db7eba3d2f89bb775f4855d88210",
+    "dataset_v3_hash": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+    "feature_count": 35,
+    "prediction_reproducibility": "PASS",
+    "shap_reconstruction": "PASS",
+    "authoritative_baseline_prediction_ugm3": 143.02171030715172,
+    "active_driver_directional_consistency_pct": 94.73039215686273,
+    "security_scan": "PASS",
+    "public_dataset_release_status": "PRIVATE_UNPUBLISHED_RELEASE_CANDIDATE",
+    "production_freeze_status": "V3_PRODUCTION_FROZEN",
+    "timestamp": "2026-08-14T20:23:21.924529+00:00"
+}

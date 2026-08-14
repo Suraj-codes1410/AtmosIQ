@@ -1,0 +1,6 @@
+dashboard_component,payload_description,contract_required,v3_payload_compatible,non_causal_disclaimer_included,status
+Prediction Component,"Predicted PM2.5, observed PM2.5, prediction error, AQI category",True,True,True,PASS
+Attribution Component,"Top predictive features, group-level SHAP, positive vs negative contributions",True,True,True,PASS
+Environmental Evidence,"Rainfall, wind speed, fire hotspot counts, ventilation index, seasonal context",True,True,True,PASS
+Counterfactual Simulator,"Scenario selector, model sensitivity prediction, Delta PM2.5, OOD bounds",True,True,True,PASS
+Scientific Safeguard Banner,PREDICTIVE IMPORTANCE != SHAP != CAUSAL EFFECT != EMISSION CONTRIBUTION,True,True,True,PASS

@@ -1,0 +1,2 @@
+scanned_files_count,secrets_detected,api_keys_detected,private_keys_detected,security_status,status
+38,0,0,0,CLEAN,PASS

@@ -1,0 +1,2 @@
+total_samples_explained,base_value,max_reconstruction_error,mean_reconstruction_error,median_reconstruction_error,p95_reconstruction_error,tolerance,status
+1827,143.16253234086244,1.9326762412674725e-12,2.427784908583703e-13,1.9895196601282805e-13,6.49436060484729e-13,0.0001,PASS

@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this dataset in research, please cite it as below."
+authors:
+  - family-names: "AtmosIQ Research Team"
+title: "AtmosIQ Delhi NCR PM2.5 Environmental Attribution Dataset (v3)"
+version: 3.0.0
+date-released: 2026-08-15
