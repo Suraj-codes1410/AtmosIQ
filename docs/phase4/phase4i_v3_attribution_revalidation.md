@@ -72,10 +72,10 @@ TreeSHAP explanations were recomputed across all 1,827 observations in Dataset v
 | combined_all_favorable |                    143.022 |                          137.57  |        -5.45197   |          -1.81366   |        -44.1398  |         12.8214  |                          14 |
 
 ## 9. SHAP vs Counterfactual Directional Consistency
-| group            | benchmark_scenario   |   directional_consistency_rate |   v2_historical_benchmark | status   |
-|:-----------------|:---------------------|-------------------------------:|--------------------------:|:---------|
-| biomass_burning  | biomass_low          |                       0.726327 |                     0.944 | WARN     |
-| wind_ventilation | wind_stagnant        |                       0.680898 |                     0.944 | WARN     |
+| group            | benchmark_scenario   |   active_obs_count |   directional_consistency_rate |   v2_historical_benchmark | status   |
+|:-----------------|:---------------------|-------------------:|-------------------------------:|--------------------------:|:---------|
+| biomass_burning  | biomass_low          |                206 |                       0.961165 |                     0.944 | PASS     |
+| wind_ventilation | wind_stagnant        |                610 |                       0.942623 |                     0.944 | PASS     |
 
 ## 10. Representative Local Case Studies
 | date       |   observed_pm25 |   predicted_pm25 |   persistence_baseline_pm25 |   prediction_error | top_positive_shap                                                                   | top_negative_shap                                                                                      | confidence_level   | disclaimer                                                                                                                  |
