@@ -1,0 +1,6 @@
+date,predicted_pm25,observed_pm25,dominant_group,validation_status,has_counter_evidence,biomass_cf_delta,wind_cf_delta,confidence_level,confidence_score
+2024-11-16,280.34,391.94,pm25_persistence,PASS,False,-1.52,-15.18,MODERATE,0.75
+2023-12-25,287.8,308.8,pm25_persistence,PASS,False,0.32,-18.14,MODERATE,0.75
+2024-01-15,291.47,316.52,pm25_persistence,PASS,False,-0.1,-16.42,MODERATE,0.75
+2023-11-12,296.17,333.74,pm25_persistence,PASS,False,-3.66,-18.93,MODERATE,0.75
+2024-02-01,291.21,118.78,pm25_persistence,PASS,False,0.64,-17.81,MODERATE,0.75

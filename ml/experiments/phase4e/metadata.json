@@ -1,0 +1,13 @@
+{
+  "phase": "4E",
+  "title": "Source Attribution API & Decision Support System Integration",
+  "timestamp": "2026-08-14",
+  "api_version": "1.0.0",
+  "python_version": "3.14.4",
+  "model_type": "RandomForestRegressor",
+  "model_hash": "55d7f6ab0afc5395dc8647e64302c5fbc7b30b5f9e80d8a7a3ed733c8fc27162",
+  "dataset_v2_hash": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+  "dataset_v1_hash": "c271bfc6df5dc442737b32e42d2e722c7f08266f77f1820649b7873e0d8b10df",
+  "case_studies_passed": 5,
+  "scientific_disclaimer": "PREDICTIVE IMPORTANCE != SHAP ATTRIBUTION != COUNTERFACTUAL MODEL RESPONSE != CAUSAL EFFECT != ACTUAL EMISSION CONTRIBUTION. AtmosIQ attributions and counterfactual sensitivities explain model feature responses. They do NOT constitute physical chemical-transport simulations or direct causal emission measurements."
+}

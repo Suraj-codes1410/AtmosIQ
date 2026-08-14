@@ -1,0 +1,5 @@
+confidence_tier,score_range,description
+HIGH,"[0.80, 1.00]","High SHAP strength, environmental validation PASS, zero counter-evidence conflicts."
+MODERATE,"[0.50, 0.79]","Moderate SHAP strength, OOD feature vector warning or recorded moderate conflict."
+LOW,"(0.00, 0.49]",Significant counter-evidence conflict or severe OOD distance.
+INVALID,0.00,Unsafe feature values or corrupted inputs.
