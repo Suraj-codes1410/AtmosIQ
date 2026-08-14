@@ -1,0 +1,19 @@
+{
+  "dataset_version": "v3.0.0",
+  "dataset_name": "AtmosIQ Dataset v3 (5-Year PM2.5 + External Environmental Observations)",
+  "date_created": "2026-08-14",
+  "sha256_hash": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+  "row_count": 1827,
+  "col_count": 275,
+  "date_range": {
+    "start": "2020-01-01",
+    "end": "2024-12-31"
+  },
+  "external_feature_groups": [
+    "precipitation",
+    "pbl_height",
+    "aerosol_optical_depth",
+    "transport_winds"
+  ],
+  "lineage": "Dataset v1 -> Dataset v2 -> Dataset v3"
+}

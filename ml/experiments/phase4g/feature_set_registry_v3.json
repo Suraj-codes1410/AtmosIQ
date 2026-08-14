@@ -1,0 +1,37 @@
+{
+  "Set_A_Baseline_V2": "147 prediction-safe features from Dataset v2",
+  "Set_B_V2_Rainfall": [
+    "rainfall_1d",
+    "rainfall_3d",
+    "rainfall_7d",
+    "rain_event_1d",
+    "washout_index_3d"
+  ],
+  "Set_C_V2_Rainfall_PBL": [
+    "pblh_1d",
+    "pblh_min_1d",
+    "pblh_roll_mean_3d",
+    "ventilation_index_1d"
+  ],
+  "Set_D_V2_Rainfall_PBL_Winds": [
+    "wind_u_component_1d",
+    "wind_v_component_1d",
+    "upwind_stubble_quadrant_1d"
+  ],
+  "Set_E_All_External_Groups": [
+    "rainfall_1d",
+    "rainfall_3d",
+    "rainfall_7d",
+    "rain_event_1d",
+    "washout_index_3d",
+    "pblh_1d",
+    "pblh_min_1d",
+    "pblh_roll_mean_3d",
+    "ventilation_index_1d",
+    "aod_550_1d",
+    "aod_roll_mean_3d",
+    "wind_u_component_1d",
+    "wind_v_component_1d",
+    "upwind_stubble_quadrant_1d"
+  ]
+}

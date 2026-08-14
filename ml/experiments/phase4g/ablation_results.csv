@@ -1,0 +1,6 @@
+ablation_id,name,delta_r2,status
+ABL_001,Set A (Baseline v2),0.0,BASELINE
+ABL_002,Set B (+ Rainfall),0.0003,INCREMENTAL_GAIN
+ABL_003,Set C (+ Rainfall + PBL),0.0038,INCREMENTAL_GAIN
+ABL_004,Set D (+ Rainfall + PBL + Winds),0.004,INCREMENTAL_GAIN
+ABL_005,Set E (+ All External Groups),0.0979,INCREMENTAL_GAIN

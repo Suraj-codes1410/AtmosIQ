@@ -1,0 +1,2 @@
+comparison,metric,mean_error_v2,mean_error_v3,mean_error_reduction,paired_ttest_stat,paired_ttest_p_value,wilcoxon_stat,wilcoxon_p_value,statistically_significant,scientific_conclusion
+Dataset v2 Baseline vs Dataset v3 Expanded (RandomForest),Absolute Error (|y - y_hat|),26.8901,17.2387,9.6514,8.1336,0.0,18032.0,0.0,True,Statistically Significant Error Reduction (p < 0.05)

@@ -1,0 +1,16 @@
+{
+  "phase": "Phase 4G \u2014 External Environmental Data Validation & Dataset Expansion",
+  "date_completed": "2026-08-14",
+  "dataset_v3_hash": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+  "dataset_v3_row_count": 1827,
+  "dataset_v3_col_count": 276,
+  "baseline_r2": 0.8507,
+  "expanded_r2": 0.9486,
+  "incremental_r2_gain": 0.0979,
+  "baseline_mae": 27.5555,
+  "expanded_mae": 17.2119,
+  "incremental_mae_reduction": -10.3436,
+  "reproducible_incremental_information": true,
+  "statistically_significant": true,
+  "verdict": "Dataset v3 provides genuine, reproducible, statistically significant incremental information beyond Dataset v2."
+}

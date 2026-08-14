@@ -1,0 +1,15 @@
+feature,leakage_type,detected,severity,resolution
+rainfall_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+rainfall_3d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+rainfall_7d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+rain_event_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+washout_index_3d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+pblh_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+pblh_min_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+pblh_roll_mean_3d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+ventilation_index_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+aod_550_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+aod_roll_mean_3d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+wind_u_component_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+wind_v_component_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
+upwind_stubble_quadrant_1d,None,False,PASS,Approved for Prediction-Safe Dataset v3
