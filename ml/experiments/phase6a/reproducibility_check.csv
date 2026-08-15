@@ -1,0 +1,2 @@
+check,metric_max_absolute_difference,tolerance,status
+Baseline Interval Generation Determinism,0.0,1e-12,PASS

@@ -1,0 +1,6 @@
+audit_check,condition,violations_detected,status,notes
+Temporal Fold Chronological Integrity,"Folds strictly map to 2022, 2023, 2024 respectively",0,PASS,Fold boundaries strictly match expanding chronological windows
+Monotonic Date Progression per Evaluation Fold,Evaluation dates strictly increase chronologically,0,PASS,No temporal shuffling or future timestamp lookahead
+Non-Negative Lower Prediction Interval Bounds,lower_bound >= 0.0 µg/m³ for all intervals,0,PASS,All 16440 interval lower bounds respect non-negative concentration physics
+Interval Order Consistency (Lower <= Upper),lower_bound <= upper_bound for all intervals,0,PASS,Zero interval boundary inversions detected
+Global Uncertainty Leakage Count,Total leakage violations == 0,0,PASS,Zero leakage violations confirmed across the entire Phase 6A uncertainty estimation procedure
