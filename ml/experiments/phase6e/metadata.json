@@ -1,0 +1,17 @@
+{
+    "phase": "Phase 6E",
+    "experiment": "SHAP & Counterfactual Uncertainty",
+    "dataset_v3_hash": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+    "production_model_hash": "9ed048448197dd36574d3b73e8e5c70534e1db7eba3d2f89bb775f4855d88210",
+    "ensemble_size_B": 30,
+    "out_of_sample_evaluation_days": 1096,
+    "high_stability_features": 7,
+    "moderate_stability_features": 10,
+    "low_stability_features": 18,
+    "top_feature": "aod_550_1d",
+    "spearman_rho_ood_vs_cf_std": 0.7636697949385213,
+    "leakage_violations": 0,
+    "reproducibility": "PASS",
+    "status": "COMPLETE",
+    "timestamp": "2026-08-16T12:22:09.203573+00:00"
+}
