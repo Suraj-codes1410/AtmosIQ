@@ -1,0 +1,2 @@
+total_synthetic_records,num_trajectories,min_pm25,median_pm25,mean_pm25,max_pm25,std_pm25,extreme_events_count
+1110,35,0.015284704743240951,25.782007102240367,90.52794524140785,497.29362435452,115.4631335805819,146

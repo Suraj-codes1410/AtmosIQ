@@ -1,0 +1,9 @@
+{
+    "phase": "Phase 7B",
+    "artifacts": {
+        "synthetic_parquet": "/home/suraj/atmosIQ/ml/data/synthetic/phase7b/synthetic_trajectories.parquet",
+        "synthetic_csv": "/home/suraj/atmosIQ/ml/data/synthetic/phase7b/synthetic_trajectories.csv",
+        "metadata": "/home/suraj/atmosIQ/ml/experiments/phase7b/metadata.json",
+        "constraint_audit": "/home/suraj/atmosIQ/ml/experiments/phase7b/constraint_audit.csv"
+    }
+}

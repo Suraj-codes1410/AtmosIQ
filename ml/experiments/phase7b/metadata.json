@@ -1,0 +1,13 @@
+{
+    "phase": "Phase 7B",
+    "generator_name": "HP-STG",
+    "generator_version": "1.0.0",
+    "random_seed": 42,
+    "total_synthetic_records": 1110,
+    "num_trajectories": 35,
+    "generation_timestamp": "2026-08-16T15:20:51.475335+00:00",
+    "source_phase7a_spec_hash": "813982d09e0cb8c7ec5151d8e0979729f47ef318ef5a765fdbb57d239072b694",
+    "training_period_source": "2020-01-01 to 2021-12-31",
+    "synthetic_parquet_sha256": "c7c39c94925c59b88223022b80f290e62489ff3fe51e88f63291c56bf48f6465",
+    "synthetic_csv_sha256": "4fd8f93d8c3d4dcd642cced8800bc5d364c9d3347c2fa85e29c37eb7446c3005"
+}

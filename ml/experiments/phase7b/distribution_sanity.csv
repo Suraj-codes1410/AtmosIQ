@@ -1,0 +1,8 @@
+variable,normalized_w1_distance,status
+pm25,0.5253270112977386,FLAG_7C
+temperature_c_lag_1d,0.9861519257567655,FLAG_7C
+humidity_pct_lag_1d,1.2168436577468573,FLAG_7C
+wind_speed_kmh_lag_1d,0.9671065586845422,FLAG_7C
+pblh_1d,0.9323917163339414,FLAG_7C
+aod_550_1d,0.5807013375521053,FLAG_7C
+ventilation_index_1d,1.334606378888818,FLAG_7C
