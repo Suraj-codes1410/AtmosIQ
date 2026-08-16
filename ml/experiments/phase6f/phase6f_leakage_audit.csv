@@ -1,0 +1,9 @@
+audit_check,condition,violations_detected,status
+Chronological Walk-Forward Isolation,Evaluation timestamps strictly follow expanding window order (2022 -> 2023 -> 2024),0,PASS
+Feature Lag Integrity,All features strictly use lag >= 1d; zero concurrent target contamination,0,PASS
+Conformal Calibration Isolation,Calibration nonconformity scores computed strictly on historical data prior to evaluation,0,PASS
+TreeSHAP Background Isolation,SHAP explainers use strictly preceding training distributions without test label access,0,PASS
+Counterfactual Scenario Bounds,Intervention reference quantiles (Q25/Q50/Q75) derived purely from historical data,0,PASS
+OOD Reference Distribution Isolation,OOD means and standard deviations computed purely on historical training baseline,0,PASS
+Decision Rule Target Blindness,Decision rules execute without accessing ground-truth observed PM2.5 values,0,PASS
+Production Layer Immutability,MODEL_V3_PRODUCTION and Phase 6D production uncertainty layer remain unmodified,0,PASS

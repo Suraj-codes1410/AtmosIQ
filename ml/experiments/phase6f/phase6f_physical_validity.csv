@@ -1,0 +1,7 @@
+physical_check,condition,violations_detected,status
+Point Prediction Non-Negativity,predicted_pm25 >= 0.0 µg/m³,0,PASS
+90% Lower Bound Non-Negativity,lower_90 >= 0.0 µg/m³,0,PASS
+80% Lower Bound Non-Negativity,lower_80 >= 0.0 µg/m³,0,PASS
+95% Lower Bound Non-Negativity,lower_95 >= 0.0 µg/m³,0,PASS
+Interval Boundary Ordering,lower_bound <= upper_bound for all intervals,0,PASS
+Numerical Finiteness (NaN/Inf Checks),Zero NaN and Zero Infinite values in output,0,PASS

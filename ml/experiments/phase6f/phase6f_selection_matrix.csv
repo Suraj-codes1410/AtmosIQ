@@ -1,0 +1,8 @@
+uncertainty_method,coverage_90pct,extreme_coverage_250,mpiw_90,winkler_score,selection_decision
+Phase 6A Global Empirical,90.42,68.68,62.4,112.5,REJECTED (Extreme undercoverage)
+Phase 6A Conditional Regime,90.15,85.71,71.2,94.8,SUPERSEDED
+Phase 6B Raw Bootstrap Ensemble,29.29,18.13,24.15,384.2,REJECTED (Severe undercoverage)
+Standard Split Conformal,89.96,74.18,65.1,105.4,REJECTED (Homoscedastic)
+Time-Aware Rolling Conformal,88.5,81.32,67.8,96.1,SUPERSEDED
+Regime-Conditioned Conformal,89.6,87.91,70.45,90.4,SUPERSEDED
+Normalized Conformal (Production),89.78,89.01,68.77,88.22,PROMOTED_PRODUCTION_METHOD
