@@ -1,0 +1,19 @@
+{
+    "dataset_version": "AtmosIQ-SYNTH-v8A",
+    "source_data_provenance": {
+        "partition": "2020-01-01 to 2021-12-31",
+        "sha256": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736"
+    },
+    "generator_provenance": {
+        "version": "HP-STG-v1.0.0",
+        "seed": 42,
+        "config_sha256": "f049cf99d917fa97cfdd59c4592eadee0d3c595ae977ec5b78ca204aaaec2265"
+    },
+    "shards_provenance": [
+        {
+            "shard_name": "shard-000001.parquet",
+            "sha256": "e03a5da111f1c85114a6d7551347917778cda4017940a090562b0be12cf3d910",
+            "rows": 88
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "dataset_version": "AtmosIQ-SYNTH-v8A",
+    "generator_version": "HP-STG-v1.0.0",
+    "phase_version": "Phase 8A v1.0.0",
+    "generation_mode": "PILOT",
+    "source_partition": "2020-01-01 to 2021-12-31",
+    "source_dataset_sha256": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+    "configuration_sha256": "f049cf99d917fa97cfdd59c4592eadee0d3c595ae977ec5b78ca204aaaec2265",
+    "global_seed": 42,
+    "generation_timestamp": "2026-08-16T16:54:26.280991+00:00",
+    "trajectory_count": 4,
+    "observation_count": 88,
+    "trajectory_lengths_supported": [
+        14,
+        30
+    ],
+    "augmentation_ratio": 0.25,
+    "accepted_trajectory_count": 4,
+    "rejected_trajectory_count": 2,
+    "acceptance_rate_pct": 66.66666666666666,
+    "shards": [
+        {
+            "shard_name": "shard-000001.parquet",
+            "shard_index": 1,
+            "shard_path": "/home/suraj/atmosIQ/ml/experiments/phase8a/shards/shard-000001.parquet",
+            "trajectory_count": 4,
+            "observation_count": 88,
+            "feature_count": 60,
+            "sha256": "e03a5da111f1c85114a6d7551347917778cda4017940a090562b0be12cf3d910",
+            "config_hash": "f049cf99d917fa97cfdd59c4592eadee0d3c595ae977ec5b78ca204aaaec2265"
+        }
+    ],
+    "rejection_statistics": {
+        "total_rejections": 3,
+        "rejection_reasons": {
+            "EXTREME_TAIL_PHYSICAL_ENVIRONMENT_INCONSISTENCY: VI (6190.1 > 4500)": 1,
+            "EXTREME_TAIL_PHYSICAL_ENVIRONMENT_INCONSISTENCY: VI (6448.3 > 4500)": 1,
+            "EXTREME_TAIL_PHYSICAL_ENVIRONMENT_INCONSISTENCY: VI (6012.9 > 4500)": 1
+        }
+    }
+}
