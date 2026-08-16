@@ -1,0 +1,12 @@
+gate_dimension,evaluated_metric,observed_value,acceptance_threshold,gate_status,criticality
+1. Phase 6F Freeze Gate,Freeze violations,0 violations,0 violations,PASS,HARD_BLOCKER
+2. Physical Boundary Laws,Hard constraint compliance,100.0%,100.0%,PASS,HARD_BLOCKER
+3. Univariate Distributional Fidelity,Mean normalized Wasserstein-1 (W1),0.5831,<= 0.1500,WARNING,PRIMARY
+4. Multivariate Correlation Structure,Frobenius correlation distance,0.2115,<= 0.2000,WARNING,PRIMARY
+5. Temporal Dynamics & Autocorrelation,ACF mean error (Lags 1-7),0.2005,<= 0.0800,WARNING,PRIMARY
+6. Extreme Event Joint Coherence,Coherence rate (PM2.5 >= 250),83.56%,>= 95.0%,WARNING,PRIMARY
+7. Duplication & Memorization,Exact historical duplicates,0,0,PASS,HARD_BLOCKER
+8. Out-of-Distribution Artifacts,Synthetic outlier percentage,46.49%,<= 10.0%,WARNING,SECONDARY
+9. Downstream ML Utility,Delta MAE (Augmented vs Real),-0.22 µg/m³,<= +0.50 µg/m³,PASS,PRIMARY
+10. Extreme ML Utility,Severe episode (>=250) MAE impact,-0.96 µg/m³,<= +2.00 µg/m³,PASS,PRIMARY
+11. Deterministic Reproducibility,Maximum numerical delta,0.00e+00,<= 1.00e-09,PASS,HARD_BLOCKER

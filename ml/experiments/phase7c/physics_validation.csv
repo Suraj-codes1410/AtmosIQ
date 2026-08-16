@@ -1,0 +1,11 @@
+constraint,violations,status
+PM2.5 Non-Negativity (>= 0.0),0,PASS
+Wind Speed Non-Negativity (>= 0.0),0,PASS
+Rainfall Non-Negativity (>= 0.0),0,PASS
+PBLH Positive (> 0.0),0,PASS
+Relative Humidity Bounds (0-100%),0,PASS
+Temperature Bounds (0-50°C),0,PASS
+Fire Counts Non-Negativity (>= 0),0,PASS
+Ventilation Index Exact (VI = ws * PBLH),0,PASS
+Rain Event Indicator (I(rain >= 1mm)),0,PASS
+Zero NaN and Infinite Values,0,PASS
