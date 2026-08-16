@@ -1,0 +1,16 @@
+{
+    "production_uncertainty_method": "normalized_conformal",
+    "production_uncertainty_version": "1.0.0",
+    "production_decision_support_layer": "ATMOSIQ_DECISION_SUPPORT v1.0.0",
+    "calibrated_quantiles": {
+        "80pct": 1.48,
+        "90pct": 1.96,
+        "95pct": 2.45
+    },
+    "regime_scales": {
+        "Low": 9.42,
+        "Moderate": 14.85,
+        "High": 28.12,
+        "Extreme": 44.81
+    }
+}

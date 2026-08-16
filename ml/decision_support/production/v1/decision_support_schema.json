@@ -1,0 +1,126 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "AtmosIQDecisionSupportObject",
+    "type": "object",
+    "required": [
+        "prediction",
+        "prediction_interval",
+        "attribution",
+        "counterfactual",
+        "ood_assessment",
+        "decision_support",
+        "provenance"
+    ],
+    "properties": {
+        "prediction": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "number"
+                },
+                "unit": {
+                    "type": "string"
+                },
+                "pollution_regime": {
+                    "type": "string"
+                }
+            }
+        },
+        "prediction_interval": {
+            "type": "object",
+            "properties": {
+                "lower_bound": {
+                    "type": "number"
+                },
+                "upper_bound": {
+                    "type": "number"
+                },
+                "nominal_coverage": {
+                    "type": "number"
+                },
+                "interval_width": {
+                    "type": "number"
+                },
+                "method": {
+                    "type": "string"
+                }
+            }
+        },
+        "attribution": {
+            "type": "object",
+            "properties": {
+                "base_value": {
+                    "type": "number"
+                },
+                "dominant_features": {
+                    "type": "array"
+                },
+                "dominant_groups": {
+                    "type": "array"
+                },
+                "group_contributions": {
+                    "type": "array"
+                }
+            }
+        },
+        "counterfactual": {
+            "type": "object",
+            "properties": {
+                "scenario_name": {
+                    "type": "string"
+                },
+                "estimated_delta_pm25": {
+                    "type": "number"
+                },
+                "direction": {
+                    "type": "string"
+                },
+                "directional_stability": {
+                    "type": "number"
+                }
+            }
+        },
+        "ood_assessment": {
+            "type": "object",
+            "properties": {
+                "ood_score": {
+                    "type": "number"
+                },
+                "ood_status": {
+                    "type": "string"
+                },
+                "max_z_score": {
+                    "type": "number"
+                }
+            }
+        },
+        "decision_support": {
+            "type": "object",
+            "properties": {
+                "reliability_tier": {
+                    "type": "string"
+                },
+                "reliability_index_heuristic": {
+                    "type": "number"
+                },
+                "recommendation_summary": {
+                    "type": "string"
+                }
+            }
+        },
+        "provenance": {
+            "type": "object",
+            "properties": {
+                "model_name": {
+                    "type": "string"
+                },
+                "model_sha256": {
+                    "type": "string"
+                },
+                "decision_support_version": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "tier_definitions": {
+        "HIGH_RELIABILITY": "Narrow calibrated prediction interval (relative width <= 0.65), IN_DISTRIBUTION feature space, and high attribution stability.",
+        "MODERATE_RELIABILITY": "Standard calibrated interval, mild distribution shifts (NEAR_OOD), or moderate seasonal variability.",
+        "HIGH_UNCERTAINTY": "Wide interval (relative width > 0.85), OUT_OF_DISTRIBUTION input, or extreme severe episode with elevated variance."
+    },
+    "thresholds": {
+        "relative_width_wide": 0.65,
+        "ood_in_distribution": 2.0,
+        "ood_near_ood": 3.5,
+        "high_stability_threshold": 0.9
+    }
+}
