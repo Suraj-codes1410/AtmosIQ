@@ -1,0 +1,6 @@
+audit_check,condition,violations_detected,status,notes
+Chronological Walk-Forward Isolation,"Folds strictly evaluate 2022, 2023, 2024 respectively",0,PASS,Calibration sets strictly contain observations preceding evaluation year
+Monotonic Date Progression,Evaluation timestamps strictly increase monotonically,0,PASS,Zero temporal lookahead or shuffling detected
+Physical Lower-Bound Non-Negativity,lower_bound >= 0.0 µg/m³ everywhere,0,PASS,All 19728 intervals satisfy PM2.5 non-negative physical boundary
+Interval Boundary Ordering (Lower <= Upper),lower_bound <= upper_bound for all intervals,0,PASS,Zero boundary inversions detected
+Total Conformal Leakage Violations,Total violations == 0,0,PASS,Zero leakage violations confirmed across Phase 6C conformal pipeline

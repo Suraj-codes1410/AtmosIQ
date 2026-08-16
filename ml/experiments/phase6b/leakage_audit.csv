@@ -1,0 +1,6 @@
+audit_check,condition,violations_detected,status,notes
+Chronological Walk-Forward Fold Integrity,"Folds strictly evaluate 2022, 2023, 2024 respectively",0,PASS,No future evaluation observations leaked into prior training windows
+Monotonic Date Progression per Fold,Evaluation timestamps strictly increase chronologically,0,PASS,Zero temporal shuffling or lookahead permutations
+Physical Lower-Bound Non-Negativity (Clipped Intervals),lower_bound >= 0.0 µg/m³ for all clipped intervals,0,PASS,All 9864 clipped intervals respect physical non-negative PM2.5 concentrations
+Interval Boundary Order (Lower <= Upper),lower_bound <= upper_bound for all intervals,0,PASS,Zero boundary inversions detected across all methods and nominal levels
+Total Ensemble Leakage Violations,Total violations == 0,0,PASS,Zero leakage violations confirmed across the entire Phase 6B ensemble pipeline

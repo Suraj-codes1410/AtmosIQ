@@ -1,0 +1,103 @@
+{
+    "project": "AtmosIQ",
+    "phase": "Phase 6B",
+    "experiment_name": "Ensemble-Based Predictive Uncertainty",
+    "dataset_version": "Dataset_v3",
+    "dataset_sha256": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+    "production_model_name": "MODEL_V3_PRODUCTION",
+    "production_model_sha256": "9ed048448197dd36574d3b73e8e5c70534e1db7eba3d2f89bb775f4855d88210",
+    "target_variable": "pm25",
+    "feature_count": 35,
+    "default_ensemble_size": 30,
+    "sensitivity_sizes": [
+        5,
+        10,
+        20,
+        30,
+        50
+    ],
+    "nominal_coverage_levels": [
+        0.8,
+        0.9,
+        0.95
+    ],
+    "walk_forward_folds": [
+        {
+            "fold": 1,
+            "train_years": [
+                2020,
+                2021
+            ],
+            "eval_year": 2022
+        },
+        {
+            "fold": 2,
+            "train_years": [
+                2020,
+                2021,
+                2022
+            ],
+            "eval_year": 2023
+        },
+        {
+            "fold": 3,
+            "train_years": [
+                2020,
+                2021,
+                2022,
+                2023
+            ],
+            "eval_year": 2024
+        }
+    ],
+    "rf_base_params": {
+        "n_estimators": 400,
+        "max_depth": 9,
+        "min_samples_split": 4,
+        "min_samples_leaf": 5,
+        "max_features": 0.7
+    },
+    "pollution_regimes": {
+        "Low": {
+            "min": 0.0,
+            "max": 60.0
+        },
+        "Moderate": {
+            "min": 60.0,
+            "max": 120.0
+        },
+        "High": {
+            "min": 120.0,
+            "max": 250.0
+        },
+        "Extreme": {
+            "min": 250.0,
+            "max": 1000.0
+        }
+    },
+    "extreme_pollution_threshold_ugm3": 150.0,
+    "severe_pollution_threshold_ugm3": 250.0,
+    "seasons": {
+        "Winter": [
+            12,
+            1,
+            2
+        ],
+        "Summer": [
+            3,
+            4,
+            5
+        ],
+        "Monsoon": [
+            6,
+            7,
+            8,
+            9
+        ],
+        "Post-Monsoon": [
+            10,
+            11
+        ]
+    },
+    "random_seed": 42
+}

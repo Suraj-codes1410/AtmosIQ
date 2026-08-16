@@ -1,0 +1,6 @@
+validity_check,violations_detected,status
+Negative Lower Bounds (PM2.5 >= 0),0,PASS
+Boundary Inversions (Lower <= Upper),0,PASS
+NaN Values in Prediction Bounds,0,PASS
+Infinite Values in Prediction Bounds,0,PASS
+Total Physical Validity Violations,0,PASS

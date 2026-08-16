@@ -1,0 +1,17 @@
+{
+    "method": "normalized_conformal",
+    "nonconformity_score_definition": "s_i = |y_i - y_hat_i| / (sigma_regime_i + epsilon)",
+    "epsilon": 0.0001,
+    "regime_scales_ugm3": {
+        "Low": 9.42,
+        "Moderate": 14.85,
+        "High": 28.12,
+        "Extreme": 44.81
+    },
+    "calibrated_quantiles": {
+        "80pct_nominal": 1.48,
+        "90pct_nominal": 1.96,
+        "95pct_nominal": 2.45
+    },
+    "physical_constraint": "lower_bound = max(0.0, prediction - width), upper_bound = prediction + width"
+}

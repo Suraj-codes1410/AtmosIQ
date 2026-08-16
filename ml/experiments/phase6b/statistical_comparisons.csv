@@ -1,0 +1,2 @@
+comparison,delta_mae_ugm3,wilcoxon_statistic,wilcoxon_p_value,bootstrap_95_ci_lower,bootstrap_95_ci_upper,statistically_significant,interpretation
+Frozen_Model_Control vs Bootstrap_Ensemble_Mean,0.014249205445669209,300166.0,0.9686452626718267,-0.09584735462118217,0.1318187887943595,False,Ensemble averaging maintains comparable accuracy

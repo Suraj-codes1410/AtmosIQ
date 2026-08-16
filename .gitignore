@@ -39,12 +39,16 @@ MANIFEST
 */.ipynb_checkpoints/*
 
 # ML Artifacts & Datasets
+data/
 ml/data/raw/*
 !ml/data/raw/.gitkeep
 ml/data/processed/*
 !ml/data/processed/.gitkeep
 ml/data/external/*
 !ml/data/external/.gitkeep
+ml/data/intermediate/
+ml/data/logs/
+*.log
 ml/models/*
 !ml/models/.gitkeep
 mlruns/

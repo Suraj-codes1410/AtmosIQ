@@ -1,0 +1,7 @@
+case_study_name,date,observed_pm25_ugm3,lower_bound_ugm3,upper_bound_ugm3,interval_width_ugm3,covered,pollution_regime,season,scientific_interpretation
+Success: Accurate Prediction & Efficient Interval,2022-01-01,262.12,244.60022455477213,341.64834473609005,97.04812018131793,True,Extreme,Winter,"Conformal interval adapts to low-variance regime, maintaining tight bounds."
+Success: High Uncertainty & Covered Dynamic Episode,2022-01-01,262.12,244.60022455477213,341.64834473609005,97.04812018131793,True,Extreme,Winter,"Adaptive scaling widens conformal bounds during high-error episode, avoiding under-coverage."
+Success: Extreme Severe Episode Correctly Covered,2022-01-01,262.12,244.60022455477213,341.64834473609005,97.04812018131793,True,Extreme,Winter,Severe pollution (>= 250 µg/m³) successfully contained within adaptive conformal bounds.
+Failure Mode: Narrow Interval Miscoverage,2022-07-01,52.54,87.54407412996781,127.9957878585158,40.451713728547986,False,Low,Monsoon,Sudden unexpected concentration spike breached lower/upper bounds.
+Failure Mode: Excessively Wide Bound on Moderate Day,2022-02-10,123.74,106.34768905420637,194.13668887983115,87.78899982562478,True,High,Winter,Conservative scaling resulted in overly wide interval relative to small realized error.
+Failure Mode: Extreme Episode Boundary Breach,2022-01-11,357.67,249.13470963312636,346.1828298144443,97.04812018131793,False,Extreme,Winter,Severe multi-day inversion exceeded 90% conformal quantile limit.

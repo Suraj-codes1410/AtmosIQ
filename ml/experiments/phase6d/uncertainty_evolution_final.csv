@@ -1,0 +1,5 @@
+Phase,Primary Method,90% Coverage,90% MPIW,90% Winkler Score,Extreme (>=150) Coverage,Severe (>=250) Coverage,Key Finding / Limitation,Status
+Phase 6A — Uncertainty Foundation,Conditional Regime Residual Interval,91.45%,53.12 µg/m³,71.85,89.15%,88.46%,Rejection of Gaussian errors; coarse step-wise intervals; uncalibrated bounds,FOUNDATIONAL BASELINE
+Phase 6B — Ensemble Uncertainty,Raw Bootstrap Ensemble (B=30),29.29%,15.68 µg/m³,297.87,21.28%,15.38%,"Spread strongly correlates with error (rho=0.28, AUC=0.76), but raw quantiles severely under-cover",PARTIALLY INFORMATIVE (REJECTED STANDALONE)
+Phase 6C — Conformal Calibration,Normalized Heteroscedastic Conformal,89.78%,68.77 µg/m³,88.22,89.45%,89.01%,Combines nonconformity calibration with adaptive heteroscedastic scaling; eliminates extreme failure,PROMOTED CANDIDATE
+Phase 6D — Final Validation & Selection,Normalized Heteroscedastic Conformal,89.78%,68.77 µg/m³,88.22,89.45%,89.01%,"Passed all stress tests, temporal stability audits, and boundary sensitivity checks with zero leakage",SELECTED PRODUCTION UNCERTAINTY METHOD

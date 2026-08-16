@@ -1,0 +1,11 @@
+{
+    "python_version": "3.14.4",
+    "system_os": "Linux",
+    "scikit_learn_version": "1.9.0",
+    "xgboost_version": "3.4.0",
+    "optuna_version": "4.9.0",
+    "shap_version": "0.52.0",
+    "scipy_version": "1.18.0",
+    "pandas_version": "2.3.3",
+    "numpy_version": "2.4.6"
+}

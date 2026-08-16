@@ -1,0 +1,4 @@
+calibration_window,empirical_coverage_90pct,coverage_error,mpiw_ugm3,winkler_score,extreme_150_coverage,notes
+Full Available Historical Calibration,0.8978102189781022,-0.0021897810218978186,68.77170729161232,88.21977946678847,0.8944723618090452,Maximum sample efficiency and stability
+Recent 730-Day Expanding Window,0.9014598540145985,0.0014598540145984717,69.11556582807037,88.14281080493821,0.8944723618090453,Robust 2-year rolling window
+Recent 365-Day Rolling Window,0.8941605839416058,-0.00583941605839422,67.74013168223813,88.2211896955476,0.8869346733668342,"Fastest adaptation to trend drift, slight sample variance"

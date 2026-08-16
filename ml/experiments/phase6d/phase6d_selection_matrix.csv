@@ -1,0 +1,11 @@
+Criterion,Requirement,Result,Status
+90% Empirical Coverage,89.0% - 91.0%,89.78%,PASS
+Extreme (>=150 µg/m³) Coverage,>= 85.0%,89.45%,PASS
+Severe (>=250 µg/m³) Coverage,>= 85.0%,89.01%,PASS
+Mean Interval Width (MPIW),< 75.0 µg/m³,68.77 µg/m³,PASS
+Winkler Interval Score,< 95.0,88.22,PASS
+Temporal Stability (Annual),Zero year < 88.0%,All years >= 89.3%,PASS
+Regime Uniformity,Zero regime < 85.0%,All regimes >= 88.6%,PASS
+Physical Lower Bounds,lower >= 0.0 µg/m³,100% Non-negative,PASS
+Temporal Leakage,Zero violations,0 Violations,PASS
+Pipeline Reproducibility,Delta <= 1e-12,Delta = 0.0,PASS

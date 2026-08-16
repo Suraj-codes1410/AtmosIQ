@@ -1,0 +1,9 @@
+case_name,date,observed_pm25_ugm3,lower_bound_ugm3,upper_bound_ugm3,interval_width_ugm3,covered,pollution_regime,season,diagnostic_interpretation
+1. Clean Stable Day,2022-07-03,31.26,26.803235546237826,67.2549492747858,40.45171372854797,True,Low,Monsoon,Conformal bounds contract appropriately during low-dispersion baseline periods.
+2. Moderate Pollution Day,2022-03-04,109.88,85.14621942242063,145.38846103586025,60.24224161343962,True,Moderate,Summer,Well-proportioned interval providing reliable boundary margins.
+3. High Pollution Transition,2022-01-17,188.72,132.5377568031259,220.32675662875067,87.78899982562478,True,High,Winter,Adaptive dispersion expands bounds to accommodate moderate atmospheric volatility.
+4. Peak Stubble Burning Episode,2022-11-02,355.74,265.99655544254796,363.0446756238659,97.04812018131793,True,Extreme,Post-Monsoon,Extreme biomass burning event successfully contained within adaptive bounds.
+5. Extreme Pollution Episode,2022-01-03,390.95,304.54555352293056,401.5936737042485,97.04812018131793,True,Extreme,Winter,Severe stagnation peak (>=380 µg/m³) captured where fixed global intervals failed.
+6. Winter Inversion Stagnation,2022-01-01,262.12,244.60022455477213,341.64834473609005,97.04812018131793,True,Extreme,Winter,Shallow planetary boundary layer trapping accurately accommodated by wider interval.
+7. Sudden Anomaly / Rapid Shift,2022-01-11,357.67,249.13470963312636,346.1828298144443,97.04812018131793,False,Extreme,Winter,Failure mode: rapid unexpected concentration jump exceeded calibrated quantile boundary.
+8. Worst-Case Miscoverage Event,2023-10-01,174.18,27.98693724728816,114.74076692751447,86.75382968022632,False,High,Post-Monsoon,Maximum observed bound violation during multi-day anomalous stagnation.

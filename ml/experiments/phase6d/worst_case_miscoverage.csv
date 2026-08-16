@@ -1,0 +1,21 @@
+rank,date,observed_pm25_ugm3,lower_bound_ugm3,upper_bound_ugm3,interval_width_ugm3,violation_type,violation_magnitude_ugm3,pollution_regime,season,diagnostic_notes
+1,2023-10-01,174.18,27.98693724728816,114.74076692751447,86.75382968022632,Upper Breach,59.439233072485536,High,Post-Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+2,2024-01-19,237.98,275.28364782947455,358.89191815092187,83.60827032144732,Lower Breach,37.303647829474556,High,Winter,Associated with rapid boundary-layer contraction or localized biomass burst
+3,2022-07-01,52.54,87.54407412996781,127.9957878585158,40.451713728547986,Lower Breach,35.00407412996781,Low,Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+4,2024-02-20,216.76,101.39989329026764,185.00816361171502,83.60827032144738,Upper Breach,31.75183638828497,High,Winter,Associated with rapid boundary-layer contraction or localized biomass burst
+5,2022-02-03,144.14,175.31192023761793,263.1009200632427,87.78899982562478,Lower Breach,31.17192023761794,High,Winter,Associated with rapid boundary-layer contraction or localized biomass burst
+6,2022-03-01,115.18,145.0754060904024,205.317647703842,60.2422416134396,Lower Breach,29.89540609040239,Moderate,Summer,Associated with rapid boundary-layer contraction or localized biomass burst
+7,2023-03-02,70.11,99.94188488927894,158.17392133170415,58.23203644242521,Lower Breach,29.83188488927894,Moderate,Summer,Associated with rapid boundary-layer contraction or localized biomass burst
+8,2024-02-01,118.78,148.253360825616,203.6074179210357,55.354057095419705,Lower Breach,29.473360825616,Moderate,Winter,Associated with rapid boundary-layer contraction or localized biomass burst
+9,2022-10-05,208.26,92.98820990800681,180.7772097336316,87.78899982562478,Upper Breach,27.482790266368397,High,Post-Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+10,2024-11-02,300.87,184.08603739937098,273.6284826827301,89.54244528335914,Upper Breach,27.24151731726988,Extreme,Post-Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+11,2023-07-01,46.86,72.85553703559532,112.74880603178096,39.89326899618564,Lower Breach,25.99553703559532,Low,Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+12,2022-10-23,111.64,136.7179490824359,196.9601906958755,60.2422416134396,Lower Breach,25.077949082435893,Moderate,Post-Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+13,2022-10-27,132.34,156.95613190953605,244.74513173516084,87.78899982562478,Lower Breach,24.61613190953605,High,Post-Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+14,2024-03-02,85.88,110.11307035586009,165.4671274512798,55.354057095419705,Lower Breach,24.233070355860093,Moderate,Summer,Associated with rapid boundary-layer contraction or localized biomass burst
+15,2022-10-12,221.18,109.82834988166655,197.61734970729134,87.78899982562478,Upper Breach,23.562650292708668,High,Post-Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+16,2024-07-01,53.83,75.76118821495305,114.55163875046142,38.79045053550837,Lower Breach,21.931188214953053,Low,Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+17,2024-06-21,64.76,85.76290046086163,141.11695755628133,55.354057095419705,Lower Breach,21.002900460861625,Moderate,Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
+18,2024-03-04,67.27,87.62859646998207,142.9826535654018,55.35405709541972,Lower Breach,20.358596469982075,Moderate,Summer,Associated with rapid boundary-layer contraction or localized biomass burst
+19,2022-12-09,229.6,249.7938887032021,337.58288852882686,87.78899982562476,Lower Breach,20.193888703202106,High,Winter,Associated with rapid boundary-layer contraction or localized biomass burst
+20,2024-07-03,24.78,44.53362203780335,83.3240725733117,38.79045053550835,Lower Breach,19.753622037803346,Low,Monsoon,Associated with rapid boundary-layer contraction or localized biomass burst
