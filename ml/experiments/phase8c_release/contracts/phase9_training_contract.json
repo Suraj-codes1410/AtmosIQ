@@ -1,0 +1,92 @@
+{
+    "contract_name": "Phase 9 Deep Learning Training Contract",
+    "contract_version": "1.0.0",
+    "issuing_phase": "Phase 8C",
+    "target_phase": "Phase 9 (Deep Learning Architectures)",
+    "historical_development_partition": {
+        "start_date": "2020-01-01",
+        "end_date": "2021-12-31",
+        "observation_count": 731,
+        "dataset_source": "Dataset v3 (feature_dataset_frozen.csv)",
+        "status": "APPROVED_FOR_TRAINING"
+    },
+    "synthetic_production_corpus": {
+        "corpus_name": "AtmosIQ_Synthetic_Production",
+        "corpus_version": "v1.0.0",
+        "corpus_path": "/home/suraj/atmosIQ/ml/experiments/phase8c_release/synthetic_dataset/synthetic_production_corpus_v1_0_0.parquet",
+        "corpus_sha256": "8ce3a8c0c6fd0049dd174a0e34b8612077fe5d8d9ee1e6c1eb9156b5fa78ae0e",
+        "status": "APPROVED_FOR_AUGMENTATION"
+    },
+    "locked_real_evaluation_fold": {
+        "start_date": "2022-01-01",
+        "end_date": "2024-12-31",
+        "observation_count": 1096,
+        "dataset_source": "Dataset v3 (feature_dataset_frozen.csv)",
+        "status": "LOCKED_EVALUATION_ONLY",
+        "restriction": "FORBIDDEN from entering model training, loss computation, hyperparameter tuning, or generator calibration."
+    },
+    "augmentation_rules": {
+        "default_recommended_ratio": 0.25,
+        "allowed_experimental_envelope": [
+            0.1,
+            0.25,
+            0.5
+        ],
+        "hard_upper_limit": 0.5,
+        "prohibited_ratio": 1.0
+    },
+    "feature_contract": {
+        "required_feature_count": 35,
+        "feature_registry": [
+            "pm25_lag_1d",
+            "pm25_lag_2d",
+            "pm25_lag_3d",
+            "pm25_lag_7d",
+            "pm25_roll_mean_3d",
+            "pm25_roll_mean_7d",
+            "pm25_roll_mean_14d",
+            "pm25_roll_std_7d",
+            "pm25_roll_max_7d",
+            "pm25_roll_min_7d",
+            "temperature_c_lag_1d",
+            "temperature_c_roll_mean_3d",
+            "temperature_c_roll_min_3d",
+            "humidity_pct_lag_1d",
+            "humidity_pct_roll_mean_3d",
+            "humidity_pct_roll_max_7d",
+            "wind_speed_kmh_lag_1d",
+            "wind_speed_kmh_roll_mean_3d",
+            "wind_u_component_1d",
+            "wind_v_component_1d",
+            "is_stubble_season",
+            "fire_hotspot_count_lag_1d",
+            "fire_hotspot_count_roll_mean_3d",
+            "fire_hotspot_count_roll_mean_7d",
+            "upwind_stubble_quadrant_1d",
+            "rainfall_1d",
+            "rainfall_3d",
+            "rain_event_1d",
+            "washout_index_3d",
+            "pblh_1d",
+            "pblh_min_1d",
+            "pblh_roll_mean_3d",
+            "ventilation_index_1d",
+            "aod_550_1d",
+            "festival_window"
+        ],
+        "feature_names_source": "ml/models/production/v3/feature_registry.csv"
+    },
+    "governance_and_provenance_requirements": {
+        "provenance_mandatory": true,
+        "provenance_manifest": "manifests/synthetic_provenance_manifest.csv",
+        "physical_laws_enforced": true,
+        "extreme_tail_filtered": true,
+        "hydrodynamic_identity_verified": true
+    },
+    "absolute_immutability_constraints": [
+        "MODEL_V3_PRODUCTION remains frozen as benchmark baseline.",
+        "ATMOSIQ_DECISION_SUPPORT v1.0.0 remains frozen as production decision-support stack.",
+        "Phase 6F conformal uncertainty parameters remain immutable.",
+        "Dataset v1, v2, v3 remain immutable."
+    ]
+}

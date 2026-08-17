@@ -1,0 +1,4 @@
+audit_check,status,violations,details
+Timestamp Leakage (date),PASS,0,Synthetic partition strictly isolated
+Synthetic Origin Tag,PASS,0,All observations tagged as synthetic
+Source Partition Tag,PASS,0,Strictly restricted to 2020-2021 historical partition

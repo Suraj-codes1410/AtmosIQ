@@ -1,0 +1,9 @@
+dimension,check,violations,status,details
+Feature Schema,35 Prediction-Safe Features Present,0,PASS,All 35 production features present
+Data Cleanliness,Zero NaN Values,0,PASS,0 NaN values detected
+Data Cleanliness,Zero Infinite Values,0,PASS,0 infinite values detected
+Physical Law,PM2.5 Non-Negativity (>= 0.0),0,PASS,0 negative PM2.5 rows
+Physical Law,"Meteorological Bounds (ws >= 0, rain >= 0, PBLH >= 150)",0,PASS,"0 bad ws, 0 bad rain, 0 bad PBLH"
+Hydrodynamics,Ventilation Index Identity (VI = ws * PBLH),0,PASS,0 rows violated hydrodynamic identity
+Indicator Logic,Rain Event Indicator (rain >= 1.0mm),0,PASS,0 rows violated rain binary logic
+Horizon Restriction,"Trajectory Length in [14, 30] days",0,PASS,0 trajectories violated horizon restrictions

@@ -1,0 +1,112 @@
+{
+    "phase": "Phase 8C",
+    "freeze_status": "PASS",
+    "total_protected_artifacts": 21,
+    "artifacts": {
+        "ml/models/production/v3/model.joblib": {
+            "expected_sha256": "9ed048448197dd36574d3b73e8e5c70534e1db7eba3d2f89bb775f4855d88210",
+            "actual_sha256": "9ed048448197dd36574d3b73e8e5c70534e1db7eba3d2f89bb775f4855d88210",
+            "status": "PASS"
+        },
+        "ml/models/production/v3/feature_registry.csv": {
+            "expected_sha256": "b14800a4ee57f0fbc04993a072b9d4007168f0203f95cb6c0e4c81e1ace001bc",
+            "actual_sha256": "b14800a4ee57f0fbc04993a072b9d4007168f0203f95cb6c0e4c81e1ace001bc",
+            "status": "PASS"
+        },
+        "ml/uncertainty/production/v1/calibration_artifacts.json": {
+            "expected_sha256": "e3ddc417bc09c3f493c6e67b9708438cc543dbb86badd9bd271f93434dbf68c0",
+            "actual_sha256": "e3ddc417bc09c3f493c6e67b9708438cc543dbb86badd9bd271f93434dbf68c0",
+            "status": "PASS"
+        },
+        "ml/uncertainty/production/v1/calibration_metadata.json": {
+            "expected_sha256": "42f3733eb3a9da8e0b06e9655e88ee8db1342135dee3df1eec9d9b8a6760d00b",
+            "actual_sha256": "42f3733eb3a9da8e0b06e9655e88ee8db1342135dee3df1eec9d9b8a6760d00b",
+            "status": "PASS"
+        },
+        "ml/uncertainty/production/v1/uncertainty_method.json": {
+            "expected_sha256": "a7256b6ea9d4d4ec7690f1523067d0d19df77597d4b485c349bbfdac01b33333",
+            "actual_sha256": "a7256b6ea9d4d4ec7690f1523067d0d19df77597d4b485c349bbfdac01b33333",
+            "status": "PASS"
+        },
+        "ml/uncertainty/production/v1/validation_summary.json": {
+            "expected_sha256": "fd8fd32662a8b0f5a779000eb5960b6123b4724cc385fb39d7c20c1213569bb0",
+            "actual_sha256": "fd8fd32662a8b0f5a779000eb5960b6123b4724cc385fb39d7c20c1213569bb0",
+            "status": "PASS"
+        },
+        "ml/uncertainty/production/v1/README.md": {
+            "expected_sha256": "76defab9a5c92919eae629d58d31291519369011edf8608c48d199666acb94db",
+            "actual_sha256": "76defab9a5c92919eae629d58d31291519369011edf8608c48d199666acb94db",
+            "status": "PASS"
+        },
+        "ml/decision_support/production/v1/decision_support_schema.json": {
+            "expected_sha256": "9cf22f3cce428e7711bf4c32aca1fcbee21568a97c8514060421593e46607a05",
+            "actual_sha256": "9cf22f3cce428e7711bf4c32aca1fcbee21568a97c8514060421593e46607a05",
+            "status": "PASS"
+        },
+        "ml/decision_support/production/v1/decision_rules.json": {
+            "expected_sha256": "453b992081d17ef4adde76f3fa84cc863130be7601b3e216b9ac17116971bda8",
+            "actual_sha256": "453b992081d17ef4adde76f3fa84cc863130be7601b3e216b9ac17116971bda8",
+            "status": "PASS"
+        },
+        "ml/decision_support/production/v1/method_registry.json": {
+            "expected_sha256": "8e8758be963766bcee3c75284202b49d962794ac732cdad6a4222c8dab65b051",
+            "actual_sha256": "8e8758be963766bcee3c75284202b49d962794ac732cdad6a4222c8dab65b051",
+            "status": "PASS"
+        },
+        "ml/decision_support/production/v1/integration_metadata.json": {
+            "expected_sha256": "c2f8e841d25bf5b486c35d6abc3568736ac4a1106b4e768170093f785eca5875",
+            "actual_sha256": "c2f8e841d25bf5b486c35d6abc3568736ac4a1106b4e768170093f785eca5875",
+            "status": "PASS"
+        },
+        "ml/decision_support/production/v1/validation_summary.json": {
+            "expected_sha256": "4822fe2d07ea9cdbf4a07f1a1ba0934f7eab7f0e30bae53194d873a9129d740a",
+            "actual_sha256": "4822fe2d07ea9cdbf4a07f1a1ba0934f7eab7f0e30bae53194d873a9129d740a",
+            "status": "PASS"
+        },
+        "ml/decision_support/production/v1/README.md": {
+            "expected_sha256": "2eaeafc66b43195991742d89eaae945ac88e87f5b57b5f2af9eaf3fa3b058342",
+            "actual_sha256": "2eaeafc66b43195991742d89eaae945ac88e87f5b57b5f2af9eaf3fa3b058342",
+            "status": "PASS"
+        },
+        "ml/experiments/phase6f/PHASE_6F_COMPLETION_REPORT.md": {
+            "expected_sha256": "c3f01e461a6572bf93b2f1626ad6de240614a883cfcc5080d661615139219786",
+            "actual_sha256": "c3f01e461a6572bf93b2f1626ad6de240614a883cfcc5080d661615139219786",
+            "status": "PASS"
+        },
+        "ml/experiments/phase6f/manifest.json": {
+            "expected_sha256": "cf987451bdcd28701890bed5baa5aea8bcf59cfbb4606840f7bcc2a8efe21088",
+            "actual_sha256": "cf987451bdcd28701890bed5baa5aea8bcf59cfbb4606840f7bcc2a8efe21088",
+            "status": "PASS"
+        },
+        "ml/experiments/phase6f/metadata.json": {
+            "expected_sha256": "3d25a7ec517e5a0ef446d3f6c66f51954109b15d3f3908b33c8621b7ce7edf5c",
+            "actual_sha256": "3d25a7ec517e5a0ef446d3f6c66f51954109b15d3f3908b33c8621b7ce7edf5c",
+            "status": "PASS"
+        },
+        "ml/experiments/phase6f/environment.json": {
+            "expected_sha256": "e4e3b5321c328f5a7dbab034b3516bd885af3113a80855b3b5774d1a47b877d1",
+            "actual_sha256": "e4e3b5321c328f5a7dbab034b3516bd885af3113a80855b3b5774d1a47b877d1",
+            "status": "PASS"
+        },
+        "ml/experiments/phase6f/checksums.txt": {
+            "expected_sha256": "18896dec10d197285c3d8796605b2b5242fa7628883a52266d41bc734649ba77",
+            "actual_sha256": "18896dec10d197285c3d8796605b2b5242fa7628883a52266d41bc734649ba77",
+            "status": "PASS"
+        },
+        "ml/data/modeling/v1/feature_dataset_frozen.csv": {
+            "expected_sha256": "c271bfc6df5dc442737b32e42d2e722c7f08266f77f1820649b7873e0d8b10df",
+            "actual_sha256": "c271bfc6df5dc442737b32e42d2e722c7f08266f77f1820649b7873e0d8b10df",
+            "status": "PASS"
+        },
+        "ml/data/modeling/v2/feature_dataset_frozen.csv": {
+            "expected_sha256": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+            "actual_sha256": "e7645584e48b5fc65d930b9a4fe499560595778759f4c2caf0ad91de256ed301",
+            "status": "PASS"
+        },
+        "ml/data/modeling/v3/feature_dataset_frozen.csv": {
+            "expected_sha256": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+            "actual_sha256": "78b329fbc6f61ccf1a846dfcd140617416c5c9b7e74f1a6bf564d48077d36736",
+            "status": "PASS"
+        }
+    }
+}
