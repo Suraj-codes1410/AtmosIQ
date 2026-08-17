@@ -1,0 +1,5 @@
+corpus,check,violations,status
+Phase 8C Baseline,Trajectory ID Completeness,0,PASS
+Phase 8C Baseline,Data Origin Tagged Synthetic,0,PASS
+Phase 8D Calibrated,Trajectory ID Completeness,0,PASS
+Phase 8D Calibrated,Data Origin Tagged Synthetic,0,PASS

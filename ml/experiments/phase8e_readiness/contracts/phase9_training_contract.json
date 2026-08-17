@@ -1,0 +1,52 @@
+{
+    "contract_name": "AtmosIQ_Phase9_Deep_Learning_Training_Contract",
+    "contract_version": "v1.1.0",
+    "admission_status": "APPROVED_WITH_RESTRICTIONS",
+    "training_partitions": {
+        "real_historical_development_train": {
+            "start_date": "2020-01-01",
+            "end_date": "2021-12-31",
+            "observations": 731,
+            "role": "PRIMARY_REAL_GROUND_TRUTH"
+        },
+        "locked_evaluation_benchmark": {
+            "start_date": "2022-01-01",
+            "end_date": "2024-12-31",
+            "observations": 1096,
+            "role": "STRICT_EVALUATION_ONLY_ZERO_TRAINING_LEAKAGE"
+        }
+    },
+    "synthetic_training_corpus": {
+        "preferred_corpus_name": "AtmosIQ_Synthetic_Calibrated",
+        "preferred_corpus_version": "v0.1.0",
+        "preferred_corpus_sha256": "264c9c5ec109ad034b4488a18a8a6a8eafb92d9f12f2fecb59eee87ef47b13ad",
+        "recommended_augmentation_ratio": 0.25,
+        "maximum_approved_augmentation_ratio": 0.5,
+        "prohibited_augmentation_ratio": 1.0
+    },
+    "approved_sequence_windows": [
+        7,
+        14,
+        30
+    ],
+    "default_sequence_window": 14,
+    "approved_architectures": [
+        "LSTM",
+        "Temporal_CNN_TCN",
+        "Temporal_Transformer",
+        "Informer_Temporal_Attention"
+    ],
+    "preprocessing_contract": {
+        "normalization_fitting": "EXCLUSIVELY_ON_2020_2021_REAL_DATA",
+        "synthetic_normalization": "APPLY_REAL_SCALER_PARAMETERS",
+        "target_scaling": "IDENTITY_NON_NEGATIVE"
+    },
+    "scientific_disclaimers": [
+        "SYNTHETIC DATA != OBSERVED DATA",
+        "PHYSICS-INFORMED != PHYSICALLY EXACT",
+        "STATISTICAL FIDELITY != CAUSAL VALIDATION",
+        "ML UTILITY != SCIENTIFIC TRUTH",
+        "SYNTHETIC AUGMENTATION != REAL-WORLD OBSERVATION"
+    ],
+    "contract_sha256": "fda3ebe3c3b859cf81341f86e1c41d32aea1c7ec0e3f8b4724ef4588f3fb6952"
+}

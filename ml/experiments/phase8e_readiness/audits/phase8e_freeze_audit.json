@@ -1,0 +1,21 @@
+{
+    "candidate_name": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+    "artifact_path": "/home/suraj/atmosIQ/ml/experiments/phase8d_calibration/experiments/cal07_combined/AtmosIQ_Synthetic_Calibrated_v0.1.0.parquet",
+    "sha256": "264c9c5ec109ad034b4488a18a8a6a8eafb92d9f12f2fecb59eee87ef47b13ad",
+    "actual_rows": 56088,
+    "actual_trajectories": 2644,
+    "trajectory_length_composition": {
+        "14": 1452,
+        "30": 1192
+    },
+    "mathematical_row_sum_check": "PASS",
+    "features_present_count": 35,
+    "missing_features": [],
+    "metadata_discrepancy_analysis": {
+        "recorded_in_cal_matrix": 56088,
+        "recorded_in_banner_log": 54270,
+        "authoritative_parquet_rows": 56088,
+        "resolution": "Authoritative physical artifact matches the 56,088 rows computed by CAL-07 in the calibration matrix. The 54,270 count was a transient logging cross-reference from candidate CAL-02."
+    },
+    "reconciliation_status": "RECONCILED_AUTHORITATIVE"
+}

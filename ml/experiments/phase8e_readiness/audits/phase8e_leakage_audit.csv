@@ -1,0 +1,4 @@
+dimension,check,violations,status
+Training Data Isolation,Historical 2020-2021 Train Fold Dates < 2022-01-01,0,PASS
+Synthetic Provenance Date Check,Phase 8C Baseline Free of Locked Evaluation Dates,0,PASS
+Synthetic Provenance Date Check,Phase 8D Calibrated Free of Locked Evaluation Dates,0,PASS

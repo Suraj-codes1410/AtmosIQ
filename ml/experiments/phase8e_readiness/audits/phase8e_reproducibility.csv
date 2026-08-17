@@ -1,0 +1,11 @@
+column,max_delta,status
+augmentation_ratio,0.0,PASS
+seed,0.0,PASS
+window_size,0.0,PASS
+test_samples,0.0,PASS
+test_mae,0.0,PASS
+test_rmse,0.0,PASS
+test_r2,0.0,PASS
+pearson_r,0.0,PASS
+mean_bias,0.0,PASS
+train_samples,0.0,PASS
