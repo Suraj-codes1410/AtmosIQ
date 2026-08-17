@@ -1,0 +1,30 @@
+{
+    "policy_name": "AtmosIQ_Synthetic_Augmentation_Governance_Policy",
+    "policy_version": "v1.1.0",
+    "enforcement_level": "MANDATORY_PRODUCTION_RULE",
+    "augmentation_tiers": {
+        "RECOMMENDED_PRODUCTION": {
+            "ratio": 0.25,
+            "percentage": "25%",
+            "status": "APPROVED",
+            "scientific_rationale": "Empirically minimizes held-out test MAE and extreme-event error across LSTM, TCN, and Transformer architectures."
+        },
+        "CONTROLLED_UPPER_BOUND": {
+            "ratio": 0.5,
+            "percentage": "50%",
+            "status": "STRESS_TESTING_ONLY",
+            "scientific_rationale": "Permissible strictly for sensitivity analysis; exhibits diminishing returns."
+        },
+        "PROHIBITED": {
+            "ratio": 1.0,
+            "percentage": "100%",
+            "status": "STRICTLY_PROHIBITED",
+            "scientific_rationale": "Synthetic data must never replace real empirical observations."
+        }
+    },
+    "temporal_window_bounds": {
+        "min_trajectory_horizon_days": 14,
+        "max_trajectory_horizon_days": 30
+    },
+    "governance_consistency_audit": "PASS_100_PERCENT_CONSISTENT"
+}

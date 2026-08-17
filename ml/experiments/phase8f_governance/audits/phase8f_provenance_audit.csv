@@ -1,0 +1,9 @@
+corpus,check,violations,status,details
+AtmosIQ_Synthetic_Production_v1.0.0,Trajectory ID Completeness,0,PASS,3305 unique trajectory IDs present
+AtmosIQ_Synthetic_Production_v1.0.0,Data Origin Tagged 'synthetic',0,PASS,All 67838 rows tagged as synthetic data origin
+AtmosIQ_Synthetic_Production_v1.0.0,Approved Horizon Compliance (14 or 30 days),0,PASS,"Trajectory lengths: {14: 1957, 30: 1348}"
+AtmosIQ_Synthetic_Production_v1.0.0,Source Partition Traceability ('2020-2021'),0,PASS,All rows derived from 2020-2021 historical development fold
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Trajectory ID Completeness,0,PASS,2644 unique trajectory IDs present
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Data Origin Tagged 'synthetic',0,PASS,All 56088 rows tagged as synthetic data origin
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Approved Horizon Compliance (14 or 30 days),0,PASS,"Trajectory lengths: {14: 1452, 30: 1192}"
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Source Partition Traceability ('2020-2021'),0,PASS,All rows derived from 2020-2021 historical development fold

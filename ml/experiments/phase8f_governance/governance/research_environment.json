@@ -1,0 +1,17 @@
+{
+    "os_system": "Linux",
+    "os_release": "7.0.0-29-generic",
+    "os_version": "#29-Ubuntu SMP PREEMPT_DYNAMIC Fri Jul 17 20:52:35 UTC 2026",
+    "architecture": "x86_64",
+    "processor": "",
+    "python_version": "3.14.4",
+    "numpy_version": "2.4.6",
+    "pandas_version": "2.3.3",
+    "scikit_learn_version": "1.9.0",
+    "seeds": [
+        42,
+        123,
+        2025
+    ],
+    "governance_timestamp": "2026-08-18T01:00:00Z"
+}

@@ -1,0 +1,13 @@
+corpus,invariant,violations,status,details
+AtmosIQ_Synthetic_Production_v1.0.0,PM2.5 Non-Negativity (>= 0 µg/m³),0,PASS,Min PM2.5 observed: 0.00 µg/m³
+AtmosIQ_Synthetic_Production_v1.0.0,Hydrodynamic Identity (VI = ws_ms * PBLH),0,PASS,Max VI residual: 0.0000e+00 m²/s
+AtmosIQ_Synthetic_Production_v1.0.0,"Relative Humidity Bound [0, 100%]",0,PASS,"Humidity range: [40.0%, 95.0%]"
+AtmosIQ_Synthetic_Production_v1.0.0,Rainfall Non-Negativity (>= 0 mm),0,PASS,Min Rainfall: 0.00 mm
+AtmosIQ_Synthetic_Production_v1.0.0,PBLH Non-Negativity (>= 0 m),0,PASS,"PBLH range: [350.1m, 2694.2m]"
+AtmosIQ_Synthetic_Production_v1.0.0,Numerical Completeness (Zero NaN / ±Inf),0,PASS,"Total NaNs: 0, Total Infs: 0"
+AtmosIQ_Synthetic_Calibrated_v0.1.0,PM2.5 Non-Negativity (>= 0 µg/m³),0,PASS,Min PM2.5 observed: 0.00 µg/m³
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Hydrodynamic Identity (VI = ws_ms * PBLH),0,PASS,Max VI residual: 0.0000e+00 m²/s
+AtmosIQ_Synthetic_Calibrated_v0.1.0,"Relative Humidity Bound [0, 100%]",0,PASS,"Humidity range: [40.0%, 95.0%]"
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Rainfall Non-Negativity (>= 0 mm),0,PASS,Min Rainfall: 0.00 mm
+AtmosIQ_Synthetic_Calibrated_v0.1.0,PBLH Non-Negativity (>= 0 m),0,PASS,"PBLH range: [350.1m, 2694.2m]"
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Numerical Completeness (Zero NaN / ±Inf),0,PASS,"Total NaNs: 0, Total Infs: 0"

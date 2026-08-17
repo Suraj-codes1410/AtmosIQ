@@ -1,0 +1,5 @@
+dimension,check,violations,status,details
+Training Data Isolation,Historical Development Train Dates (< 2022-01-01),0,PASS,Development train fold contains 731 rows strictly <= 2021-12-31
+Evaluation Benchmark Isolation,Evaluation Fold Dates (>= 2022-01-01 and <= 2024-12-31),0,PASS,Locked evaluation fold contains 1096 rows strictly 2022 to 2024
+Phase 8C Synthetic Isolation,Zero Locked Evaluation Dates in Phase 8C Production Corpus,0,PASS,Phase 8C corpus has 67838 synthetic observations derived from historical 2020-2021
+Phase 8D CAL-07 Synthetic Isolation,Zero Locked Evaluation Dates in Phase 8D Calibrated Corpus,0,PASS,Phase 8D CAL-07 corpus has 56088 calibrated observations derived from historical 2020-2021

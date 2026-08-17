@@ -1,0 +1,17 @@
+{
+    "manifest_name": "AtmosIQ_Phase8F_Comprehensive_Cryptographic_Manifest",
+    "manifest_version": "v1.0.0",
+    "total_artifacts": 1,
+    "artifacts": [
+        {
+            "artifact": "test_feat",
+            "version": "v1",
+            "path": "ml/models/production/v3/feature_registry.csv",
+            "sha256": "b14800a4ee57f0fbc04993a072b9d4007168f0203f95cb6c0e4c81e1ace001bc",
+            "size_bytes": 1862,
+            "role": "TEST",
+            "immutable": true,
+            "source_phase": "test"
+        }
+    ]
+}

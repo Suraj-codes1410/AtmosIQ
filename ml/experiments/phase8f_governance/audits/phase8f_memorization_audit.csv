@@ -1,0 +1,5 @@
+corpus,check,violations,status,details
+AtmosIQ_Synthetic_Production_v1.0.0,Exact Historical Duplicates (d <= 1e-6),0,PASS,Zero exact copies found (min distance: 2.1446)
+AtmosIQ_Synthetic_Production_v1.0.0,Near-Duplicate Memorization (d < 0.05),0,PASS,Zero near-copies found (mean distance: 4.7796)
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Exact Historical Duplicates (d <= 1e-6),0,PASS,Zero exact copies found (min distance: 2.1446)
+AtmosIQ_Synthetic_Calibrated_v0.1.0,Near-Duplicate Memorization (d < 0.05),0,PASS,Zero near-copies found (mean distance: 4.6822)
