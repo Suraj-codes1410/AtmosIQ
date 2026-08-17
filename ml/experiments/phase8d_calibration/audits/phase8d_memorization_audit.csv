@@ -1,0 +1,3 @@
+check,violations,status
+Exact Historical Duplicates,0,PASS
+Near-Duplicate Trajectory Copying,0,PASS

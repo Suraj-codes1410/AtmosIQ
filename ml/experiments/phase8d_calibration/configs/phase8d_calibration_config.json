@@ -1,0 +1,61 @@
+{
+    "phase_name": "Phase 8D",
+    "phase_version": "1.0.0",
+    "baseline_corpus_version": "AtmosIQ_Synthetic_Production_v1.0.0",
+    "calibrated_corpus_version": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+    "config_sha256": "7d3e2c52deeb65d817e68a8756ac3cb6681313c2f93a3d79553997cbc8171ecf",
+    "candidates": [
+        {
+            "id": "CAL-00",
+            "name": "No Calibration (Baseline Phase 8C)",
+            "type": "baseline"
+        },
+        {
+            "id": "CAL-01",
+            "name": "Distribution Calibration (Wasserstein Matching)",
+            "type": "distribution"
+        },
+        {
+            "id": "CAL-02",
+            "name": "Regime Calibration (Seasonal & Regime Alignment)",
+            "type": "regime"
+        },
+        {
+            "id": "CAL-03",
+            "name": "Temporal Calibration (ACF & Persistence Filtering)",
+            "type": "temporal"
+        },
+        {
+            "id": "CAL-04",
+            "name": "Multivariate Calibration (Frobenius Correlation)",
+            "type": "multivariate"
+        },
+        {
+            "id": "CAL-05",
+            "name": "OOD-Aware Calibration (Density & Boundary Truncation)",
+            "type": "ood"
+        },
+        {
+            "id": "CAL-06",
+            "name": "Extreme-Tail Calibration (Tightened Risk Filters)",
+            "type": "extreme_tail"
+        },
+        {
+            "id": "CAL-07",
+            "name": "Combined Multi-Objective Calibration",
+            "type": "combined"
+        }
+    ],
+    "approved_horizons": [
+        14,
+        30
+    ],
+    "recommended_augmentation_ratio": 0.25,
+    "augmentation_envelope": [
+        0.1,
+        0.25,
+        0.5
+    ],
+    "source_partition": "2020-01-01 to 2021-12-31",
+    "locked_eval_partition": "2022-01-01 to 2024-12-31"
+}

@@ -1,0 +1,2 @@
+check,violations,status,details
+Evaluation Fold Date Leakage (< 2022-01-01),0,PASS,Zero evaluation dates found in calibrated corpus

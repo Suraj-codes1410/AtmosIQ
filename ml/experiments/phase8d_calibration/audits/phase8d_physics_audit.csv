@@ -1,0 +1,4 @@
+check,violations,status
+PM2.5 Non-Negativity,0,PASS
+Hydrodynamic Identity (VI = ws * PBLH),0,PASS
+Zero NaN / Inf Values,0,PASS
