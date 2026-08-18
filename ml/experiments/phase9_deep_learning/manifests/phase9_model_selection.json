@@ -1,0 +1,31 @@
+{
+    "selection_status": "APPROVED_RESEARCH_CANDIDATE",
+    "selected_architecture": "TCN",
+    "selected_corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+    "selected_augmentation_ratio": 0.5,
+    "selected_seed": 2025,
+    "validation_metrics": {
+        "val_mae": 38.05215835571289,
+        "val_rmse": 52.47627258300781,
+        "val_r2": 0.7871973593373631,
+        "val_extreme_mae": 40.31549072265625,
+        "selection_score": 43.05839233398437
+    },
+    "locked_test_fold_metrics": {
+        "mae": 36.577754974365234,
+        "rmse": 48.236602783203125,
+        "r2": 0.7517964592251303,
+        "pearson_r": 0.8918530941009521,
+        "extreme_mae": 44.571388244628906,
+        "extreme_rmse": 55.49856948852539,
+        "extreme_count": 180,
+        "pred_mean": 133.35923767089844,
+        "pred_std": 104.16417694091797,
+        "residual_mean": -9.56333065032959,
+        "residual_std": 47.27909469604492,
+        "residual_skew": 0.007578600198030472,
+        "max_abs_error": 190.84971618652344
+    },
+    "candidate_designation": "AtmosIQ_Phase9_Temporal_Deep_Learning_Candidate_v1.0.0",
+    "governance_note": "Selected model is certified as a research candidate. Production deployment requires separate operational admission gate."
+}

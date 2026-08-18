@@ -1,0 +1,5 @@
+check,violations,status
+Training Dates strictly <= 2021-12-31,0,PASS
+Evaluation Dates strictly 2022-2024,0,PASS
+Scaler Fitted Only on 2020-2021,0,PASS
+Zero Cross-Trajectory Sequence Leaks,0,PASS

@@ -1,0 +1,2 @@
+architecture,extreme_threshold,extreme_observations_count,extreme_mae,extreme_rmse,overall_test_mae
+TCN,250.0,180,44.571388244628906,55.49856948852539,36.577754974365234

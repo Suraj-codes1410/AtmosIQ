@@ -1,0 +1,16 @@
+{
+    "manifest_name": "AtmosIQ_Phase9_Master_Training_Manifest",
+    "phase": "Phase 9",
+    "phase9_status": "COMPLETE",
+    "model_status": "RESEARCH_CANDIDATE",
+    "winning_model": "TCN_aug50pct_seed2025",
+    "winning_architecture": "TCN",
+    "winning_augmentation_ratio": 0.5,
+    "test_mae": 36.577754974365234,
+    "test_rmse": 48.236602783203125,
+    "test_r2": 0.7517964592251303,
+    "test_extreme_mae": 44.571388244628906,
+    "total_models_evaluated": 36,
+    "canonical_production_corpus_sha": "8ce3a8c0c6fd0049dd174a0e34b8612077fe5d8d9ee1e6c1eb9156b5fa78ae0e",
+    "preferred_research_corpus_sha": "264c9c5ec109ad034b4488a18a8a6a8eafb92d9f12f2fecb59eee87ef47b13ad"
+}

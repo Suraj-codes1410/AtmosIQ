@@ -1,0 +1,2 @@
+test,max_delta,tolerance,status
+Exact Repeated Inference Delta,0.0,1e-09,PASS

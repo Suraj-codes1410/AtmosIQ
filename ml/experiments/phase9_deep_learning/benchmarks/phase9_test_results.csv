@@ -1,0 +1,2 @@
+exp_id,architecture,augmentation_ratio,test_mae,test_rmse,test_r2,test_pearson_r,test_extreme_mae,test_extreme_rmse,test_extreme_count
+TCN_aug50pct_seed2025,TCN,0.5,36.577754974365234,48.236602783203125,0.7517964592251303,0.8918530941009521,44.571388244628906,55.49856948852539,180
