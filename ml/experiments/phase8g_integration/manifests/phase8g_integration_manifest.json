@@ -1,0 +1,101 @@
+{
+    "manifest_name": "AtmosIQ_Phase8G_Production_Integration_Manifest",
+    "manifest_version": "v1.0.0",
+    "integration_status": "APPROVED_FOR_PHASE_9",
+    "production_synthetic_corpus": {
+        "name": "AtmosIQ_Synthetic_Production",
+        "version": "v1.0.0",
+        "sha256": "8ce3a8c0c6fd0049dd174a0e34b8612077fe5d8d9ee1e6c1eb9156b5fa78ae0e",
+        "role": "CANONICAL_PRODUCTION_BENCHMARK"
+    },
+    "preferred_research_corpus": {
+        "name": "AtmosIQ_Synthetic_Calibrated",
+        "version": "v0.1.0",
+        "candidate": "CAL-07",
+        "sha256": "264c9c5ec109ad034b4488a18a8a6a8eafb92d9f12f2fecb59eee87ef47b13ad",
+        "role": "PREFERRED_PHASE_9_TRAINING_CORPUS"
+    },
+    "phase9_training_contract": {
+        "contract_file": "phase9_training_contract.json",
+        "contract_sha256": "01485a73d0098d477ae02135e0682f3cf9c4da592a577d1e3151e60be950a10c",
+        "status": "VALIDATED_AND_ENFORCED"
+    },
+    "governance_augmentation_rules": {
+        "recommended_production_ratio": 0.25,
+        "controlled_upper_bound_ratio": 0.5,
+        "prohibited_ratio": 1.0
+    },
+    "integration_configurations": [
+        {
+            "config_id": "INTEGRATION_00",
+            "name": "Real Historical Only (2020-2021)",
+            "augmentation_ratio": 0.0,
+            "status": "APPROVED_BASELINE",
+            "tier": "REAL_HISTORICAL_ONLY",
+            "total_sequences": 717,
+            "real_sequences": 717,
+            "synthetic_sequences": 0,
+            "feature_dim": 35,
+            "window_size": 14
+        },
+        {
+            "config_id": "INTEGRATION_01",
+            "name": "Real + 10% CAL-07",
+            "augmentation_ratio": 0.1,
+            "status": "APPROVED_SUB_TARGET",
+            "tier": "CONTROLLED_SUB_TARGET_10PCT",
+            "total_sequences": 788,
+            "real_sequences": 717,
+            "synthetic_sequences": 71,
+            "feature_dim": 35,
+            "window_size": 14
+        },
+        {
+            "config_id": "INTEGRATION_02",
+            "name": "Real + 25% CAL-07 (Recommended Production)",
+            "augmentation_ratio": 0.25,
+            "status": "APPROVED_RECOMMENDED_PRODUCTION_DEFAULT",
+            "tier": "RECOMMENDED_PRODUCTION",
+            "total_sequences": 896,
+            "real_sequences": 717,
+            "synthetic_sequences": 179,
+            "feature_dim": 35,
+            "window_size": 14
+        },
+        {
+            "config_id": "INTEGRATION_03",
+            "name": "Real + 50% CAL-07 (Controlled Upper Bound)",
+            "augmentation_ratio": 0.5,
+            "status": "APPROVED_STRESS_TEST_ONLY",
+            "tier": "CONTROLLED_UPPER_BOUND",
+            "total_sequences": 1075,
+            "real_sequences": 717,
+            "synthetic_sequences": 358,
+            "feature_dim": 35,
+            "window_size": 14
+        },
+        {
+            "config_id": "INTEGRATION_04",
+            "name": "100% Synthetic Training",
+            "augmentation_ratio": 1.0,
+            "status": "REJECTED_BY_GOVERNANCE_POLICY",
+            "policy_violation_caught": true
+        }
+    ],
+    "audits_summary": {
+        "freeze_audit": "PASS",
+        "leakage_audit": "PASS",
+        "physical_integrity": "PASS",
+        "deterministic_rebuild": "PASS",
+        "architecture_compatibility": "PASS",
+        "augmentation_policy_enforcement": "PASS"
+    },
+    "scientific_safeguards": [
+        "SYNTHETIC DATA != OBSERVED DATA",
+        "PHYSICS-INFORMED != PHYSICALLY EXACT",
+        "STATISTICAL FIDELITY != CAUSAL VALIDATION",
+        "ML UTILITY != SCIENTIFIC TRUTH",
+        "SYNTHETIC AUGMENTATION != REAL-WORLD OBSERVATION"
+    ],
+    "manifest_sha256": "3fd227e6601ecba61df4a6f5a5907b70ae44474f55231dfd0944b59d73955fc7"
+}

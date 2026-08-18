@@ -1,0 +1,5 @@
+invariant,violations,status,details
+PM2.5 Non-Negativity (>= 0 µg/m³),0,PASS,Min PM2.5: 0.00 µg/m³
+Hydrodynamic Identity (VI = ws_ms * PBLH),0,PASS,Max VI residual: 0.0000e+00 m²/s
+"Relative Humidity Bound [0, 100%]",0,PASS,"Humidity range: [40.0%, 95.0%]"
+Numerical Completeness (Zero NaN / ±Inf),0,PASS,"Total NaNs: 0, Total Infs: 0"

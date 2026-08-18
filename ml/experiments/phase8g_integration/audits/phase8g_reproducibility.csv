@@ -1,0 +1,3 @@
+tensor,shape_1,shape_2,max_absolute_delta,status
+"Feature Tensor X (N, W, D)","(896, 14, 35)","(896, 14, 35)",0.0,PASS
+"Target Array y (N,)","(896,)","(896,)",0.0,PASS

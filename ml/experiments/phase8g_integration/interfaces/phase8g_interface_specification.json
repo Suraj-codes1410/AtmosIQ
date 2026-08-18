@@ -1,0 +1,43 @@
+{
+    "tensor_validation": {
+        "tensor_validation_status": "PASS",
+        "total_sequences": 896,
+        "sequence_window": 14,
+        "feature_dimension": 35,
+        "checks": [
+            {
+                "check": "Tensor 3D Shape (N, W, D)",
+                "expected_shape": "(N, 14, 35)",
+                "observed_shape": "(896, 14, 35)",
+                "status": "PASS"
+            },
+            {
+                "check": "Target Aligned 1D Shape (N,)",
+                "expected_shape": "(896,)",
+                "observed_shape": "(896,)",
+                "status": "PASS"
+            },
+            {
+                "check": "Float32 Tensor Datatype",
+                "observed_X_dtype": "float32",
+                "observed_y_dtype": "float32",
+                "status": "PASS"
+            },
+            {
+                "check": "Numerical Completeness (Zero NaN / Inf)",
+                "violations": 0,
+                "status": "PASS"
+            },
+            {
+                "check": "Target Non-Negativity (PM2.5 >= 0)",
+                "violations": 0,
+                "status": "PASS"
+            }
+        ]
+    },
+    "architecture_smoke_test": {
+        "LSTM": "PASS",
+        "TCN": "PASS",
+        "Transformer": "PASS"
+    }
+}
