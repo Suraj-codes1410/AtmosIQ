@@ -1,0 +1,17 @@
+{
+    "manifest_name": "AtmosIQ_Phase9AB_Certified_Model_Manifest",
+    "phase": "Phase 9A\u20139B",
+    "certified_candidate_id": "TCN_aug50pct_seed2025",
+    "certified_architecture": "TCN",
+    "certified_augmentation_ratio": 0.5,
+    "certified_corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+    "governance_role": "RESEARCH_CANDIDATE_STRESS_TEST",
+    "production_eligibility": "RESTRICTED",
+    "stress_test_status": "YES",
+    "checkpoint_sha256": "49fd34d56d364f20de4881b7b91432485029d160c87e9687699f3694650fc35c",
+    "test_mae": 36.577754974365234,
+    "test_rmse": 48.236602783203125,
+    "test_r2": 0.7517964592251303,
+    "extreme_mae": 44.571388244628906,
+    "reproducibility_delta": 0.0
+}

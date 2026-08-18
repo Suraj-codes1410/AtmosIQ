@@ -1,0 +1,17 @@
+{
+    "phase": "Phase 9A\u20139B",
+    "upstream_phases_verified": [
+        "Phase 6F",
+        "Phase 8C",
+        "Phase 8D",
+        "Phase 8E",
+        "Phase 8F",
+        "Phase 8G",
+        "Phase 8H",
+        "Phase 9"
+    ],
+    "freeze_status": "PASS",
+    "drift_count": 0,
+    "feature_count": 35,
+    "sequence_window": 14
+}

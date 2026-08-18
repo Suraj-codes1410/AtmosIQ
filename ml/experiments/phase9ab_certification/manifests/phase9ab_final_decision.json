@@ -1,0 +1,11 @@
+{
+    "phase": "Phase 9A\u20139B",
+    "certification_status": "CERTIFIED_RESEARCH_CANDIDATE",
+    "phase9ab_status": "COMPLETE",
+    "phase10_readiness": "READY",
+    "certified_research_candidate": "TCN (50% CAL-07 Augmentation)",
+    "production_eligible_candidate": "TCN (25% CAL-07 Augmentation)",
+    "governance_compliance": "PASS",
+    "test_mae": 36.577754974365234,
+    "extreme_mae": 44.571388244628906
+}

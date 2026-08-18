@@ -1,0 +1,2 @@
+candidate_id,extreme_threshold,extreme_observations_count,extreme_mae,extreme_rmse,extreme_bias,extreme_underpred_rate,extreme_overpred_rate,overall_test_mae
+TCN_aug50pct_seed2025,250.0,180,44.571388244628906,55.49856948852539,-17.101457595825195,0.5777777777777777,0.4222222222222222,36.577754974365234
