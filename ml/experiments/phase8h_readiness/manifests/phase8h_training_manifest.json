@@ -1,0 +1,30 @@
+{
+    "manifest_name": "AtmosIQ_Phase8H_Final_Training_Manifest",
+    "phase": "Phase 8H",
+    "phase9_admission_status": "APPROVED_READY_FOR_EXECUTION",
+    "canonical_production_corpus": {
+        "name": "AtmosIQ_Synthetic_Production_v1.0.0",
+        "sha256": "8ce3a8c0c6fd0049dd174a0e34b8612077fe5d8d9ee1e6c1eb9156b5fa78ae0e"
+    },
+    "preferred_research_corpus": {
+        "name": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+        "candidate": "CAL-07",
+        "sha256": "264c9c5ec109ad034b4488a18a8a6a8eafb92d9f12f2fecb59eee87ef47b13ad"
+    },
+    "training_contract": {
+        "file": "phase9_training_contract.json",
+        "sha256": "01485a73d0098d477ae02135e0682f3cf9c4da592a577d1e3151e60be950a10c"
+    },
+    "recommended_augmentation": 0.25,
+    "primary_training_sequences": 896,
+    "smoke_test_architectures": [
+        "LSTM",
+        "TCN",
+        "Transformer"
+    ],
+    "seeds": [
+        42,
+        123,
+        2025
+    ]
+}

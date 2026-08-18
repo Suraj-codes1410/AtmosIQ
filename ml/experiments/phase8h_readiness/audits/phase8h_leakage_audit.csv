@@ -1,0 +1,4 @@
+dimension,check,violations,status,details
+Training Partition Isolation,Historical 2020-2021 Train Dates strictly < 2022-01-01,0,PASS,Development train fold contains 731 rows strictly <= 2021-12-31
+Evaluation Benchmark Isolation,Evaluation Fold Dates strictly >= 2022-01-01 and <= 2024-12-31,0,PASS,Locked evaluation fold contains 1096 rows strictly 2022-2024
+Integrated Sequence Provenance Partition,All Integrated Training Sequences Tagged '2020-2021',0,PASS,896 integrated sequences verified from 2020-2021 partition

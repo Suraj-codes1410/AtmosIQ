@@ -1,0 +1,4 @@
+architecture,seed,checkpoint_file,checkpoint_sha256,inference_delta,round_trip_status
+LSTM,42,smoke_ckpt_lstm_seed42.json,2a16ab0839a4790c...,0.0,PASS
+TCN,42,smoke_ckpt_tcn_seed42.json,e1f8ee4f922f57f7...,0.0,PASS
+Transformer,42,smoke_ckpt_transformer_seed42.json,78ec3dfdb57219d9...,0.0,PASS

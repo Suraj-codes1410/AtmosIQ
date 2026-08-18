@@ -1,0 +1,2 @@
+test,delta,tolerance,status
+Exact Re-execution Feature Tensor Delta,0.0,1e-09,PASS

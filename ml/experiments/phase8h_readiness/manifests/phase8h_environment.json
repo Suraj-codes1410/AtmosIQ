@@ -1,0 +1,12 @@
+{
+    "os": "Linux x86_64",
+    "python": "3.14.0",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "seeds": [
+        42,
+        123,
+        2025
+    ],
+    "device": "CPU_DETERMINISTIC"
+}

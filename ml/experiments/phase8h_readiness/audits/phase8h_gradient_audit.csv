@@ -1,0 +1,4 @@
+architecture,seed,total_grad_norm,max_grad,grad_nan_inf_free,status
+LSTM,42,752.7284545898438,185.3081817626953,True,PASS
+TCN,42,8814.3134765625,2773.06494140625,True,PASS
+Transformer,42,8912.9931640625,2962.842041015625,True,PASS

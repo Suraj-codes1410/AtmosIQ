@@ -1,0 +1,3 @@
+check,violations,status,details
+Trajectory ID Completeness in Sequences,0,PASS,170 unique trajectories represented
+Sequence Window Homogeneity (W=14),0,PASS,All 896 sequences formatted with W=14

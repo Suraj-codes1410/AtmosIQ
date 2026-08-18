@@ -1,0 +1,4 @@
+check,observed_count,expected_count,status,violations,details
+Scaler Fitted Exclusively on Historical 2020-2021 Partition,731.0,731.0,PASS,,
+Feature Scale Non-Degeneracy (Variance > 0),,,PASS,0.0,Min feature scale: 2.8900e-01
+Finite Preprocessing Normalization Statistics,,,PASS,0.0,

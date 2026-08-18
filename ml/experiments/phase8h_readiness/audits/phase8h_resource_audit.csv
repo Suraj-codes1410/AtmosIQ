@@ -1,0 +1,6 @@
+resource,value,unit,status
+Available Logical CPU Cores,32,cores,PASS
+Current CPU Utilization,0.3,%,PASS
+Total System RAM,14.33,GB,PASS
+Available System RAM,7.16,GB,PASS
+Execution Device,CPU_DETERMINISTIC,device,PASS
