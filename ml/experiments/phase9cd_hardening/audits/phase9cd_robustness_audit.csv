@@ -1,0 +1,9 @@
+test_case,safely_rejected,audit_status
+NaN Value in Tensor,True,PASS_SAFELY_REJECTED
+Inf Value in Tensor,True,PASS_SAFELY_REJECTED
+Wrong Sequence Length (W=7),True,PASS_SAFELY_REJECTED
+Wrong Sequence Length (W=21),True,PASS_SAFELY_REJECTED
+Wrong Feature Dimension (D=30),True,PASS_SAFELY_REJECTED
+Wrong Feature Dimension (D=40),True,PASS_SAFELY_REJECTED
+"2D Tensor Dimension (B, D)",True,PASS_SAFELY_REJECTED
+Non-Numpy Object Input,True,PASS_SAFELY_REJECTED

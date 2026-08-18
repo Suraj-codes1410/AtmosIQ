@@ -1,0 +1,34 @@
+{
+    "manifest_name": "AtmosIQ_Phase9CD_Master_Model_Manifest",
+    "phase": "Phase 9C\u20139D",
+    "primary_production_candidate": {
+        "version": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+        "architecture": "TCN",
+        "augmentation_ratio": 0.25,
+        "corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+        "governance_role": "PRODUCTION_CANDIDATE",
+        "admission_status": "PRODUCTION_ELIGIBLE",
+        "parameters_count": 865,
+        "calibrated_test_mae": 37.09897994995117,
+        "calibrated_test_rmse": 49.06583786010742,
+        "interval_coverage_90": 0.933456561922366
+    },
+    "research_candidate": {
+        "version": "AtmosIQ_DL_TCN_CAL07_50_RESEARCH_v1.0.0",
+        "architecture": "TCN",
+        "augmentation_ratio": 0.5,
+        "corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+        "governance_role": "RESEARCH_CANDIDATE",
+        "admission_status": "RESTRICTED_STRESS_TEST_ONLY",
+        "calibrated_test_mae": 35.91206359863281
+    },
+    "fallback_production_candidate": {
+        "version": "AtmosIQ_DL_LSTM_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+        "architecture": "LSTM",
+        "augmentation_ratio": 0.25,
+        "corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+        "governance_role": "PRODUCTION_CANDIDATE",
+        "admission_status": "PRODUCTION_ELIGIBLE",
+        "calibrated_test_mae": 92.91497039794922
+    }
+}

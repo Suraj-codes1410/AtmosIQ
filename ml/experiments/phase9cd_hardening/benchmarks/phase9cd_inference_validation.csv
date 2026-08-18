@@ -1,0 +1,2 @@
+model_version,test_sequences_count,repeated_inference_delta,determinism_status,single_item_latency_ms,batch_latency_ms,throughput_samples_sec,robustness_pass_rate
+AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0,1082,0.0,PASS,0.009941824919224018,0.1554717249746318,6956260.105656392,1.0

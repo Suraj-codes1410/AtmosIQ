@@ -1,0 +1,9 @@
+{
+    "manifest_name": "AtmosIQ_Phase9CD_Preprocessing_Manifest",
+    "sequence_window": 14,
+    "feature_dim": 35,
+    "feature_registry_sha256": "b14800a4ee57f0fbc04993a072b9d4007168f0203f95cb6c0e4c81e1ace001bc",
+    "scaler_fitted_partition": "2020-01-01 to 2021-12-31",
+    "scaler_type": "StandardScaler (Historical-Only)",
+    "scaler_immutable": true
+}

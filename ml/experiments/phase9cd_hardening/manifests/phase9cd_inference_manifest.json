@@ -1,0 +1,21 @@
+{
+    "manifest_name": "AtmosIQ_Phase9CD_Inference_Manifest",
+    "inference_interface_version": "v1.0.0",
+    "input_tensor_shape": [
+        null,
+        14,
+        35
+    ],
+    "determinism_delta": 0.0,
+    "latency_profile": {
+        "single_item_latency_ms": 0.009941824919224018,
+        "batch_latency_ms": 0.1554717249746318,
+        "batch_size": 1082,
+        "throughput_samples_per_sec": 6956260.105656392
+    },
+    "robustness_test_summary": {
+        "total_adversarial_tests": 8,
+        "passed_safely_rejected": 8
+    },
+    "phase10_readiness": "READY"
+}
