@@ -1,0 +1,5 @@
+fold_id,train_start,train_end,val_start,val_end,max_train_date,min_val_date,temporal_firewall_passed,train_observations,val_observations,scaler_fitted_on,scaler_leakage,target_leakage,status
+WF_Window_A,2020-01-01,2020-12-31,2021-01-01,2021-06-30,2020-12-31,2021-01-01,True,366,181,2020-01-01 to 2020-12-31,NONE,NONE,PASS
+WF_Window_B,2020-01-01,2021-06-30,2021-07-01,2021-12-31,2021-06-30,2021-07-01,True,547,184,2020-01-01 to 2021-06-30,NONE,NONE,PASS
+WF_Window_C,2020-01-01,2021-12-31,2022-01-01,2022-12-31,2021-12-31,2022-01-01,True,731,365,2020-01-01 to 2021-12-31,NONE,NONE,PASS
+WF_Window_D,2020-01-01,2022-12-31,2023-01-01,2024-12-31,2022-12-31,2023-01-01,True,1096,731,2020-01-01 to 2022-12-31,NONE,NONE,PASS

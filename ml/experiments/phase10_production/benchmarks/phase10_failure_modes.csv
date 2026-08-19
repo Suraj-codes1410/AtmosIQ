@@ -1,0 +1,7 @@
+failure_condition,detection_mechanism,model_behavior,system_response,severity,mitigation
+Missing Sensor / Telemetry Features,"Runtime Schema Validator (W=14, D=35)",Contract Exception Raised (No Partial Forecast),Inference Contract Rejection (HTTP 422),CRITICAL,Fallback to Persistence / Climatological baseline or await telemetry recovery.
+Temporal Gaps (<14 consecutive days),Monotonic Timestamp Validator,Rejects Sequence Construction,Returns Insufficient Context Error,HIGH,Impute short gaps (<2h) with linear interpolation or flag unforecastable window.
+Severe Stagnation / Wildfire Spike (>400 µg/m³),Extreme Event Monitor (PM2.5 >= 250 µg/m³),Underprediction of Peak Extrema (~18% bias),Applies 90% Conformal Interval Expansion,MEDIUM,Display upper uncertainty interval bound for public emergency advisory.
+Monsoon Washout Distribution Shift,Seasonal Feature Drift Monitor (Rain > 50mm),Accurate Low-PM Baseline Tracking (MAE < 20 µg/m³),Normal Operation,LOW,Automatic seasonal regime identification in Decision Support UI.
+Corrupted / Non-Numeric Input,Type & Finite Number Checker (NaN/Inf),Zero-Tolerance Safe Rejection,Inference Rejection (Validation Error),CRITICAL,Data cleansing pipeline sanitization before inference dispatch.
+Computational Resource Starvation,Latency SLA Monitor (>50ms/batch),Deterministic Sequential Fallback,Emits Performance Warning / Alert,LOW,Ultra-lightweight architecture (849 parameters) ensures sub-millisecond CPU runtime.

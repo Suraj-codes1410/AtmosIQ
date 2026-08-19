@@ -1,0 +1,13 @@
+input_case,expected_behavior,actual_behavior,pass_fail
+Missing Feature (D=34),Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+Extra Feature (D=36),Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+NaN Value in Tensor,Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+Inf Value in Tensor,Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+Wrong Sequence Length (W=7),Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+Wrong Sequence Length (W=28),Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+"2D Tensor Dimension (B, D)",Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+"4D Tensor Dimension (B, 1, W, D)",Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+Non-Numpy Object Input,Reject Safely with Validation Error or Finite Output,PASS_SAFELY_REJECTED,PASS
+Empty Input Tensor (B=0),Reject Safely with Validation Error or Finite Output,PASS_SAFE_EXECUTION,PASS
+Extreme Out-of-Range (>1e6),Reject Safely with Validation Error or Finite Output,PASS_SAFE_EXECUTION,PASS
+Reordered Feature Schema,Reject Safely with Validation Error or Finite Output,PASS_SAFE_EXECUTION,PASS

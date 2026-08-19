@@ -1,0 +1,18 @@
+{
+    "manifest_name": "AtmosIQ_Phase10_Production_Certified_Model_Manifest",
+    "phase": "Phase 10 + Phase 10A",
+    "production_candidate": {
+        "version": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+        "architecture": "TCN",
+        "augmentation_ratio": 0.25,
+        "corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+        "checkpoint_sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac",
+        "parameter_count": 865,
+        "walkforward_mean_mae": 37.00614643096924,
+        "walkforward_mean_rmse": 49.510440826416016,
+        "walkforward_mean_r2": 0.7023028935212924,
+        "conformal_90_coverage": 0.9366338613407237
+    },
+    "certification_decision": "PRODUCTION_APPROVED",
+    "operational_status": "READY_FOR_DEPLOYMENT"
+}

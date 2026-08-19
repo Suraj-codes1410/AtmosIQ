@@ -1,0 +1,18 @@
+{
+    "manifest_name": "AtmosIQ_Phase10_Validation_Manifest",
+    "walkforward_folds_count": 4,
+    "leakage_status": "PASS (0 LEAKAGE)",
+    "input_robustness_pass_rate": 1.0,
+    "repeated_inference_delta": 0.0,
+    "latency_profile": {
+        "single_item_latency_ms": 0.020767139999406936,
+        "batch_latency_ms": 0.06393469999920853,
+        "batch_size": 167,
+        "throughput_samples_per_sec": 2610289.4169917023
+    },
+    "feature_drift_summary": {
+        "low_drift_count": 29,
+        "moderate_drift_count": 6,
+        "high_drift_count": 0
+    }
+}

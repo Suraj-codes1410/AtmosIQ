@@ -1,0 +1,9 @@
+{
+    "platform": "Linux-7.0.0-29-generic-x86_64-with-glibc2.43",
+    "python_version": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "system_processor": "",
+    "python_implementation": "CPython",
+    "environment_type": "Linux / x86_64 Virtual Environment",
+    "cuda_available": false,
+    "device": "CPU / Multithreaded"
+}
