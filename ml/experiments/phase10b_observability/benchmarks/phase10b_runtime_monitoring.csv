@@ -1,0 +1,2 @@
+timestamp_utc,single_sequence_latency_ms,batch_latency_ms,throughput_samples_per_sec,contract_violations_count,failed_inferences_count,memory_utilization_mb,sla_compliance_status
+2026-08-19T19:53:29Z,0.010295749962097034,0.1510379499904957,7162479.727268918,0,0,42.5,PASS_ALL_SLAS_MET

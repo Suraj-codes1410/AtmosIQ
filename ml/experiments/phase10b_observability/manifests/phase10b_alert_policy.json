@@ -1,0 +1,16 @@
+{
+    "policy_name": "AtmosIQ_Phase10B_Alerting_Governance_Policy",
+    "version": "1.0.0",
+    "tier_definitions": {
+        "GREEN": "Normal operation. Telemetry within standard tolerance.",
+        "YELLOW": "Potential drift or minor performance degradation. Continue inference, increase monitoring.",
+        "ORANGE": "Material degradation (e.g. MAE +25%, Bias > 15 \u00b5g/m\u00b3). Requires investigation; do not auto-retrain.",
+        "RED": "Critical operational failure (e.g. Contract violation, MAE +50%, NaN/Inf output). Trigger deterministic rollback."
+    },
+    "sla_thresholds": {
+        "max_single_sequence_latency_ms": 10.0,
+        "max_batch_latency_ms": 50.0,
+        "max_acceptable_bias_ug_m3": 15.0,
+        "min_90_conformal_coverage": 0.8
+    }
+}

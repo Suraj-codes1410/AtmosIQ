@@ -1,0 +1,2 @@
+variable,physical_rule,violation_count,violation_rate,status
+pm25,pm25 >= 0 µg/m³,0,0.0,PASS

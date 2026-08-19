@@ -1,0 +1,48 @@
+{
+    "registry_version": "1.0.0",
+    "phase": "Phase 10B",
+    "models": [
+        {
+            "model_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+            "architecture": "TCN",
+            "parameter_count": 849,
+            "augmentation_ratio": 0.25,
+            "synthetic_corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+            "governance_status": "PRODUCTION_APPROVED",
+            "deployment_role": "PRIMARY_PRODUCTION",
+            "sha256": "test_hash_123",
+            "input_contract": "W=14, D=35",
+            "calibration_offset": -5.06,
+            "conformal_bound_90": 95.66
+        },
+        {
+            "model_id": "AtmosIQ_DL_TCN_CAL07_50_RESEARCH_v1.0.0",
+            "architecture": "TCN",
+            "parameter_count": 849,
+            "augmentation_ratio": 0.5,
+            "synthetic_corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+            "governance_status": "RESEARCH_CANDIDATE",
+            "deployment_role": "STRESS_TEST_ONLY (RESTRICTED)",
+            "sha256": "4e73cba9210f...",
+            "input_contract": "W=14, D=35"
+        },
+        {
+            "model_id": "AtmosIQ_DL_LSTM_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+            "architecture": "LSTM",
+            "parameter_count": 849,
+            "augmentation_ratio": 0.25,
+            "synthetic_corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+            "governance_status": "PRODUCTION_ELIGIBLE",
+            "deployment_role": "FALLBACK_PRODUCTION",
+            "sha256": "b182e09ac741...",
+            "input_contract": "W=14, D=35"
+        },
+        {
+            "model_id": "MODEL_V3_PRODUCTION",
+            "architecture": "RandomForestRegressor + XGBoost Ensemble",
+            "governance_status": "FROZEN_BASELINE",
+            "deployment_role": "ROLLBACK_TARGET_BASELINE",
+            "sha256": "3cb0158309a473f1d43a60a7e67f082e63ddc637a7f457ffad0c5f5bc9381666"
+        }
+    ]
+}

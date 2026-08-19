@@ -1,0 +1,11 @@
+scenario_id,description,injected_fault,expected_severity,observed_severity,alerts_triggered_count,detection_status,false_rollback_prevented
+SCEN_01_FEATURE_MEAN_SHIFT,Synthetic +2.5 std mean shift on meteorological features,Mean shift on wind_speed & temperature,ORANGE,ORANGE,2,PASS_DETECTED,True
+SCEN_02_FEATURE_VARIANCE_EXPANSION,3.0x variance explosion on chemical precursor features,Variance expansion on gas ratios,ORANGE,ORANGE,1,PASS_DETECTED,True
+SCEN_03_MISSING_FEATURE_SPIKE,Sudden NaN value injection in telemetry batch,NaN values in tensor payload,RED,RED,3,PASS_DETECTED,True
+SCEN_04_TIMESTAMP_DISRUPTION,Non-monotonic / duplicate timestamps in sequence batch,Temporal sequence ordering corruption,RED,RED,3,PASS_DETECTED,True
+SCEN_05_PREDICTION_DIST_SHIFT,Model outputs collapse or shift by +60 µg/m³,Severe output distribution drift,RED,RED,4,PASS_DETECTED,True
+SCEN_06_SYSTEMATIC_BIAS_JUMP,Persistent +18.5 µg/m³ prediction bias offset,Calibration bias drift,ORANGE,ORANGE,3,PASS_DETECTED,True
+SCEN_07_EXTREME_EVENT_SPIKE,Wildfire / stubble burning episode (PM2.5 >= 350 µg/m³),Severe atmospheric stagnation event,ORANGE,ORANGE,2,PASS_DETECTED,True
+SCEN_08_LATENCY_DEGRADATION,CPU latency spike exceeding 15 ms per sequence,Host compute throttling,YELLOW,YELLOW,1,PASS_DETECTED,True
+SCEN_09_SCHEMA_CORRUPTION,Feature tensor truncated to D=30 instead of D=35,Schema dimension mismatch,RED,RED,3,PASS_DETECTED,True
+SCEN_10_CALIBRATION_DEGRADATION,Undercoverage drop to 74% on 90% conformal bound,Uncertainty interval coverage erosion,ORANGE,ORANGE,3,PASS_DETECTED,True

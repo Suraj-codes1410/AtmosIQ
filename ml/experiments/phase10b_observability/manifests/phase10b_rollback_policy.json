@@ -1,0 +1,16 @@
+{
+    "policy_name": "AtmosIQ_Phase10B_Deterministic_Rollback_Policy",
+    "version": "1.0.0",
+    "current_production_model": "TEST_v1.0.0",
+    "rollback_target_model": "MODEL_V3_PRODUCTION",
+    "rollback_triggers": [
+        "REPEATED_INFERENCE_CONTRACT_VIOLATIONS",
+        "CORRUPTED_OR_NAN_INF_OUTPUTS",
+        "MAE_DEGRADATION_EXCEEDING_50_PERCENT",
+        "PERSISTENT_UNRELIABLE_CALIBRATION_BIAS",
+        "MODEL_WEIGHT_OR_HASH_INTEGRITY_FAILURE"
+    ],
+    "rollback_mechanism": "CRYPTOGRAPHIC_POINTER_REVERSION_TO_LAST_APPROVED_VERSION",
+    "automatic_retraining_allowed": false,
+    "governance_approval_required_for_repromotion": true
+}

@@ -1,0 +1,31 @@
+{
+    "contract_name": "AtmosIQ_Phase10B_Production_Monitoring_Contract",
+    "version": "1.0.0",
+    "input_contract": {
+        "sequence_window": 14,
+        "feature_dimension": 35,
+        "non_negative_target": true,
+        "allow_nan_or_inf": false
+    },
+    "monitoring_metrics": [
+        "PSI (Population Stability Index)",
+        "2-Sample Kolmogorov-Smirnov Test",
+        "Normalized Wasserstein Distance",
+        "Mean Absolute Error (MAE)",
+        "Root Mean Squared Error (RMSE)",
+        "Prediction Bias",
+        "90% Conformal Interval Coverage",
+        "Single & Batch Inference Latency"
+    ],
+    "alert_severities": [
+        "GREEN",
+        "YELLOW",
+        "ORANGE",
+        "RED"
+    ],
+    "governance_safeguards": [
+        "SYNTHETIC DATA != OBSERVED DATA",
+        "PREDICTION INTERVAL != GUARANTEED PHYSICAL UNCERTAINTY",
+        "DRIFT DETECTION != PROOF OF CAUSAL REGIME CHANGE"
+    ]
+}
