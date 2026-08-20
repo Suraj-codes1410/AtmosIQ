@@ -1,0 +1,138 @@
+{
+    "index_name": "AtmosIQ_Phase10E_Evidence_Index",
+    "indexed_timestamp_utc": "2026-08-20T14:40:37Z",
+    "total_artifacts_indexed": 13,
+    "all_critical_present": true,
+    "evidence_items": [
+        {
+            "phase": "Phase 8F",
+            "artifact_name": "Governance Artifact Manifest",
+            "relative_path": "ml/experiments/phase8f_governance/manifests/phase8f_artifact_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "ac85bdda42d9cfefbaec7b287e893ce421c22a42c4f5c7bb9404e2896af41dbf",
+            "exists": true,
+            "relevance": "Governance baseline & freeze",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 8G",
+            "artifact_name": "Integration Manifest",
+            "relative_path": "ml/experiments/phase8g_integration/manifests/phase8g_integration_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "f4f448195e6412e6d7914645c0d011ef12b14294096a477b1d05681c5eef4e5c",
+            "exists": true,
+            "relevance": "Temporal sequence builder contract",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 8H",
+            "artifact_name": "DL Readiness Manifest",
+            "relative_path": "ml/experiments/phase8h_readiness/manifests/phase8h_training_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "4469a412f8b24e0356683269b63f0ba76bc0fb6e160e77a1b7886941a669920e",
+            "exists": true,
+            "relevance": "Deep learning gate approval",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 9",
+            "artifact_name": "Deep Learning Benchmark Manifest",
+            "relative_path": "ml/experiments/phase9_deep_learning/manifests/phase9_training_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "40324ea677857f0c4fa30522622dc713975bfc88b4a5a7d4a856f226d9a3cb2d",
+            "exists": true,
+            "relevance": "TCN architecture & training checkpoint",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 9",
+            "artifact_name": "TCN Production Candidate Checkpoint",
+            "relative_path": "ml/experiments/phase9_deep_learning/checkpoints/checkpoint_TCN_aug25pct_seed2025.json",
+            "artifact_type": "model_weights",
+            "sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac",
+            "exists": true,
+            "relevance": "Frozen production weights (849 params)",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 9A-9B",
+            "artifact_name": "Model Certification Decision",
+            "relative_path": "ml/experiments/phase9ab_certification/manifests/phase9ab_final_decision.json",
+            "artifact_type": "manifest",
+            "sha256": "09204aba5bc9ff25fd22dc482ca77148c6df70c738c1deff3043570a91579e1c",
+            "exists": true,
+            "relevance": "Reconciliation & candidate certification",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 9C-9D",
+            "artifact_name": "Model Hardening Manifest",
+            "relative_path": "ml/experiments/phase9cd_hardening/manifests/phase9cd_model_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "64dee8e3b296560a0c619dc8b68e00e7fc348e20238a1594964c14bbaff1e151",
+            "exists": true,
+            "relevance": "Conformal uncertainty & bias calibration",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 10",
+            "artifact_name": "Production Validation Manifest",
+            "relative_path": "ml/experiments/phase10_production/manifests/phase10_model_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "1a1bbae3a86580f8eaa8652f22582d6416966a9f747440ea06fc29e0c9080937",
+            "exists": true,
+            "relevance": "Walk-forward validation & leakage audit",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 10B",
+            "artifact_name": "Model Registry & Observability Manifest",
+            "relative_path": "ml/experiments/phase10b_observability/manifests/phase10b_model_registry.json",
+            "artifact_type": "manifest",
+            "sha256": "a3d1d4cc449c828d6828412cda8226d0d9d3c331afaf57d71319a0dcf3f7aeee",
+            "exists": true,
+            "relevance": "Drift monitoring, alerting & rollback policies",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 10B",
+            "artifact_name": "Rollback Governance Policy",
+            "relative_path": "ml/experiments/phase10b_observability/manifests/phase10b_rollback_policy.json",
+            "artifact_type": "policy",
+            "sha256": "269658014ede403bf51614f220c28709cffa8c8edd551fa657cf1d770e8caffd",
+            "exists": true,
+            "relevance": "Deterministic rollback contract",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 10C",
+            "artifact_name": "End-to-End Inference Manifest",
+            "relative_path": "ml/experiments/phase10c_inference/manifests/phase10c_model_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "5efe211c8b9e78788018ea5dd26ef71f520ba14ceaec880533a8a50ad34c0df6",
+            "exists": true,
+            "relevance": "Replay equivalence (Delta = 0.00e+00) & failure injection",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 10D",
+            "artifact_name": "Production Release Manifest",
+            "relative_path": "ml/experiments/phase10d_release/manifests/phase10d_release_manifest.json",
+            "artifact_type": "manifest",
+            "sha256": "5fd87fb6917dbb3c987afe042f5005d9ece2fdf68dabfc16ebb204489e67600c",
+            "exists": true,
+            "relevance": "Final release packaging & go-live readiness",
+            "verification_status": "VERIFIED_PRESENT"
+        },
+        {
+            "phase": "Phase 10D",
+            "artifact_name": "Production Release Bundle",
+            "relative_path": "ml/experiments/phase10d_release/release_bundle/release_manifest.json",
+            "artifact_type": "bundle",
+            "sha256": "5fd87fb6917dbb3c987afe042f5005d9ece2fdf68dabfc16ebb204489e67600c",
+            "exists": true,
+            "relevance": "Self-contained deployable production package",
+            "verification_status": "VERIFIED_PRESENT"
+        }
+    ]
+}

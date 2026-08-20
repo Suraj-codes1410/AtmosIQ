@@ -1,0 +1,7 @@
+dimension,rule,evidence,status
+Evaluation Fold Firewall,2022-2024 locked test data strictly isolated from training,Zero training overlap,PASS
+Preprocessing Isolation,StandardScaler fitted on 2020-2021 historical data only (0 refits),Frozen scaler state,PASS
+Calibration Isolation,Bias offset (-5.06 µg/m³) computed on validation fold only,Static parameter,PASS
+Uncertainty Isolation,Conformal error bounds derived from validation residuals only,Static parameter,PASS
+Lookahead Safety,Target horizon t+14d; no target feature in 14-day history window,Lookahead verified,PASS
+Synthetic Policy Compliance,25% CAL-07 production; 50% stress-test; 100% strictly prohibited,Policy verified,PASS

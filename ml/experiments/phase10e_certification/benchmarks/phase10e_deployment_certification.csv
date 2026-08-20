@@ -1,0 +1,5 @@
+endpoint,status_code,liveness,status,readiness,model_id,replay_delta_vs_10c
+/health,200,HEALTHY,PASS,,,
+/ready,200,,PASS,READY,,
+/version,200,,PASS,,AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0,
+/predict,200,,PASS,,,0.00e+00

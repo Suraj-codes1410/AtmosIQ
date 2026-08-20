@@ -1,0 +1,6 @@
+parameter,value,target_variable,status,empirical_coverage,violations
+Calibration Bias Offset,-5.06 µg/m³,pm25,PASS,,
+80% Conformal Interval Bound,± 63.92 µg/m³,,PASS,82.4%,
+90% Conformal Interval Bound,± 95.66 µg/m³,,PASS,91.2%,
+95% Conformal Interval Bound,± 117.50 µg/m³,,PASS,95.8%,
+Non-Negativity Constraint,Lower bound & prediction clamped to >= 0,,PASS,,0

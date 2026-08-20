@@ -1,0 +1,5 @@
+monitoring_hook,target,status
+Input Schema & Quality,Phase 10B DriftMonitor,CONNECTED_PASS
+Feature & Prediction Drift (PSI/Wasserstein),Phase 10B DriftMonitor,CONNECTED_PASS
+Tiered Alerting (GREEN/YELLOW/ORANGE/RED),Phase 10B AlertingEngine,CONNECTED_PASS
+Automated Rollback Policy,Phase 10B RollbackPolicy,CONNECTED_PASS

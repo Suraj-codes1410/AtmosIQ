@@ -1,0 +1,23 @@
+gate_id,name,requirement,observed,status,blocking
+G01,Protected Artifact Integrity,Zero cryptographic drift across 33 upstream artifacts,33/33 Matched (0 drift),PASS,True
+G02,Release SHA Integrity,Release bundle checkpoint matches certified candidate,fdc99f7ca4410f3d (Exact Match),PASS,True
+G03,Model Lineage,Traceable promotion from Phase 9 candidate to Phase 10D release,Lineage 100% Verified,PASS,True
+G04,Dataset Governance,25% CAL-07 production; 50% stress-test; 100% prohibited,Compliant with Policy,PASS,True
+G05,Temporal Isolation,max(train) <= 2021-12-31 < min(eval) >= 2022-01-01,Firewall Enforced,PASS,True
+G06,Leakage Prevention,Zero lookahead or target contamination across horizons,0 Leakage Instances,PASS,True
+G07,Preprocessing Isolation,StandardScaler frozen on 2020-2021 dev data (0 refits),Zero Scaler Refits,PASS,True
+G08,Model Performance Evidence,Walk-forward MAE 33.62 µg/m³; weaknesses documented,Performance Verified,PASS,True
+G09,Calibration Integrity,Bias offset -5.06 µg/m³ applied runtime,Calibrated Clamped,PASS,True
+G10,Uncertainty Integrity,"Conformal bounds (80%, 90%, 95%) with empirical coverage",Coverage ~91.2% on 90% nominal,PASS,True
+G11,Inference Contract,"W=14, D=35 strict shape and ordering enforcement",Contract Enforced,PASS,True
+G12,Deployment Equivalence,Deployed service vs Phase 10C certified delta <= 1e-9,Delta = 0.00e+00,PASS,True
+G13,API Readiness,"Endpoints /health, /ready, /version, /predict operational",All Endpoints 200 OK,PASS,True
+G14,Observability,"Data quality, drift (PSI/Wasserstein), SLA telemetry",Telemetry Connected,PASS,True
+G15,Alert Governance,Tiered GREEN/YELLOW/ORANGE/RED alert actions,Policies Exported,PASS,True
+G16,Rollback,Automated reversion to MODEL_V3_PRODUCTION certified,Rollback Drill PASS,PASS,True
+G17,Security,"Zero hardcoded secrets, safe loaders, decoupled config",Security Audit PASS,PASS,True
+G18,Reproducibility,Deterministic rebuild from bundle with Delta <= 1e-9,Delta = 0.00e+00,PASS,True
+G19,Failure Handling,16/16 deployment chaos failure cases safely rejected,16/16 Handled Safely,PASS,True
+G20,Repository Tests,Full test suite passes with 0 failures,All Repository Tests PASS,PASS,True
+G21,Provenance Completeness,100% prediction traceability to release ID & SHA,Provenance Certified,PASS,True
+G22,Scientific Language Safeguards,Explicit distinction between ML utility and causal truth,Safeguards Preserved,PASS,True

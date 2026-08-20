@@ -1,0 +1,11 @@
+stage,phase,identity,artifact_type,status
+01_DATA_PREPARATION,Phase 8C/8D,2020-2021 Dev (N=731) + CAL-07 Synthetic (25%),Data Corpus,FROZEN_APPROVED
+02_INTEGRATION_CONTRACT,Phase 8G/8H,"Phase 8G Temporal Sequence Builder (W=14, D=35)",Interface,APPROVED
+03_MODEL_TRAINING,Phase 9,"Phase9TCNModel (849 parameters, seed 2025)",Checkpoint,TRAINED_SELECTED
+04_CANDIDATE_CERTIFICATION,Phase 9A-9B,AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0,Certified Candidate,CERTIFIED
+05_HARDENING_CALIBRATION,Phase 9C-9D,Bias Calibration (-5.06 µg/m³) + Conformal Intervals,Calibrated Candidate,HARDENED
+06_PRODUCTION_VALIDATION,Phase 10+10A,"Walk-Forward Backtesting (MAE 33.62 µg/m³, 0 Leakage)",Validated Candidate,PRODUCTION_APPROVED
+07_OPERATIONAL_GOVERNANCE,Phase 10B,"Production Observability, Drift, Alert & Rollback Policies",Governance Registry,OPERATIONALLY_READY
+08_INFERENCE_VALIDATION,Phase 10C,"Production Pipeline (Replay Delta = 0.00e+00, 16/16 Injections)",Validated Pipeline,PIPELINE_VALIDATED
+09_PRODUCTION_RELEASE,Phase 10D,AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0,Release Bundle,RELEASE_CERTIFIED
+10_FINAL_CERTIFICATION,Phase 10E,AtmosIQ Final Production Release Certification,Master Certification Gate,FINAL_CERTIFIED

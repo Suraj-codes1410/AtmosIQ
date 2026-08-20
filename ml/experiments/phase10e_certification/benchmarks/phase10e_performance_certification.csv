@@ -1,0 +1,7 @@
+evaluation_segment,sample_size,mae,rmse,r2,bias,status
+Walk-Forward Overall (4 Folds),1405,33.62,45.18,0.684,-2.63,PASS_WITHIN_TOLERANCE
+Locked Evaluation Fold (2022-2024),1082,38.15,50.42,0.642,-2.63,PASS_WITHIN_TOLERANCE
+Winter Season (Stagnation),270,42.15,56.8,0.588,-8.12,KNOWN_WEAKNESS_MONITORED
+Post-Monsoon Season (Transition),270,44.82,58.2,0.572,-6.4,KNOWN_WEAKNESS_MONITORED
+Poor / Severe Regime (120-250 µg/m³),260,48.9,62.1,0.51,-8.4,KNOWN_WEAKNESS_MONITORED
+Emergency Regime (> 250 µg/m³),78,54.15,68.4,0.44,-14.2,KNOWN_WEAKNESS_MONITORED

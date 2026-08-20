@@ -1,0 +1,3 @@
+dimension,delta,tolerance,status,python_version,status_check
+Release Bundle Determinism,0.0,1e-09,PASS_NUMERICALLY_IDENTICAL,,
+Environment Specification,,,LOCKED,3.14.4,PASS

@@ -1,0 +1,6 @@
+contract_dimension,specification,enforcement,status
+Input Tensor Shape,"(B, 14, 35)",Mandatory,PASS
+Feature Dimension D,35 Prediction-Safe Features,Strict Registry Order,PASS
+Sequence Window W,14 Daily Timesteps,Strict Monotonic Spacing,PASS
+Output Schema,"Prediction, Calibrated Value, Conformal Bounds, Provenance ID",Structured JSON,PASS
+Failure Handling,16 of 16 Controlled Failure Cases Safely Rejected,Zero-Tolerance,PASS

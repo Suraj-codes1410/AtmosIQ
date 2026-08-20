@@ -1,0 +1,5 @@
+security_domain,observed,status
+Embedded Hardcoded Secrets / Keys,0 Detected,PASS
+Configuration Decoupling,Decoupled Manifests,PASS
+Safe Model Deserialization,JSON / Parquet Safe Loaders Only,PASS
+Artifact SHA Verification Before Activation,Mandatory Enforced,PASS

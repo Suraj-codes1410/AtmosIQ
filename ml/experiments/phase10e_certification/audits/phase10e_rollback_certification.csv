@@ -1,0 +1,2 @@
+rollback_target,trigger_mechanisms,restoration_latency,verification_status
+MODEL_V3_PRODUCTION,ORANGE/RED Drift Breach,< 100 ms,ROLLBACK_PASS

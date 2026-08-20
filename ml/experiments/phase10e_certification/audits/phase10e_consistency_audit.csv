@@ -1,0 +1,13 @@
+item,phases,expected,observed,status,severity
+Production Model Identity,Phase 9 -> 10D,AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0,AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0,PASS,BLOCKING
+Promoted Release Identity,Phase 10D -> 10E,AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0,AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0,PASS,BLOCKING
+Model Architecture,Phase 9 -> 10E,TCN,TCN,PASS,BLOCKING
+Parameter Count,Phase 9 -> 10E,849,849,PASS,BLOCKING
+Sequence Window W,Phase 8G -> 10E,14,14,PASS,BLOCKING
+Feature Dimension D,Phase 8G -> 10E,35,35,PASS,BLOCKING
+Production Augmentation Ratio,Phase 8D -> 10E,25% CAL-07,25% CAL-07,PASS,BLOCKING
+100% Synthetic Prohibition,Phase 8F -> 10E,Strictly Prohibited,Strictly Prohibited,PASS,BLOCKING
+Calibration Bias Offset,Phase 9CD -> 10E,-5.06 µg/m³,-5.06 µg/m³,PASS,BLOCKING
+Conformal 90% Bound,Phase 9CD -> 10E,95.66 µg/m³,95.66 µg/m³,PASS,BLOCKING
+Replay Equivalence Delta,Phase 10C -> 10D,<= 1e-9,0.00e+00,PASS,BLOCKING
+Rollback Reversion Target,Phase 10B -> 10E,MODEL_V3_PRODUCTION,MODEL_V3_PRODUCTION,PASS,BLOCKING
