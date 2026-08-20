@@ -1,0 +1,19 @@
+{
+    "manifest_name": "AtmosIQ_Phase10C_Production_Inference_Manifest",
+    "phase": "Phase 10C",
+    "model_identity": {
+        "model_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+        "architecture": "TCN",
+        "parameter_count": 849,
+        "augmentation_ratio": 0.25,
+        "synthetic_corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0",
+        "sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac"
+    },
+    "input_contract": {
+        "sequence_window": 14,
+        "feature_dimension": 35
+    },
+    "replay_equivalence_delta": 0.0,
+    "sla_single_latency_ms": 0.8002478250006106,
+    "pipeline_status": "END_TO_END_VALIDATED"
+}

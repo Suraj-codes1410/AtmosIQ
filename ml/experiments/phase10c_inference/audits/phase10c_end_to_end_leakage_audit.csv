@@ -1,0 +1,6 @@
+audit_dimension,contract_rule,observed_status,leakage_detected,status
+Temporal Partition Firewall,max(train) <= 2021-12-31 < min(eval) >= 2022-01-01,ENFORCED,False,PASS
+Scaler Preprocessing Isolation,StandardScaler fitted on 2020-2021 historical data only (never refits),FROZEN_STATE_PRESERVED,False,PASS
+Calibration Parameter Isolation,Bias offset (-5.06 µg/m³) fitted on dev-val only (never uses test fold),STATIC_FROZEN,False,PASS
+Conformal Uncertainty Isolation,"Bounds (80%, 90%, 95%) fitted on dev-val residuals only",STATIC_FROZEN,False,PASS
+Target Horizon Alignment,Prediction target = t + 14d (no target feature in input window),STRICT_LOOKAHEAD_SAFE,False,PASS

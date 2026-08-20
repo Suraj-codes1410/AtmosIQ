@@ -1,0 +1,8 @@
+{
+    "runtime_manifest_name": "AtmosIQ_Phase10C_Runtime_Contract_Manifest",
+    "failure_injection_tests_total": 16,
+    "failure_injection_passed": 16,
+    "leakage_audits_passed": 5,
+    "reproducibility_delta": 0.0,
+    "phase10d_readiness": "READY"
+}

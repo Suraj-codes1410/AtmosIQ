@@ -1,0 +1,2 @@
+calibration_bias_applied,mean_raw_prediction,mean_calibrated_prediction,offset_delta,status
+-5.06,133.28888860237566,138.348887202262,5.059998599886342,PASS_CALIBRATION_APPLIED

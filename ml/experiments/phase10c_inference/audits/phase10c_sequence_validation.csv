@@ -1,0 +1,4 @@
+audit_item,expected,observed,status
+Sliding Window Size,14,14,PASS
+Target Lookahead Horizon,t + 14d,t + 14d,PASS
+Boundary Integrity,No Cross-Partition Sequences,Preserved,PASS

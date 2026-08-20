@@ -1,0 +1,4 @@
+check,violations,status
+PM2.5 >= 0 µg/m³,0,PASS
+Finite Bounds (No NaN/Inf),0,PASS
+Lower <= Forecast <= Upper,0,PASS

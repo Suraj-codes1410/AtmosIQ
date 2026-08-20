@@ -1,0 +1,2 @@
+model_version,total_inferences,min_forecast,max_forecast,mean_forecast,non_negative_verified,status
+AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0,1083,10.665688514709473,393.35430908203125,138.348887202262,True,PASS

@@ -1,0 +1,4 @@
+component,latency_ms,sla_limit_ms,status
+Warm Single Sequence Inference,0.8002478250006106,10.0,PASS_WITHIN_SLA
+Full Batch Pipeline Inference,0.8226625999981252,50.0,PASS_WITHIN_SLA
+Throughput (Samples / Sec),34033.7933689704,1000.0,PASS_HIGH_THROUGHPUT

@@ -1,0 +1,2 @@
+total_sequences_compared,max_absolute_delta,mean_absolute_delta,contract_tolerance,equivalence_status
+1083,0.0,0.0,1e-09,PASS_NUMERICALLY_IDENTICAL

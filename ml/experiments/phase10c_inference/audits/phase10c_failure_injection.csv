@@ -1,0 +1,17 @@
+scenario_name,expected_handling,actual_result,is_safely_handled,status
+01_MISSING_FEATURE,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+02_EXTRA_FEATURE_IN_TENSOR,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ValueError),True,PASS
+03_CORRUPTED_FEATURE_SCHEMA,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ValueError),True,PASS
+04_NAN_IN_PAYLOAD,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+05_INF_IN_PAYLOAD,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+06_INSUFFICIENT_W_LENGTH,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+07_WRONG_FEATURE_DIMENSION,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+08_DUPLICATE_TIMESTAMPS,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+09_NON_MONOTONIC_TIMESTAMPS,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+10_MISSING_TIMESTEP,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ProductionInferenceException),True,PASS
+11_CORRUPTED_SCALER_TRANSFORM,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ValueError),True,PASS
+12_INVALID_MODEL_INPUT_RANK,Safe Rejection with Structured Error or Valid Invariant,PASS_SAFELY_REJECTED (ValueError),True,PASS
+13_CALIBRATION_MISMATCH,Safe Rejection with Structured Error or Valid Invariant,PASS_CONTROLLED_OUTPUT,True,PASS
+14_UNCERTAINTY_BOUND_COLLAPSE,Safe Rejection with Structured Error or Valid Invariant,PASS_CONTROLLED_OUTPUT,True,PASS
+15_INVALID_OUTPUT_HANDLING,Safe Rejection with Structured Error or Valid Invariant,PASS_CONTROLLED_OUTPUT,True,PASS
+16_EXCESSIVE_LATENCY_SIMULATION,Safe Rejection with Structured Error or Valid Invariant,PASS_CONTROLLED_OUTPUT,True,PASS

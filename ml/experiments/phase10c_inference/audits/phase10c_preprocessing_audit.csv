@@ -1,0 +1,4 @@
+audit_item,expected,observed,status
+Scaler Transform Isolation,Frozen Dev 2020-2021,Never Refits,PASS
+Feature Dim Transformed,35,35,PASS
+Finite Transformation,No NaN / Inf,All Finite,PASS

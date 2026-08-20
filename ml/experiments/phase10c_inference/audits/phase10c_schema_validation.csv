@@ -1,0 +1,4 @@
+audit_item,expected,observed,status
+Feature Count,35,35,PASS
+Feature Ordering,Registry Schema v1.0.0,Exact Match,PASS
+Missing / Extra Columns,0,0,PASS
