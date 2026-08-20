@@ -1,0 +1,11 @@
+{
+    "model_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+    "candidate_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+    "architecture": "TCN",
+    "parameter_count": 849,
+    "sequence_window": 14,
+    "feature_dimension": 35,
+    "augmentation_ratio": 0.25,
+    "synthetic_corpus": "AtmosIQ_Synthetic_Calibrated_v0.1.0 / CAL-07",
+    "model_sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac"
+}

@@ -1,0 +1,11 @@
+{
+    "rollback_manifest_name": "AtmosIQ_Phase10D_Rollback_Manifest",
+    "active_version": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+    "rollback_target_version": "MODEL_V3_PRODUCTION",
+    "rollback_trigger_mechanisms": [
+        "DRIFT_ORANGE_BREACH",
+        "SLA_BREACH_CRITICAL",
+        "MANUAL_OPERATOR_TRIGGER"
+    ],
+    "verification_status": "ROLLBACK_DRILL_PASS"
+}

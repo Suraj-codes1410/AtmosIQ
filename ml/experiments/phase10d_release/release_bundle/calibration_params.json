@@ -1,0 +1,6 @@
+{
+    "calibration_method": "Bias Offset Clamping",
+    "bias_offset_pm25": -5.06,
+    "target_variable": "pm25",
+    "unit": "\u00b5g/m\u00b3"
+}

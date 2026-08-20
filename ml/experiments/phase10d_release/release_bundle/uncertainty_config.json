@@ -1,0 +1,18 @@
+{
+    "uncertainty_method": "Conformal Empirical Residual Bounds",
+    "bounds": {
+        "conformal_80": {
+            "half_width": 63.92,
+            "nominal_coverage": 0.8
+        },
+        "conformal_90": {
+            "half_width": 95.66,
+            "nominal_coverage": 0.9
+        },
+        "conformal_95": {
+            "half_width": 117.5,
+            "nominal_coverage": 0.95
+        }
+    },
+    "interpretation": "Empirical prediction interval (not guaranteed physical certainty)."
+}

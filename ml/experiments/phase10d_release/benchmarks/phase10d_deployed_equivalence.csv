@@ -1,0 +1,2 @@
+total_replayed_sequences,max_absolute_delta_vs_10c,mean_absolute_delta_vs_10c,contract_tolerance,equivalence_status
+1083,0.0,0.0,1e-09,PASS_NUMERICALLY_IDENTICAL

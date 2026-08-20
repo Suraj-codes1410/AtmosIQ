@@ -1,0 +1,23 @@
+{
+    "manifest_name": "AtmosIQ_Phase10D_Production_Release_Manifest",
+    "release_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+    "candidate_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+    "fallback_id": "AtmosIQ_DL_LSTM_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0",
+    "previous_version": "MODEL_V3_PRODUCTION",
+    "architecture": "TCN",
+    "parameters": 849,
+    "input_contract": {
+        "window_size": 14,
+        "feature_dim": 35
+    },
+    "bundle_hashes": {
+        "model_checkpoint_sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac",
+        "feature_registry_sha256": "ef563d032635d84fbcfd0babf02ba76e999e6a062d389404ab4007d9cf9155c0",
+        "scaler_state_sha256": "825a56a74997ca42094497f51e2e473b8aed4657c2164bd77b5dbfc777d8e281",
+        "calibration_params_sha256": "3e51b172d36a3bcca692bf2df2ef1de0766a7bced49b3a5c5d1823fa1a84f0c0",
+        "uncertainty_config_sha256": "0d1b08674aa27a5aff5331a7cb1d209ac7214dbda16cd50ca6e38f62056c8f00"
+    },
+    "release_timestamp_utc": "2026-08-20T13:19:18Z",
+    "certification_status": "RELEASE_CERTIFIED",
+    "go_live_status": "READY"
+}

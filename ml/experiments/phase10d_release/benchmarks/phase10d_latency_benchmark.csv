@@ -1,0 +1,5 @@
+metric,observed_value,sla_threshold,status
+Warm Single Inference Latency,2.29 ms,< 10.0 ms,PASS
+Batch Pipeline Latency,18.45 ms,< 50.0 ms,PASS
+Throughput Capacity,59409 samples/sec,"> 1,000 samples/sec",PASS
+Memory Footprint,44.2 MB,< 256.0 MB,PASS

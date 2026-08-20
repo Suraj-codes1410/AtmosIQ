@@ -1,0 +1,10 @@
+{
+    "deployment_manifest_name": "AtmosIQ_Phase10D_Deployment_Manifest",
+    "release_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+    "bundle_directory": "/home/suraj/atmosIQ/ml/experiments/phase10d_release/release_bundle",
+    "service_health": "HEALTHY",
+    "service_readiness": "READY",
+    "deployed_equivalence_delta": 0.0,
+    "chaos_tests_passed": "16 / 16",
+    "go_live_status": "READY"
+}

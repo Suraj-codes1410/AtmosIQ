@@ -1,0 +1,17 @@
+chaos_scenario,expected_handling,observed_result,is_safely_handled,status
+01_CORRUPTED_MODEL_CHECKPOINT,Safe Rejection or Controlled Invariant,PASS_SAFELY_REJECTED (ValueError),True,PASS
+02_INCORRECT_MODEL_HASH,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+03_MISSING_SCALER_TRANSFORM,Safe Rejection or Controlled Invariant,PASS_SAFELY_REJECTED (ValueError),True,PASS
+04_CORRUPTED_SCALER_STATE,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+05_MISSING_CALIBRATION_FILE,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+06_CORRUPTED_CALIBRATION_OFFSET,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+07_MISSING_UNCERTAINTY_CONFIG,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+08_INCOMPATIBLE_FEATURE_REGISTRY,Safe Rejection or Controlled Invariant,PASS_SAFELY_REJECTED (ServiceContractException),True,PASS
+09_INCOMPATIBLE_DEPENDENCY_SPEC,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+10_INVALID_RUNTIME_CONFIG,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+11_UNAVAILABLE_MODEL_FILE,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+12_SERVICE_RESTART_DURING_TRAFFIC,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+13_MALFORMED_PRODUCTION_REQUEST,Safe Rejection or Controlled Invariant,PASS_SAFELY_REJECTED (ServiceContractException),True,PASS
+14_MONITORING_BACKEND_DISCONNECT,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+15_EXCESSIVE_LATENCY_TRIGGER,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
+16_MEMORY_PRESSURE_SIMULATION,Safe Rejection or Controlled Invariant,PASS_INVARIANT_PRESERVED,True,PASS
