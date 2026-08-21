@@ -1,0 +1,39 @@
+{
+  "phase": "Phase 11B",
+  "phase_name": "Production Monitoring Baseline & Limited Operational Validation",
+  "timestamp_utc": "2026-08-21T17:24:25Z",
+  "release_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+  "git_tag": "v1.0.0",
+  "architecture": "TCN",
+  "parameters": 849,
+  "sequence_window": 14,
+  "feature_dim": 35,
+  "augmentation": "25% CAL-07",
+  "model_checkpoint_sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac",
+  "protected_artifacts_verified": 34,
+  "protected_artifacts_drift": 0,
+  "final_decision": "MONITORING_BASELINE_ESTABLISHED",
+  "runtime_performance": {
+    "raw_model_forward_mean_ms": 0.02,
+    "full_service_api_mean_ms": 2.68,
+    "batch_service_api_mean_ms": 1.493,
+    "peak_memory_mb": 44.2,
+    "throughput_samples_per_sec": 373.2,
+    "sla_single_pass": true,
+    "sla_batch_pass": true,
+    "sla_memory_pass": true
+  },
+  "operational_replay_metrics": {
+    "sequences_evaluated": 1083,
+    "mae_pm25": 36.399,
+    "bias_pm25": -4.639,
+    "empirical_90_coverage_pct": 93.17,
+    "prediction_psi": 0.06890132454989693,
+    "prediction_drift_status": "YELLOW_MODERATE_DRIFT"
+  },
+  "alerting_and_governance": {
+    "alert_scenarios_validated": 4,
+    "rollback_target": "MODEL_V3_PRODUCTION",
+    "rollback_status": "PASS"
+  }
+}

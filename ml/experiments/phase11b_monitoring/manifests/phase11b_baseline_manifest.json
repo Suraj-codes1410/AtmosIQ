@@ -1,0 +1,11 @@
+{
+  "baseline_scope": "2020-2021 Historical Development vs 2022-2024 Controlled Operational Replay",
+  "feature_count": 35,
+  "features_clean_count": 35,
+  "prediction_baseline_mean": 135.72773593913215,
+  "prediction_replay_mean": 138.34888737837915,
+  "prediction_psi": 0.06890132454989693,
+  "empirical_90_coverage": 93.17,
+  "conformal_half_width": 95.66,
+  "calibration_offset": -5.06
+}
