@@ -6,7 +6,7 @@ Phase 10E performed the final, independent consolidation and certification audit
 - **Promoted Candidate Identity**: **`AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_CANDIDATE_v1.0.0`**
 - **Architecture**: **`TCN (Temporal Convolutional Network)`** (849 parameters, $W=14, D=35$)
 - **Production Augmentation**: **`25% CAL-07`** (50% restricted stress-test, 100% strictly prohibited)
-- **Protected Upstream Artifact Drift**: **`0`** (33 artifacts 100% immutable)
+- **Protected Upstream Artifact Drift**: **`0`** (34 artifacts 100% immutable — see `docs/releases/ARTIFACT_COUNT_RECONCILIATION.md`)
 - **Mandatory Gates Evaluated**: **`22 of 22 (100%) PASS`**
 - **Final Certification Decision**: **`FINAL_PRODUCTION_CERTIFIED`**
 
@@ -15,7 +15,7 @@ Phase 10E performed the final, independent consolidation and certification audit
 ## 2. Mandatory Production Certification Gates (`phase10e_final_gate.csv`)
 | gate_id   | name                           | requirement                                                     | observed                       | status   | blocking   |
 |:----------|:-------------------------------|:----------------------------------------------------------------|:-------------------------------|:---------|:-----------|
-| G01       | Protected Artifact Integrity   | Zero cryptographic drift across 33 upstream artifacts           | 33/33 Matched (0 drift)        | PASS     | True       |
+| G01       | Protected Artifact Integrity   | Zero cryptographic drift across 34 upstream artifacts (see ARTIFACT_COUNT_RECONCILIATION.md) | 34/34 Matched (0 drift)        | PASS     | True       |
 | G02       | Release SHA Integrity          | Release bundle checkpoint matches certified candidate           | fdc99f7ca4410f3d (Exact Match) | PASS     | True       |
 | G03       | Model Lineage                  | Traceable promotion from Phase 9 candidate to Phase 10D release | Lineage 100% Verified          | PASS     | True       |
 | G04       | Dataset Governance             | 25% CAL-07 production; 50% stress-test; 100% prohibited         | Compliant with Policy          | PASS     | True       |
