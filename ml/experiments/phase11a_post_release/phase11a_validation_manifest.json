@@ -1,0 +1,28 @@
+{
+  "phase": "Phase 11A",
+  "timestamp_utc": "2026-08-21T17:06:38Z",
+  "release_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+  "git_tag": "v1.0.0",
+  "final_decision": "POST_RELEASE_BASELINE_VALIDATED",
+  "gate_results": {
+    "release_identity": "PASS",
+    "model_sha_integrity": "PASS",
+    "protected_artifacts": "PASS",
+    "clean_environment_load": "PASS",
+    "api_health": "PASS",
+    "api_ready": "PASS",
+    "api_version": "PASS",
+    "prediction_contract": "PASS",
+    "deterministic_inference": "PASS",
+    "basic_input_rejection": "PASS",
+    "monitoring_config": "PASS",
+    "rollback_config": "PASS",
+    "performance_smoke": "PASS",
+    "provenance": "PASS"
+  },
+  "performance": {
+    "single_ms": 1.517,
+    "batch_ms": 3.204,
+    "memory_mb": 44.2
+  }
+}

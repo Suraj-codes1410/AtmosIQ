@@ -1,0 +1,15 @@
+check,status
+release_identity,PASS
+model_sha_integrity,PASS
+protected_artifacts,PASS
+clean_environment_load,PASS
+api_health,PASS
+api_ready,PASS
+api_version,PASS
+prediction_contract,PASS
+deterministic_inference,PASS
+basic_input_rejection,PASS
+monitoring_config,PASS
+rollback_config,PASS
+performance_smoke,PASS
+provenance,PASS

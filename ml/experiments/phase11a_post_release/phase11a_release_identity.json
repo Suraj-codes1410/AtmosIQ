@@ -1,0 +1,14 @@
+{
+  "certified_release_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+  "model_sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac",
+  "expected_sha256": "fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac",
+  "sha_match": true,
+  "git_tag": "v1.0.0",
+  "architecture": "TCN",
+  "parameters": 849,
+  "window": 14,
+  "feature_dim": 35,
+  "augmentation": "25% CAL-07",
+  "protected_artifact_count": 34,
+  "protected_artifact_drift": 0
+}

@@ -1,0 +1,17 @@
+{
+  "fixture_seed": 42,
+  "window": 14,
+  "feature_dim": 35,
+  "runs": 5,
+  "max_delta": 0.0,
+  "determinism": "PASS",
+  "sample_result": {
+    "status": "SUCCESS",
+    "model_version": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+    "forecast_pm25": 226.8013916015625,
+    "lower_90": 131.14138793945312,
+    "upper_90": 322.4613952636719,
+    "conformal_hw": 95.66,
+    "latency_ms": 1.6799120003270218
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "Phase 11A",
+  "timestamp_utc": "2026-08-21T17:06:38Z",
+  "python_version": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+  "runtime_load": "PASS",
+  "model_id": "AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0",
+  "sequence_window": 14,
+  "feature_dim": 35
+}
