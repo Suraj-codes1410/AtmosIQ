@@ -19,9 +19,28 @@ spring:
   ai:
     openai:
       api-key: ${OPENAI_API_KEY:demo-key-placeholder}
+      chat:
+        options:
+          model: ${SPRING_AI_OPENAI_CHAT_MODEL:gpt-4o}
 
 server:
   port: ${SERVER_PORT:8080}
+
+atmosiq:
+  fastapi:
+    base-url: ${ATMOSIQ_FASTAPI_BASE_URL:http://localhost:8000}
+    connect-timeout-ms: ${ATMOSIQ_FASTAPI_CONNECT_TIMEOUT:5000}
+    read-timeout-ms: ${ATMOSIQ_FASTAPI_READ_TIMEOUT:10000}
+    expected-model-id: ${ATMOSIQ_EXPECTED_MODEL_ID:AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0}
+    expected-model-sha256: ${ATMOSIQ_EXPECTED_MODEL_SHA256:fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac}
+    fail-on-model-id-mismatch: ${ATMOSIQ_FAIL_ON_MODEL_MISMATCH:true}
+  orchestration:
+    default-horizon: ${ATMOSIQ_DEFAULT_HORIZON:24h}
+    enforce-tool-allowlist: ${ATMOSIQ_ENFORCE_TOOL_ALLOWLIST:true}
+    allowlisted-tools:
+      - forecast_pm25
+      - get_model_metadata
+      - check_service_health
 
 management:
   endpoints:

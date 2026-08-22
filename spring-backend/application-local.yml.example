@@ -1,0 +1,18 @@
+# AtmosIQ Spring Boot Local Development Example Configuration
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/atmosiq_db
+    username: postgres
+    password: postgres
+  ai:
+    openai:
+      api-key: your-openai-api-key-here # Set via OPENAI_API_KEY environment variable
+
+atmosiq:
+  fastapi:
+    base-url: http://localhost:8000
+    connect-timeout-ms: 5000
+    read-timeout-ms: 10000
+    expected-model-id: AtmosIQ_DL_TCN_CAL07_25_PRODUCTION_v1.0.0
+    expected-model-sha256: fdc99f7ca4410f3d577e52718e35c956c97f368cd91a8b7f505ee23824085bac
+    fail-on-model-id-mismatch: true
